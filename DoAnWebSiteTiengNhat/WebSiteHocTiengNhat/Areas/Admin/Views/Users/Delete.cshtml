@@ -1,0 +1,13 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model IdentityUser
+
+<h2>Xóa người dùng</h2>
+<div>
+    <h4>Bạn có chắc chắn muốn xóa người dùng này?</h4>
+    <h4>Email: @Model.Email</h4>
+</div>
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a href="@Url.Action("Index")" class="btn btn-secondary">Hủy</a>
+</form>

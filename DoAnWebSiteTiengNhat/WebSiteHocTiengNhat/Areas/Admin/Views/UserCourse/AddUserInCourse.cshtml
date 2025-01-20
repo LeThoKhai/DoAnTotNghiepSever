@@ -1,0 +1,60 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model IEnumerable<IdentityUser>
+
+@{
+    var courseId = Context.Request.Query["courseId"].ToString();
+}
+
+<h2 style="padding-left:1%">User List</h2>
+
+<div class="col-md-6 col-sm-8 clearfix">
+    <div class="search-box pull-left">
+        <form asp-action="AddUserInCourse" method="get">
+            <div class="form-group col-lg-10 d-flex" style="margin-left:-7%">
+                <input type="text" name="search" class="form-control" placeholder="User Name..." />
+                <input type="hidden" name="courseId" value="@courseId" />
+               @*  <input type="submit" value="Search" class="btn btn-primary" /> *@
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <div class="single-table">
+            <div class="table-responsive">
+                <table class="table text-center table mt-10">
+                    <thead class="text-uppercase bg-info">
+                        <tr class="text-white">
+                            <th scope="col">Row</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">UserName</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            int i = 1;
+                        }
+                        @foreach (var user in Model)
+                        {
+                            <tr>
+                                <th scope="row">@i</th>
+                                <td>@user.Email</td>
+                                <td>@user.UserName</td>
+                                <td>
+                                    <form asp-controller="UserCourse" asp-action="AddUserInCourse" method="post" style="display:inline;">
+                                        <input type="hidden" name="courseId" value="@courseId" />
+                                        <input type="hidden" name="userId" value="@user.Id" />
+                                        <input type="submit" value="Add" class="btn btn-primary" />
+                                    </form>
+                                </td>
+                            </tr>
+                            i++;
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

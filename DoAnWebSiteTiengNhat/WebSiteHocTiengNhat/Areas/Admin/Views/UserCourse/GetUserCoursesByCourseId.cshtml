@@ -1,0 +1,98 @@
+﻿@model IEnumerable<WebSiteHocTiengNhat.ViewModels.UserManager>
+
+<div class="row">
+    <div class="col-12 mt-5">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="header-title">Data Table Primary</h4>
+                <div class="data-tables datatable-primary">
+                    <div id="dataTable2_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <div id="dataTable2_filter" class="dataTables_filter">
+                                    <a asp-action="AddUserInCourse" asp-controller="UserCourse" asp-route-courseId="@ViewBag.CourseId" class="btn btn-primary btn-sm">Add New Member</a>
+                                </div>
+                                <!-- Form để thực hiện tìm kiếm -->
+                                <form method="get" asp-action="GetUserCoursesByCourseId" asp-controller="UserCourse">
+                                    <input type="hidden" name="courseId" value="@ViewBag.CourseId" />
+                                    <div id="dataTable2_filter" class="dataTables_filter">
+                                        <label>
+                                            Search:
+                                            <input type="search" name="search" class="form-control form-control-sm" placeholder="" aria-controls="dataTable2">
+                                        </label>        
+                                        @* <button type="submit" class="btn btn-primary btn-sm">Search</button> *@
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <table id="dataTable2" class="text-center dataTable no-footer dtr-inline collapsed" role="grid" aria-describedby="dataTable2_info" style="width: 1515px;">
+                                    <thead class="text-capitalize">
+                                        <tr role="row">
+                                            <th style="width: 206px;">Row</th>
+                                            <th style="width: 206px;">CourseName</th>
+                                            <th style="width: 206px;">UserEmail</th>
+                                            <th style="width: 206px;">UserName</th>
+                                            <th style="width: 206px;">Date</th>
+                                            <th style="width: 206px;">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @for (int i = 0; i < Model.Count(); i++)
+                                        {
+                                            var item = Model.ElementAt(i);
+                                            <tr role="row" class="odd">
+                                                <td>@(i + 1)</td>
+                                                <td>@item.CourseName</td>
+                                                <td>@item.UserEmail</td>
+                                                <td>@item.UserName</td>
+                                                <td>@item.ExpirationTime.ToString("yyyy-MM-dd")</td>
+                                                <td>
+                                                    <form asp-action="DeleteUserCourse" asp-controller="UserCourse" method="post" style="display:inline;">
+                                                        <input type="hidden" name="courseId" value="@ViewBag.CourseId" />
+                                                        <input type="hidden" name="userId" value="@item.UserId" />
+                                                       @*  <input type="hidden" name="__RequestVerificationToken" value="@Antiforgery.GetTokens(HttpContext).RequestToken" /> *@
+                                                        <button type="submit" style="border:none; background:none;">
+                                                            <i class="ti-trash"></i>
+                                                        </button>
+                                                    </form>
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-5">
+                                <div class="dataTables_info" id="dataTable2_info" role="status" aria-live="polite">Showing 1 to @Model.Count() of @Model.Count() entries</div>
+                            </div>
+                            <div class="col-sm-12 col-md-7">
+                                <div class="dataTables_paginate paging_simple_numbers" id="dataTable2_paginate">
+                                    <ul class="pagination">
+                                        <li class="paginate_button page-item previous disabled" id="dataTable2_previous">
+                                            <a href="#" aria-controls="dataTable2" data-dt-idx="0" tabindex="0" class="page-link">Previous</a>
+                                        </li>
+                                        <li class="paginate_button page-item active">
+                                            <a href="#" aria-controls="dataTable2" data-dt-idx="1" tabindex="0" class="page-link">1</a>
+                                        </li>
+                                        <li class="paginate_button page-item ">
+                                            <a href="#" aria-controls="dataTable2" data-dt-idx="2" tabindex="0" class="page-link">2</a>
+                                        </li>
+                                        <li class="paginate_button page-item next" id="dataTable2_next">
+                                            <a href="#" aria-controls="dataTable2" data-dt-idx="3" tabindex="0" class="page-link">Next</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Primary table end -->
+    <!-- Dark table start -->
+</div>

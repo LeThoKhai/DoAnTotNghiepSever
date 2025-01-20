@@ -1,0 +1,47 @@
+﻿@model IEnumerable<WebSiteHocTiengNhat.Models.Question>
+
+<a class="header-title" asp-action="Create" asp-controller="Questions">Create new</a>
+@foreach (var question in Model)
+{
+    <div class="col-lg-12 mt-4">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="header-title">@question.QuestionText</h4>
+                <div id="accordion" class="according gradiant-bg">
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#accordion@i">
+                                @question.QuestionText
+                            </a>
+                        </div>
+                        <div id="accordion@i" class="collapse show" data-parent="#accordion">
+                            <div class="card-body">
+                                @question.OptionA
+                            </div>
+                        </div>
+                        <div id="accordion@i" class="collapse show" data-parent="#accordion">
+                            <div class="card-body">
+                                @question.OptionB
+                            </div>
+                        </div>
+                        <div id="accordion@i" class="collapse show" data-parent="#accordion">
+                            <div class="card-body">
+                                @question.OptionC
+                            </div>
+                        </div>
+                        <div id="accordion@i" class="collapse show" data-parent="#accordion">
+                            <div class="card-body">
+                                @question.OptionD
+                            </div>
+                        </div>
+                        <div id="accordion@i" class="collapse show" data-parent="#accordion">
+                            <div class="card-body">
+                                @question.CorrectAnswer
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

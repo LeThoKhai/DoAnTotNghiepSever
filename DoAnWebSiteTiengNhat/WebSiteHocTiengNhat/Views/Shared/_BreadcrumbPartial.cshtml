@@ -1,0 +1,22 @@
+﻿@{
+    var segments = Context.Request.Path.Value.Trim('/').Split('/');
+    var url = "/";
+}
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        @for (int i = 0; i < segments.Length; i++)
+        {
+            url += segments[i] + "/";
+            if (i == segments.Length - 1)
+            {
+                <li class="breadcrumb-item" aria-current="page">@segments[i]</li>
+            }
+            else
+            {
+                <li class="breadcrumb-item"><a href="@url">@segments[i]</a></li>
+            }
+        }
+    </ol>
+</nav>

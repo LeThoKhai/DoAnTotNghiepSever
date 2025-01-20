@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Course>
+
+@if (Model != null && Model.Any())
+{
+    <div class="courses-area section-padding40 fix">
+        <div class="container">
+            <div class="courses-actives">
+                @foreach (var course in Model)
+                {
+                    <div class="properties pb-20">
+                        <div class="properties__card">
+                            <div class="properties__img overlay1">
+                                <a href="#"><img src="@course.Image" alt="@course.CourseName"></a>
+                            </div>
+                            <div class="properties__caption">
+                                <p>Course Name</p>
+                                <h3><a href="#">@course.CourseName</a></h3>
+                                <p>Price</p>
+                                <div class="properties__footer d-flex justify-content-between align-items-center">
+                                    <div class="price">
+                                        <span>@Math.Round(@course.Price, 0) VND</span>
+                                    </div>
+                                </div>
+                                <a asp-controller="UserCourses" asp-action="CourseDetail" asp-route-courseId="@course.CourseId" class="border-btn border-btn2">Find out more</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <p>No courses available.</p>
+}

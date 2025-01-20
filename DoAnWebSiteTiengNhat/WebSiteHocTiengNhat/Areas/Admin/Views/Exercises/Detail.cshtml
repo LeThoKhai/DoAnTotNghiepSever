@@ -1,0 +1,130 @@
+﻿@using DocumentFormat.OpenXml.Bibliography
+@model WebSiteHocTiengNhat.ViewModels.ExerciseDetailViewModel
+<div class="main-content-inner">
+    <div class="row">
+        <div class="col-lg-12 mt-5">
+            <div class="card">
+                <div class="card-body">
+                    <div class="invoice-area">
+                        <div class="invoice-head">
+                            <div class="row">
+                                <div class="iv-left col-6">
+                                    <span>Lesson</span>
+                                </div>
+                                <div class="iv-right col-6 text-md-right">
+                                    <span>ID: #@Model.ExerciseId</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="invoice-address">
+                                    <h3>@Model.ExerciseName</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="invoice-table table-responsive mt-5">
+                            <p>
+                                @Html.Raw(Model.Content)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="invoice-buttons text-right">
+                        <a asp-action="Update" asp-controller="Exercises" asp-route-id="@Model.ExerciseId" class="btn btn-warning btn-sm">Update</a>
+                        <a asp-action="Delete" asp-controller="Exercises" asp-route-id="@Model.ExerciseId" class="btn btn-danger btn-sm">Delete</a>
+                    </div>
+                    <a asp-action="ExerciseList" asp-controller="Exercises" asp-route-courseId="@Model.CourseId">Back to List</a>
+                </div>
+            </div>
+            <style>
+                .header-container {
+                    display: flex;
+                    justify-content: space-between; /* Căn chỉnh các phần tử ở hai đầu của container */
+                    align-items: center; /* Căn chỉnh các phần tử theo chiều dọc */
+                }
+
+                .btn-create {
+                    background-color: #007bff; /* Màu nền nút */
+                    color: white; /* Màu chữ */
+                    padding: 10px 20px; /* Khoảng cách bên trong nút */
+                    border-radius: 5px; /* Bo tròn góc của nút */
+                    text-decoration: none; /* Loại bỏ gạch chân của liên kết */
+                    font-weight: bold; /* Làm đậm chữ */
+                    transition: background-color 0.3s; /* Hiệu ứng chuyển màu nền khi di chuột qua */
+                }
+
+                    .btn-create:hover {
+                        background-color: #0056b3; /* Màu nền khi di chuột qua nút */
+                    }
+            </style>
+            @{
+                int index = 1;
+            }
+            <style>
+                .card-header-custom {
+                    background-color: #f8f9fa; /* Thay đổi màu nền theo nhu cầu của bạn */
+                    border-bottom: 1px solid #ddd; /* Thêm viền dưới nếu cần */
+                }
+
+                    .card-header-custom .btn {
+                        margin-left: 5px; /* Khoảng cách giữa các nút */
+                    }
+            </style>
+            <div class="col-lg-13 mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="header-container" style="padding-bottom:5px">
+                            <h4 class="header-title">Question</h4>
+                            <a asp-action="Create" asp-controller="Questions" asp-route-exerciseId="@Model.ExerciseId" class="btn-create">
+                                Create new question
+                            </a>
+                        </div>
+                        @foreach (var question in Model.questions)
+                        {
+                            var questionId = "accordion" + Model.questions.IndexOf(question); // Tạo ID duy nhất cho mỗi câu hỏi
+                            <div class="according gradiant-bg" style="padding-bottom:5px">
+                                <div class="card">
+                                    <div class="card-header card-header-custom d-flex justify-content-between align-items-center" style="background-image: linear-gradient(to bottom right, #8914fe, #8160f6)">
+                                        <a class="card-link" data-toggle="collapse" href="#@questionId">
+                                            Question @index
+                                        </a>
+                                        <div class="d-flex">
+@*                                             <a asp-action="Edit" asp-controller="Questions" asp-route-id="@question.QuestionId" class="bg-primary btn-sm">
+                                                Edit
+                                            </a> *@
+                                            <form asp-action="Delete" asp-controller="Questions" asp-route-id="@question.QuestionId" method="post" onsubmit="return confirm('Bạn có chắc chắn muốn xóa câu hỏi này?');" style="display:inline;">
+                               
+                                                <button type="submit" class="bg-danger btn-sm">Delete</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div id="@questionId" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            @Html.Raw(question.QuestionText)
+                                        </div>
+                                        <div class="card-body">
+                                            @question.OptionA
+                                        </div>
+                                        <div class="card-body">
+                                            @question.OptionB
+                                        </div>
+                                        <div class="card-body">
+                                            @question.OptionC
+                                        </div>
+                                        <div class="card-body">
+                                            @question.OptionD
+                                        </div>
+                                        <div class="card-body" style="color:forestgreen">
+                                            CorrectAnswer: @question.CorrectAnswer
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            index++;
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

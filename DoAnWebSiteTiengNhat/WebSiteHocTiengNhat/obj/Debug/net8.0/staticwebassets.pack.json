@@ -1,0 +1,1785 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebSiteHocTiengNhat.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebSiteHocTiengNhat.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\css\\default-css.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\default-css.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\css\\metisMenu.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\metisMenu.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\css\\slicknav.min.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\slicknav.min.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\css\\styles.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\styles.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\themify-icons.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\css\\typography.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\typography.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\themify.eot"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\themify.svg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\themify.woff"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\author\\author-img1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\author\\author-img1.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\author\\author-img2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\author\\author-img2.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\author\\author-img3.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\author\\author-img3.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\author\\author-img4.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\author\\author-img4.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\author\\avatar.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\author\\avatar.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\bg\\singin-bg.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\bg\\singin-bg.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\blog\\post-thumb1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\blog\\post-thumb1.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\blog\\post-thumb2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\blog\\post-thumb2.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\card\\card-img1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\card\\card-img1.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\card\\card-img10.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\card\\card-img10.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\card\\card-img2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\card\\card-img2.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\card\\card-img3.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\card\\card-img3.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\card\\card-img4.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\card\\card-img4.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\card\\card-img5.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\card\\card-img5.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\card\\card-img6.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\card\\card-img6.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\card\\card-img7.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\card\\card-img7.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\card\\card-img8.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\card\\card-img8.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\card\\card-img9.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\card\\card-img9.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\icon\\Thumbs.db",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\icon\\Thumbs.db"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\icon\\loader.gif",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\icon\\loader.gif"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\icon\\logo.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\icon\\logo.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\icon\\logo2.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\icon\\logo2.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\icon\\market-value\\Thumbs.db",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\icon\\market-value\\Thumbs.db"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\icon\\market-value\\icon1.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\icon\\market-value\\icon1.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\icon\\market-value\\icon2.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\icon\\market-value\\icon2.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\icon\\market-value\\icon3.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\icon\\market-value\\icon3.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\icon\\market-value\\icon4.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\icon\\market-value\\icon4.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\icon\\market-value\\trends-down-icon.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\icon\\market-value\\trends-down-icon.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\icon\\market-value\\trends-up-icon.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\icon\\market-value\\trends-up-icon.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\icon\\market-value\\triangle-down.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\icon\\market-value\\triangle-down.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\icon\\market-value\\triangle-up.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\icon\\market-value\\triangle-up.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\media\\media1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\media\\media1.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\media\\media2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\media\\media2.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\team\\team-author1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\team\\team-author1.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\team\\team-author2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\team\\team-author2.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\team\\team-author3.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\team\\team-author3.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\team\\team-author4.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\team\\team-author4.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\images\\team\\team-author5.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\team\\team-author5.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\js\\bar-chart.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\bar-chart.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\js\\jquery.slicknav.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\jquery.slicknav.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\js\\jquery.slimscroll.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\jquery.slimscroll.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\js\\line-chart.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\line-chart.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\js\\maps.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\maps.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\js\\metisMenu.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\metisMenu.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\js\\pagination.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\pagination.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\js\\pie-chart.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\pie-chart.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\plugins.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\scripts.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\js\\vendor\\jquery-2.2.4.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\vendor\\jquery-2.2.4.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\Admin\\assets\\js\\vendor\\modernizr-2.8.3.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\vendor\\modernizr-2.8.3.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\User\\Doc\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\css\\main.css",
+      "PackagePath": "staticwebassets\\User\\Doc\\css\\main.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\css\\normalize.min.css",
+      "PackagePath": "staticwebassets\\User\\Doc\\css\\normalize.min.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\User\\Doc\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\User\\Doc\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\User\\Doc\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\User\\Doc\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\User\\Doc\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\img\\logo.png",
+      "PackagePath": "staticwebassets\\User\\Doc\\img\\logo.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\index.html",
+      "PackagePath": "staticwebassets\\User\\Doc\\index.html"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\js\\custom.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\js\\custom.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\js\\jquery-1.11.0.min.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\js\\jquery-1.11.0.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\js\\jquery.nav.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\js\\jquery.nav.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shAutoloader.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shAutoloader.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushAS3.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushAS3.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushAppleScript.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushAppleScript.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushBash.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushBash.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushCSharp.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushCSharp.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushColdFusion.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushColdFusion.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushCpp.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushCpp.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushCss.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushCss.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushDelphi.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushDelphi.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushDiff.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushDiff.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushErlang.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushErlang.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushGroovy.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushGroovy.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushJScript.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushJScript.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushJava.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushJava.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushJavaFX.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushJavaFX.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushPerl.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushPerl.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushPhp.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushPhp.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushPlain.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushPlain.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushPowerShell.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushPowerShell.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushPython.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushPython.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushRuby.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushRuby.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushSass.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushSass.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushScala.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushScala.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushSql.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushSql.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushVb.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushVb.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shBrushXml.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shBrushXml.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\scripts\\shLegacy.js",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\scripts\\shLegacy.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\styles\\shCore.css",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\styles\\shCore.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\styles\\shCoreDefault.css",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\styles\\shCoreDefault.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\styles\\shCoreDjango.css",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\styles\\shCoreDjango.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\styles\\shCoreEclipse.css",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\styles\\shCoreEclipse.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\styles\\shCoreEmacs.css",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\styles\\shCoreEmacs.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\styles\\shCoreFadeToGrey.css",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\styles\\shCoreFadeToGrey.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\styles\\shCoreMDUltra.css",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\styles\\shCoreMDUltra.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\styles\\shCoreMidnight.css",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\styles\\shCoreMidnight.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\styles\\shCoreRDark.css",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\styles\\shCoreRDark.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\styles\\shThemeDefault.css",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\styles\\shThemeDefault.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\styles\\shThemeDjango.css",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\styles\\shThemeDjango.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\styles\\shThemeEclipse.css",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\styles\\shThemeEclipse.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\styles\\shThemeEmacs.css",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\styles\\shThemeEmacs.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\styles\\shThemeFadeToGrey.css",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\styles\\shThemeFadeToGrey.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\styles\\shThemeMDUltra.css",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\styles\\shThemeMDUltra.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\styles\\shThemeMidnight.css",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\styles\\shThemeMidnight.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\Doc\\syntax-highlighter\\styles\\shThemeRDark.css",
+      "PackagePath": "staticwebassets\\User\\Doc\\syntax-highlighter\\styles\\shThemeRDark.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\about.html",
+      "PackagePath": "staticwebassets\\User\\about.html"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\User\\assets\\css\\animate.min.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\css\\animated-headline.css",
+      "PackagePath": "staticwebassets\\User\\assets\\css\\animated-headline.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\User\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\User\\assets\\css\\flaticon.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\css\\fontawesome-all.min.css",
+      "PackagePath": "staticwebassets\\User\\assets\\css\\fontawesome-all.min.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\css\\gijgo.css",
+      "PackagePath": "staticwebassets\\User\\assets\\css\\gijgo.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\css\\hamburgers.min.css",
+      "PackagePath": "staticwebassets\\User\\assets\\css\\hamburgers.min.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\User\\assets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\User\\assets\\css\\main.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\User\\assets\\css\\nice-select.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\User\\assets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\css\\price_rangs.css",
+      "PackagePath": "staticwebassets\\User\\assets\\css\\price_rangs.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\css\\progressbar_barfiller.css",
+      "PackagePath": "staticwebassets\\User\\assets\\css\\progressbar_barfiller.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\User\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\css\\slick.css",
+      "PackagePath": "staticwebassets\\User\\assets\\css\\slick.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\css\\slicknav.css",
+      "PackagePath": "staticwebassets\\User\\assets\\css\\slicknav.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\User\\assets\\css\\style.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\css\\style.map",
+      "PackagePath": "staticwebassets\\User\\assets\\css\\style.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\User\\assets\\css\\themify-icons.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\Flaticon.svg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\Flaticon.woff2"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\_flaticon.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\_flaticon.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\flaticon.css",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\flaticon.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\flaticon.html",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\flaticon.html"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\gijgo-material.eot",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\gijgo-material.eot"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\gijgo-material.svg",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\gijgo-material.svg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\gijgo-material.ttf",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\gijgo-material.ttf"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\gijgo-material.woff",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\gijgo-material.woff"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\themify.eot"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\themify.svg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\User\\assets\\fonts\\themify.woff"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\blog\\author.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\author.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\blog\\comment_1.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\comment_1.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\blog\\comment_2.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\comment_2.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\blog\\comment_3.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\comment_3.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\blog\\learn_about_bg.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\learn_about_bg.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\blog\\single_blog_1.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\single_blog_1.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\blog\\single_blog_2.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\single_blog_2.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\blog\\single_blog_3.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\single_blog_3.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\blog\\single_blog_4.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\single_blog_4.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\blog\\single_blog_5.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\single_blog_5.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\blog\\slide_thumb_1.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\slide_thumb_1.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\a.jpg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\a.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\a2.jpg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\a2.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\d.jpg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\d.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\disabled-check.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\disabled-check.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\disabled-radio.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\disabled-radio.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\f1.jpg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\f1.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\f2.jpg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\f2.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\f3.jpg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\f3.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\f4.jpg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\f4.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\f5.jpg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\f5.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\f6.jpg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\f6.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\f7.jpg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\f7.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\f8.jpg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\f8.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\g1.jpg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\g1.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\g2.jpg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\g2.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\g3.jpg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\g3.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\g4.jpg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\g4.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\g5.jpg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\g5.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\g6.jpg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\g6.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\g7.jpg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\g7.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\g8.jpg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\g8.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\primary-check.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\primary-check.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\primary-radio.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\primary-radio.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\success-check.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\success-check.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\elements\\success-radio.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\elements\\success-radio.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\favicon.ico"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\about2.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\about2.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\about3.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\about3.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\featured1.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\featured1.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\featured2.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\featured2.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\featured3.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\featured3.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\featured4.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\featured4.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\featured5.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\featured5.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\featured6.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\featured6.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\footer-bg.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\footer-bg.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\footer_bg.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\footer_bg.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\form.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\form.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\h1_hero2.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\h1_hero2.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\heart1.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\heart1.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\logo2_footer.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\logo2_footer.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\qutaion.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\qutaion.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\screen.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\screen.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\section-bg3.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\section-bg3.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\section_bg01.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\section_bg01.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\section_bg02.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\section_bg02.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\tam4.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\tam4.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\team1.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\team1.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\team2.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\team2.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\team3.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\team3.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\team4.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\team4.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\testimonail.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\testimonail.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\testimonial.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\testimonial.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\topic1.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\topic1.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\topic2.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\topic2.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\topic3.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\topic3.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\topic4.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\topic4.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\topic5.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\topic5.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\topic6.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\topic6.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\topic7.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\topic7.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\topic8.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\topic8.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\gallery\\video-bg.svg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\gallery\\video-bg.svg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\hero\\h1_hero.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\hero\\h1_hero.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\hero\\hero2.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\hero\\hero2.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\hero\\screen.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\hero\\screen.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\icon\\about.svg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\icon\\about.svg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\icon\\icon1.svg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\icon\\icon1.svg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\icon\\icon2.svg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\icon\\icon2.svg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\icon\\icon3.svg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\icon\\icon3.svg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\icon\\right-icon.svg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\icon\\right-icon.svg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\logo\\loder.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\logo\\loder.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\logo\\loder.svg",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\logo\\loder.svg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\logo\\logo.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\logo\\logo.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\logo\\logo2_footer.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\logo\\logo2_footer.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\post\\next.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\post\\next.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\post\\post_1.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\post\\post_1.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\post\\post_10.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\post\\post_10.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\post\\post_2.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\post\\post_2.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\post\\post_3.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\post\\post_3.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\post\\post_4.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\post\\post_4.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\post\\post_5.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\post\\post_5.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\post\\post_6.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\post\\post_6.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\post\\post_7.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\post\\post_7.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\post\\post_8.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\post\\post_8.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\post\\post_9.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\post\\post_9.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\img\\post\\preview.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\post\\preview.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\animated.headline.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\animated.headline.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\contact.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\contact.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\gijgo.min.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\gijgo.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\hover-direction-snake.min.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\hover-direction-snake.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\jquery.ajaxchimp.min.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\jquery.ajaxchimp.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\jquery.barfiller.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\jquery.barfiller.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\jquery.form.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\jquery.form.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\jquery.magnific-popup.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\jquery.magnific-popup.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\jquery.paroller.min.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\jquery.paroller.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\jquery.slicknav.min.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\jquery.slicknav.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\jquery.sticky.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\jquery.sticky.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\jquery.vide.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\jquery.vide.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\mail-script.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\mail-script.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\main.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\one-page-nav-min.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\one-page-nav-min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\plugins.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\price-range.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\price-range.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\slick.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\vendor\\jquery-1.12.4.min.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\vendor\\jquery-1.12.4.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\vendor\\modernizr-3.5.0.min.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\vendor\\modernizr-3.5.0.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\waypoints.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\wow.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_about.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_about.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_blog_page.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_blog_page.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_bradcam.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_bradcam.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_collaps.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_collaps.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_color.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_color.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_common.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_common.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_contact.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_contact.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_contact_form.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_contact_form.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_courses.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_courses.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_elements.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_elements.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_extend.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_extend.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_footer.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_h1-hero.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_h1-hero.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_headerMenu.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_headerMenu.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_load-balnceing.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_load-balnceing.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_login.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_login.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_overlay.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_overlay.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_services.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_services.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_services_section.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_services_section.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_team.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_team.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_testimonial.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_testimonial.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_top-sub.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_top-sub.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_variables.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\_wantTowork.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\_wantTowork.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\assets\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\style.scss"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\blog.html",
+      "PackagePath": "staticwebassets\\User\\blog.html"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\blog_details.html",
+      "PackagePath": "staticwebassets\\User\\blog_details.html"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\contact.html",
+      "PackagePath": "staticwebassets\\User\\contact.html"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\contact_process.php",
+      "PackagePath": "staticwebassets\\User\\contact_process.php"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\courses.html",
+      "PackagePath": "staticwebassets\\User\\courses.html"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\elements.html",
+      "PackagePath": "staticwebassets\\User\\elements.html"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\index.html",
+      "PackagePath": "staticwebassets\\User\\index.html"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\login.html",
+      "PackagePath": "staticwebassets\\User\\login.html"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\main.html",
+      "PackagePath": "staticwebassets\\User\\main.html"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\readme.txt",
+      "PackagePath": "staticwebassets\\User\\readme.txt"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\User\\register.html",
+      "PackagePath": "staticwebassets\\User\\register.html"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\N3 T7-2021.mp3",
+      "PackagePath": "staticwebassets\\audio\\N3 T7-2021.mp3"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\courses-master.zip",
+      "PackagePath": "staticwebassets\\courses-master.zip"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\1306752.jpg",
+      "PackagePath": "staticwebassets\\images\\1306752.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\1687542991.flutti_meows_morales-min (1).jpg",
+      "PackagePath": "staticwebassets\\images\\1687542991.flutti_meows_morales-min (1).jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\2560x1600-340160-Digital-Art-The-Witcher-Video-Game-Wolf-Minimalist-Minimalism-Simple.jpg",
+      "PackagePath": "staticwebassets\\images\\2560x1600-340160-Digital-Art-The-Witcher-Video-Game-Wolf-Minimalist-Minimalism-Simple.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\2560x1600-340229-Digital-Art-Chill-Chilling-Night-Coffee-Apartment.jpg",
+      "PackagePath": "staticwebassets\\images\\2560x1600-340229-Digital-Art-Chill-Chilling-Night-Coffee-Apartment.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\328719395_557686349721805_2327815102489462683_n.jpg",
+      "PackagePath": "staticwebassets\\images\\328719395_557686349721805_2327815102489462683_n.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\461999067_408283912315418_5887761276845934551_n.jpg",
+      "PackagePath": "staticwebassets\\images\\461999067_408283912315418_5887761276845934551_n.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\462573773_408283855648757_1394538077716190259_n.jpg",
+      "PackagePath": "staticwebassets\\images\\462573773_408283855648757_1394538077716190259_n.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\462608628_408283898982086_5786814941651502595_n.jpg",
+      "PackagePath": "staticwebassets\\images\\462608628_408283898982086_5786814941651502595_n.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\462613685_408283542315455_6110709202213012228_n.jpg",
+      "PackagePath": "staticwebassets\\images\\462613685_408283542315455_6110709202213012228_n.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\8104517.jpg",
+      "PackagePath": "staticwebassets\\images\\8104517.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\8104531.jpg",
+      "PackagePath": "staticwebassets\\images\\8104531.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\Ảnh chụp màn hình (16).png",
+      "PackagePath": "staticwebassets\\images\\Ảnh chụp màn hình (16).png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\Ảnh chụp màn hình (26).png",
+      "PackagePath": "staticwebassets\\images\\Ảnh chụp màn hình (26).png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\BTS_N3.svg.png",
+      "PackagePath": "staticwebassets\\images\\BTS_N3.svg.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\BTS_N4.svg.png",
+      "PackagePath": "staticwebassets\\images\\BTS_N4.svg.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\BTS_N5.png",
+      "PackagePath": "staticwebassets\\images\\BTS_N5.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\Liên Minh_ (30).jpg",
+      "PackagePath": "staticwebassets\\images\\Liên Minh_ (30).jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\Lofi Chill_ (30).jpg",
+      "PackagePath": "staticwebassets\\images\\Lofi Chill_ (30).jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\Lop-giao-tiep-3.png",
+      "PackagePath": "staticwebassets\\images\\Lop-giao-tiep-3.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\animated-girl-rainy-day-p8tl4bziwywzt1pm.jpg",
+      "PackagePath": "staticwebassets\\images\\animated-girl-rainy-day-p8tl4bziwywzt1pm.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\morty-smith-rick-5120x2880-9365.jpg",
+      "PackagePath": "staticwebassets\\images\\morty-smith-rick-5120x2880-9365.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\nezuko.jpg",
+      "PackagePath": "staticwebassets\\images\\nezuko.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\run-the-jewels-rick-8000x4500-9370.png",
+      "PackagePath": "staticwebassets\\images\\run-the-jewels-rick-8000x4500-9370.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\sakura.png",
+      "PackagePath": "staticwebassets\\images\\sakura.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\sakura2.jpg",
+      "PackagePath": "staticwebassets\\images\\sakura2.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\tải xuống (1).png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (1).png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\tải xuống (2).png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (2).png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\tải xuống (3).png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (3).png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\tải xuống (4).png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (4).png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\tải xuống.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống.png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\Ảnh chụp màn hình (135).png",
+      "PackagePath": "staticwebassets\\images\\Ảnh chụp màn hình (135).png"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebSiteHocTiengNhat.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebSiteHocTiengNhat.props",
+      "PackagePath": "build\\WebSiteHocTiengNhat.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebSiteHocTiengNhat.props",
+      "PackagePath": "buildMultiTargeting\\WebSiteHocTiengNhat.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebSiteHocTiengNhat.props",
+      "PackagePath": "buildTransitive\\WebSiteHocTiengNhat.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

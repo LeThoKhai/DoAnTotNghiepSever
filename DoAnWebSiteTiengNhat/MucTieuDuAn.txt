@@ -1,0 +1,31 @@
+1. Xác thực và phân quyền người dùng (Authentication & Authorization)
+Sử dụng JWT để đăng ký, đăng nhập và xác thực người dùng. Hỗ trợ phân quyền cho các nhóm người dùng khác nhau như học viên, giáo viên.
+2. Hệ thống từ vựng (Vocabulary System)
+API quản lý từ vựng với các thông tin như kanji, nghĩa, cách phát âm (hiragana/katakana). Có tính năng phân loại từ vựng theo cấp độ học (JLPT N5-N1).
+3. Bài tập luyện tập (Practice Exercises)
+API hỗ trợ tạo và quản lý các bài tập luyện tập (ví dụ: chọn đúng nghĩa của từ, điền từ còn thiếu). Các bài tập này có thể được hiển thị trên ReactJS hoặc Flutter.
+4. Bài kiểm tra (Quizzes and Tests)
+Tạo bài kiểm tra để người dùng luyện tập theo từng cấp độ JLPT, tính điểm và đánh giá kết quả ngay sau khi hoàn thành.
+5. Phân tích kết quả học tập (Learning Analytics)
+Theo dõi và phân tích tiến độ học tập của người dùng. API cung cấp thông tin về các từ vựng đã học, bài tập đã làm, và đưa ra đánh giá về khả năng tiến bộ.
+6. Hệ thống học qua Flashcards (Flashcard System)
+API cung cấp hệ thống flashcard giúp người học ghi nhớ từ vựng. Flashcards có thể bao gồm từ, nghĩa và ví dụ minh họa.
+7. Hệ thống bài giảng (Lesson Management)
+Quản lý các bài giảng, nội dung học, và tài liệu tham khảo theo chủ đề, bao gồm các dạng văn bản, hình ảnh hoặc video. Cho phép cập nhật nội dung từ giảng viên.
+8. Chế độ học ngữ pháp (Grammar Learning Mode)
+Cung cấp API để truy xuất các bài học ngữ pháp tiếng Nhật theo cấp độ từ cơ bản đến nâng cao, với các ví dụ thực tế.
+9. API luyện kỹ năng nghe (Listening Practice)
+Cho phép người dùng nghe các đoạn hội thoại tiếng Nhật với các tốc độ khác nhau, cung cấp phụ đề và phần luyện tập câu hỏi sau khi nghe.
+10. Tích hợp tra cứu Kanji (Kanji Lookup Integration)
+Hỗ trợ API tra cứu thông tin Kanji như cách đọc âm kun, âm on, số nét và ví dụ sử dụng. Tạo một công cụ tra cứu tiện ích cho người học.
+11. Bảng xếp hạng thành tích (Leaderboard)
+Tạo bảng xếp hạng thành tích dựa trên điểm số bài kiểm tra, số lượng từ vựng học được, thời gian học tập, khuyến khích sự cạnh tranh giữa người học.
+12. Thông báo đẩy (Push Notifications)
+API gửi thông báo đẩy nhắc nhở người dùng luyện tập hàng ngày, hoàn thành bài kiểm tra hoặc cập nhật nội dung học mới.
+13. Chế độ học offline (Offline Mode)
+Cho phép tải trước các bài học và flashcards để học offline khi không có kết nối mạng. Đồng bộ dữ liệu khi có mạng trở lại.
+14. Hệ thống thành tựu (Achievements System)
+API quản lý thành tựu của người dùng như hoàn thành bài kiểm tra đầu tiên, đạt cấp độ JLPT mới, tạo động lực cho người học.
+15. Công cụ tra cứu từ điển (Dictionary Tool)
+Tạo một API từ điển tích hợp để tra cứu từ, mẫu câu hoặc ngữ pháp ngay trong ứng dụng.
+Những chức năng này không chỉ làm nổi bật việc ứng dụng ASP.NET Core API mà còn thể hiện sự tương tác tốt giữa frontend ReactJS/Flutter với backend, mang lại trải nghiệm học tập đa dạng và hiện đại.

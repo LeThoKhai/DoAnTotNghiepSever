@@ -1,0 +1,109 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model IEnumerable<IdentityUser>
+
+<h2 style="padding-left:1%">User List</h2>
+
+<div class="col-md-6 col-sm-8 clearfix">
+    <div class="search-box pull-left">
+        <form asp-action="Index" method="get">
+            <div class="form-group col-lg-10 d-flex" style="margin-left:-7%">
+                <input type="text" name="searchString" class="form-control" placeholder="User Name..." />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <h4 class="header-title">User list</h4>
+        <div class="single-table">
+            <div class="table-responsive">
+                <table class="table text-center table mt-10">
+                    <thead class="text-uppercase bg-info">
+                        <tr class="text-white">
+                            <th scope="col">Row</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">UserName</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            int i = 1;
+                        }
+                        @foreach (var user in Model)
+                        {
+                            <tr>
+                                <th scope="row">@i</th>
+                                <td>@user.Email</td>
+                                <td>@user.UserName</td>
+                                <td>
+                                    <form asp-action="Detail" asp-route-id="@user.Id" method="post" style="display:inline;">
+                                        <input type="submit" value="Detail" class="btn btn-primary" />
+                                    </form>
+                                    <form asp-action="Delete" asp-route-id="@user.Id" method="post" style="display:inline;">
+                                        <input type="submit" value="Delete" class="btn btn-danger" />
+                                    </form>
+                                </td>
+                            </tr>
+                            i++;
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- Phần tử phân trang -->
+        <div id="pagination" class="pagination justify-content-center"></div>
+    </div>
+</div>
+
+<!-- Thêm JavaScript cho phân trang -->
+
+<script>
+    $(document).ready(function () {
+        var pageSize = 2; // Số lượng dòng mỗi trang
+        var pageCount = Math.ceil($("tbody tr").length / pageSize); // Tính tổng số trang
+
+        for (var i = 0; i < pageCount; i++) {
+            $('#pagination').append('<a class="page-link" href="#">' + (i + 1) + '</a> ');
+        }
+
+        $("tbody tr").hide(); // Ẩn tất cả các dòng
+        $("tbody tr").slice(0, pageSize).show(); // Hiển thị số dòng của trang đầu tiên
+
+        $('#pagination a:first').addClass('active');
+
+        $('#pagination a').click(function (e) {
+            e.preventDefault();
+            $('#pagination a').removeClass('active');
+            $(this).addClass('active');
+            var page = $(this).text() - 1;
+            var start = page * pageSize;
+            var end = start + pageSize;
+            $("tbody tr").hide().slice(start, end).show();
+        });
+    });
+</script>
+
+<!-- CSS cho phân trang -->
+<style>
+    .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+        border: 1px solid #ddd;
+        margin: 0 4px;
+    }
+
+        .pagination a.active {
+            background-color: #4CAF50;
+            color: white;
+            border: 1px solid #4CAF50;
+        }
+
+        .pagination a:hover:not(.active) {
+            background-color: #ddd;
+        }
+</style>

@@ -1,0 +1,49 @@
+﻿@model List<Lesson>
+
+<aside class="single_sidebar_widget post_category_widget">
+    <details>
+        <summary class="widget_title" style="color: #2d2d2d;">Category</summary>
+        <ul class="list">
+            @foreach(var lesson in Model)
+            {
+                <li>
+                    <a href="#" class="d-flex">
+                        <p>@lesson.LessonName</p>
+                        <p>(37)</p>
+                    </a>
+                </li>
+            }
+
+            <li>
+                <a href="#" class="d-flex">
+                    <p>Travel news</p>
+                    <p>(10)</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="d-flex">
+                    <p>Modern technology</p>
+                    <p>(03)</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="d-flex">
+                    <p>Product</p>
+                    <p>(11)</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="d-flex">
+                    <p>Inspiration</p>
+                    <p>(21)</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="d-flex">
+                    <p>Health Care</p>
+                    <p>(21)</p>
+                </a>
+            </li>
+        </ul>
+    </details>
+</aside>

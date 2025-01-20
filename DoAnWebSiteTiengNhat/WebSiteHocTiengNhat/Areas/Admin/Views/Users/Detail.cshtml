@@ -1,0 +1,12 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model IdentityUser
+
+<h2>Chi tiết người dùng</h2>
+<div>
+    <h4>Email: @Model.Email</h4>
+    <h4>Tên đăng nhập: @Model.UserName</h4>
+    <h4>Phone: @Model.PhoneNumber </h4>
+</div>
+<div>
+    <a href="@Url.Action("Index")">Quay lại danh sách</a>
+</div>

@@ -1,0 +1,190 @@
+﻿@model WebSiteHocTiengNhat.Models.Course
+<main>
+    <!--? slider Area Start-->
+    <section class="slider-area slider-area2">
+        <div class="slider-active">
+            <!-- Single Slider -->
+            <div class="single-slider slider-height2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-8 col-lg-11 col-md-12">
+                            <div class="hero__caption hero__caption2">
+                                <h1 data-animation="bounceIn" data-delay="0.2s">@Model.CourseName</h1>
+                                <!-- breadcrumb Start-->
+                                @Html.Partial("_BreadcrumbPartial")
+                                <!-- breadcrumb End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--? Blog Area Start -->
+    <section class="blog_area single-post-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 posts-list">
+                    <div class="single-post">
+                        <div class="blog_details">
+                            <div class="doorContainer" style="padding-bottom:100px">
+                                <div class="backDoor">
+                                    <form asp-controller="UserLessons" asp-action="Index" asp-route-courseId="@Model.CourseId" >
+                                        <button class="revealButton">Lesson</button>
+                                    </form>
+                                    <div class="door"></div>
+                                </div>
+                                <div class="backDoor">
+                                    <form asp-controller="UserExercises" asp-action="Index" asp-route-courseId="@Model.CourseId" >
+                                        <button class="revealButton">Exercise</button>
+                                    </form>
+                                    <div class="door"></div>
+                                </div>
+                                <div class="backDoor">
+                                    <form asp-controller="UserFlashCards" asp-action="Index" asp-route-courseId="@Model.CourseId" >
+                                        <button class="revealButton">Flash Card</button>
+                                    </form>
+                                    <div class="door"></div>
+                                </div>
+                            </div>
+                            <style>
+                                .doorContainer {
+                                    display: flex;
+                                    justify-content: center; /* Center align the doors horizontally */
+                                    gap: 20px; /* Add space between the doors */
+                                }
+
+                                .backDoor {
+                                    background-image: url('/images/nezuko.jpg'); /* Replace with your door image URL */
+                                    background-size: cover;
+                                    background-position: center;
+                                    position: absolute;
+                                    position: relative;
+                                    width: 200px;
+                                    height: 300px;
+                                    overflow: hidden;
+                                }
+
+                                .door {
+                                    background-image: url('/images/sakura2.jpg'); /* Replace with your door image URL */
+                                    background-size: cover;
+                                    background-position: center;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 200px;
+                                    height: 300px;
+                                    transform-origin: left;
+                                    transition: all 0.5s ease-in-out;
+                                }
+
+                                .backDoor:hover .door {
+                                    transform: perspective(1200px) rotateY(-105deg);
+                                }
+
+                                .revealButton {
+                                    display: none; /* Hide the button initially */
+                                    position: absolute;
+                                    bottom: 50%;
+                                    left: 50%;
+                                    transform: translate(-50%, 50%); /* Center the button */
+                                    padding: 10px 20px;
+                                    background-color: #ff5722;
+                                    color: white;
+                                    border: none;
+                                    border-radius: 5px;
+                                    cursor: pointer;
+                                }
+
+                                .backDoor:hover .revealButton {
+                                    display: block; /* Show the button on hover */
+                                }
+                            </style>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="col-lg-3">
+                    <div class="blog_right_sidebar">                 
+                        @await Component.InvokeAsync("SideBarListCourse")
+                        <aside class="single_sidebar_widget tag_cloud_widget">
+                            <h4 class="widget_title" style="color: #2d2d2d;">Tag Clouds</h4>
+                            <ul class="list">
+                                <li>
+                                    <a href="#">project</a>
+                                </li>
+                                <li>
+                                    <a href="#">love</a>
+                                </li>
+                                <li>
+                                    <a href="#">technology</a>
+                                </li>
+                                <li>
+                                    <a href="#">travel</a>
+                                </li>
+                                <li>
+                                    <a href="#">restaurant</a>
+                                </li>
+                                <li>
+                                    <a href="#">life style</a>
+                                </li>
+                                <li>
+                                    <a href="#">design</a>
+                                </li>
+                                <li>
+                                    <a href="#">illustration</a>
+                                </li>
+                            </ul>
+                        </aside>
+                        <aside class="single_sidebar_widget instagram_feeds">
+                            <h4 class="widget_title" style="color: #2d2d2d;">Instagram Feeds</h4>
+                            <ul class="instagram_row flex-wrap">
+                                <li>
+                                    <a href="#">
+                                        <img class="img-fluid" src="/User/assets/img/post/post_5.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img class="img-fluid" src="/User/assets/img/post/post_6.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img class="img-fluid" src="/User/assets/img/post/post_7.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img class="img-fluid" src="/User/assets/img/post/post_8.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img class="img-fluid" src="/User/assets/img/post/post_9.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img class="img-fluid" src="/User/assets/img/post/post_10.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </aside>
+                        <aside class="single_sidebar_widget newsletter_widget">
+                            <h4 class="widget_title" style="color: #2d2d2d;">Newsletter</h4>
+                            <form action="#">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" onfocus="this.placeholder = ''"
+                                           onblur="this.placeholder = 'Enter email'" placeholder='Enter email' required>
+                                </div>
+                                <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn" type="submit">Subscribe</button>
+                            </form>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Area End -->
+</main>

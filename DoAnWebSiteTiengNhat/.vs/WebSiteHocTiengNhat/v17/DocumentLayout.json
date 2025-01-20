@@ -1,0 +1,1056 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\DoAnWebSiteTiengNhat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\api\\translationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\translationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\repository\\mymemorytranslationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\repository\\mymemorytranslationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\repository\\efflashcardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\repository\\efflashcardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\repository\\efai_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\repository\\efai_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\repository\\efcategoryquestionrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\repository\\efcategoryquestionrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\models\\certificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\models\\certificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\LibreTranslateService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebSiteHocTiengNhat\\Repository\\LibreTranslateService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\controllers\\exercisescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\controllers\\exercisescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\models\\categoryquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\models\\categoryquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\views\\categoriesquestion\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\views\\categoriesquestion\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\controllers\\categoriesquestioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\controllers\\categoriesquestioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\models\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\models\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\repository\\iai_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\repository\\iai_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\repository\\iusercourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\repository\\iusercourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\controllers\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\controllers\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\views\\questions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\views\\questions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\views\\exercises\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\views\\exercises\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\views\\categoriesquestion\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\views\\categoriesquestion\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\views\\categoriesquestion\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\views\\categoriesquestion\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\views\\categoriesquestion\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\views\\categoriesquestion\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\views\\categoriesquestion\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\views\\categoriesquestion\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\views\\shared\\_questionlistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\views\\shared\\_questionlistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\views\\shared\\_lessonlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\views\\shared\\_lessonlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\views\\userlessons\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\views\\userlessons\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\repository\\icategoryquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\repository\\icategoryquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\repository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\repository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Migrations\\20250117080029_mydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebSiteHocTiengNhat\\Migrations\\20250117080029_mydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\models\\scoretable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\models\\scoretable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\models\\usercourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\models\\usercourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\models\\flashcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\models\\flashcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\api\\apilessonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\apilessonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\repository\\eflessonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\repository\\eflessonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\repository\\ilessonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\repository\\ilessonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\api\\apiexercisescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\apiexercisescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\api\\apichataicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\apichataicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\controllers\\lessonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\controllers\\lessonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\api\\apiuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\apiuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\repository\\efquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\repository\\efquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\api\\apiusercoursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\apiusercoursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\repository\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\repository\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\controllers\\flashcardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\controllers\\flashcardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\repository\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\repository\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|e:\\doanwebsitetiengnhat\\websitehoctiengnhat\\migrations\\20250118084149_mydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\migrations\\20250118084149_mydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\TranslateController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebSiteHocTiengNhat\\Repository\\TranslateController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1256,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IAI_Repository.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\IAI_Repository.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\IAI_Repository.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\IAI_Repository.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Repository\\IAI_Repository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T02:41:57.107Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EFAI_Repository.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFAI_Repository.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\EFAI_Repository.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFAI_Repository.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Repository\\EFAI_Repository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T02:41:20.099Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "APIChatAIController.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APIChatAIController.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\APIChatAIController.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APIChatAIController.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\APIChatAIController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowBoAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T02:32:39.136Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "APIExercisesController.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APIExercisesController.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\APIExercisesController.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APIExercisesController.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\APIExercisesController.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAIAwwKoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T02:30:49.091Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "APILessonsController.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APILessonsController.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\APILessonsController.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APILessonsController.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\APILessonsController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAADgv0EAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T03:39:06.366Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Exercises\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Exercises\\Create.cshtml",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Exercises\\Create.cshtml",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Exercises\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T09:29:53.358Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TranslationController.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\TranslationController.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\TranslationController.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\TranslationController.cs*",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\TranslationController.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T07:36:04.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyMemoryTranslationService.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\MyMemoryTranslationService.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\MyMemoryTranslationService.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\MyMemoryTranslationService.cs*",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Repository\\MyMemoryTranslationService.cs*",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowCkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T07:33:52.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Program.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Program.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Program.cs*",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Program.cs*",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAnwCQAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T02:53:42.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EFCategoryQuestionRepository .cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFCategoryQuestionRepository .cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\EFCategoryQuestionRepository .cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFCategoryQuestionRepository .cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Repository\\EFCategoryQuestionRepository .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T08:33:08.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EFFlashCardRepository.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFFlashCardRepository.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\EFFlashCardRepository.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFFlashCardRepository.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Repository\\EFFlashCardRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T03:24:54.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Question.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\Question.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Models\\Question.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\Question.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Models\\Question.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T02:07:36.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ExercisesController.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\ExercisesController.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\ExercisesController.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\ExercisesController.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\ExercisesController.cs",
+              "ViewState": "AQIAADkBAAAAAAAAAAAAADkBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T02:07:46.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Certificate.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\Certificate.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Models\\Certificate.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\Certificate.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Models\\Certificate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T09:21:57.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LibreTranslateService.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\LibreTranslateService.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\LibreTranslateService.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\LibreTranslateService.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Repository\\LibreTranslateService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T02:31:30.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "TranslateController.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\TranslateController.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\TranslateController.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\TranslateController.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Repository\\TranslateController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T02:32:36.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoryQuestion.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\CategoryQuestion.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Models\\CategoryQuestion.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\CategoryQuestion.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Models\\CategoryQuestion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T08:37:24.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwCgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T08:37:32.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T08:53:06.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\CoursesController.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\CoursesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T08:53:05.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\CategoriesQuestion\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\CategoriesQuestion\\Create.cshtml",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\CategoriesQuestion\\Create.cshtml",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\CategoriesQuestion\\Create.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T09:18:15.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T08:40:20.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "20250118084149_mydb.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Migrations\\20250118084149_mydb.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Migrations\\20250118084149_mydb.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Migrations\\20250118084149_mydb.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Migrations\\20250118084149_mydb.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAgwFIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T08:41:49.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoriesQuestionController.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\CategoriesQuestionController.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\CategoriesQuestionController.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\CategoriesQuestionController.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\CategoriesQuestionController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAIwJgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:17:29.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Lesson.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\Lesson.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Models\\Lesson.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\Lesson.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Models\\Lesson.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T07:21:28.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Models\\Comment.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\Comment.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Models\\Comment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T08:32:36.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Course.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Models\\Course.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\Course.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Models\\Course.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T07:22:28.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUserCourseRepository.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\IUserCourseRepository.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\IUserCourseRepository.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\IUserCourseRepository.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Repository\\IUserCourseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T08:17:11.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "QuestionsController.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\QuestionsController.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\QuestionsController.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\QuestionsController.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\QuestionsController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:28:28.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Questions\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Questions\\Create.cshtml",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Questions\\Create.cshtml",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Questions\\Create.cshtml",
+              "ViewState": "AQIAABYAAAAAAAAAAAAqwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T09:29:25.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\CategoriesQuestion\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\CategoriesQuestion\\Delete.cshtml",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\CategoriesQuestion\\Delete.cshtml",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\CategoriesQuestion\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T09:18:16.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\CategoriesQuestion\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\CategoriesQuestion\\Details.cshtml",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\CategoriesQuestion\\Details.cshtml",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\CategoriesQuestion\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T09:18:17.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\CategoriesQuestion\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\CategoriesQuestion\\Edit.cshtml",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\CategoriesQuestion\\Edit.cshtml",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\CategoriesQuestion\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T09:18:17.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\CategoriesQuestion\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\CategoriesQuestion\\Index.cshtml",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\CategoriesQuestion\\Index.cshtml",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\CategoriesQuestion\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAC4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T09:18:18.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T09:12:51.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_QuestionListPartial.cshtml",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Shared\\_QuestionListPartial.cshtml",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Shared\\_QuestionListPartial.cshtml",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Shared\\_QuestionListPartial.cshtml",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Shared\\_QuestionListPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T09:12:50.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T09:12:49.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T08:40:19.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T08:39:48.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAACIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T08:39:11.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_LessonLayout.cshtml",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Views\\Shared\\_LessonLayout.cshtml",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Views\\Shared\\_LessonLayout.cshtml",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Views\\Shared\\_LessonLayout.cshtml",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Views\\Shared\\_LessonLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T08:39:07.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T08:39:06.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Views\\UserLessons\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Views\\UserLessons\\Index.cshtml",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Views\\UserLessons\\Index.cshtml",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Views\\UserLessons\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T08:38:56.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T08:38:51.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T08:38:50.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T08:37:38.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ICategoryQuestionRepository.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\ICategoryQuestionRepository.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\ICategoryQuestionRepository.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\ICategoryQuestionRepository.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Repository\\ICategoryQuestionRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T08:29:38.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\ICategoryRepository.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\ICategoryRepository.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Repository\\ICategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T02:42:00.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20250117080029_mydb.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Migrations\\20250117080029_mydb.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Migrations\\20250117080029_mydb.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Migrations\\20250117080029_mydb.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Migrations\\20250117080029_mydb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T08:00:29.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Models\\ErrorViewModel.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T07:53:40.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UserCourse.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\UserCourse.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Models\\UserCourse.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\UserCourse.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Models\\UserCourse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T07:16:16.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA5wBUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T07:05:21.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ScoreTable.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\ScoreTable.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Models\\ScoreTable.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\ScoreTable.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Models\\ScoreTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T07:16:13.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "FlashCard.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\FlashCard.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Models\\FlashCard.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\FlashCard.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Models\\FlashCard.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T07:14:15.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Post.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Models\\Post.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\Post.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Models\\Post.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T07:04:38.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "EFQuestionRepository.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFQuestionRepository.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\EFQuestionRepository.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFQuestionRepository.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Repository\\EFQuestionRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T02:21:07.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "APIUsersController.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APIUsersController.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\APIUsersController.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APIUsersController.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\APIUsersController.cs",
+              "ViewState": "AQIAALoAAAAAAAAAAAAmwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T03:38:45.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "EFLessonRepository.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFLessonRepository.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\EFLessonRepository.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFLessonRepository.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Repository\\EFLessonRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T09:54:06.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ILessonRepository.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\ILessonRepository.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\ILessonRepository.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\ILessonRepository.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Repository\\ILessonRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T09:53:13.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "LessonsController.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\LessonsController.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\LessonsController.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\LessonsController.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\LessonsController.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAwwJQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T03:10:14.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "APIUserCoursesController.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APIUserCoursesController.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\APIUserCoursesController.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APIUserCoursesController.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\APIUserCoursesController.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAcwCYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T03:38:56.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "FlashCardsController.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\FlashCardsController.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\FlashCardsController.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\FlashCardsController.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\FlashCardsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T03:10:10.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "EFCategoryRepository.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFCategoryRepository.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\EFCategoryRepository.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFCategoryRepository.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Repository\\EFCategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T02:42:51.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ICommentRepository.cs",
+              "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\ICommentRepository.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\ICommentRepository.cs",
+              "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\ICommentRepository.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Repository\\ICommentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T02:42:18.792Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
