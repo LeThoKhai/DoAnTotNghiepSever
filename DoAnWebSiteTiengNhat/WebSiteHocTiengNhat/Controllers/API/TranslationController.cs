@@ -13,15 +13,15 @@ public class TranslationController : ControllerBase
         _translationService = translationService;
     }
 
-    [HttpGet("translate")]
-    public async Task<IActionResult> Translate([FromQuery] string text, [FromQuery] string sourceLang, [FromQuery] string targetLang)
+    [HttpGet("translate/{text}")]
+    public async Task<IActionResult> Translate([FromQuery] string text)
     {
-        if (string.IsNullOrEmpty(text) || string.IsNullOrEmpty(sourceLang) || string.IsNullOrEmpty(targetLang))
+        if (string.IsNullOrEmpty(text))
         {
             return BadRequest("Please provide valid input parameters.");
         }
 
-        var translatedText = await _translationService.TranslateAsync(text, sourceLang, targetLang);
+        var translatedText = await _translationService.TranslateAsync(text, "ja", "vi");
         return Ok(new { TranslatedText = translatedText });
     }
 }

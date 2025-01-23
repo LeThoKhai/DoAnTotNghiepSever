@@ -14,5 +14,7 @@ namespace WebSiteHocTiengNhat.Models
         public bool IsReading { get; set; } = false;
         public bool IsGrammarVocabulary { get; set; } = false;
 
+
+
     }
 }

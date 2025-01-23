@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace WebSiteHocTiengNhat.Migrations
 {
     /// <inheritdoc />
@@ -70,9 +72,9 @@ namespace WebSiteHocTiengNhat.Migrations
                     CategoryQuestionId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     CategoryQuestionName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    IsListen = table.Column<bool>(type: "bit", nullable: true),
-                    IsReading = table.Column<bool>(type: "bit", nullable: true),
-                    IsGrammarVocabulary = table.Column<bool>(type: "bit", nullable: true)
+                    IsListen = table.Column<bool>(type: "bit", nullable: false),
+                    IsReading = table.Column<bool>(type: "bit", nullable: false),
+                    IsGrammarVocabulary = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -95,6 +97,18 @@ namespace WebSiteHocTiengNhat.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Courses", x => x.CourseId);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "QuestionTypes",
+                columns: table => new
+                {
+                    QuestionTypeId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    QuestionTypeName = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_QuestionTypes", x => x.QuestionTypeId);
                 });
 
             migrationBuilder.CreateTable(
@@ -378,14 +392,17 @@ namespace WebSiteHocTiengNhat.Migrations
                     QuestionId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     QuestionText = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    OptionA = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    OptionB = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    OptionC = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    OptionD = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Link = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    OptionA = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    OptionB = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    OptionC = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    OptionD = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CorrectAnswer = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CorrectAnswerString = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Point = table.Column<int>(type: "int", nullable: false),
                     CategoryQuestionId = table.Column<int>(type: "int", nullable: false),
-                    ExerciseId = table.Column<int>(type: "int", nullable: false)
+                    ExerciseId = table.Column<int>(type: "int", nullable: false),
+                    QuestionTypeId = table.Column<string>(type: "nvarchar(450)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -401,6 +418,12 @@ namespace WebSiteHocTiengNhat.Migrations
                         column: x => x.ExerciseId,
                         principalTable: "Exercises",
                         principalColumn: "ExerciseId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Questions_QuestionTypes_QuestionTypeId",
+                        column: x => x.QuestionTypeId,
+                        principalTable: "QuestionTypes",
+                        principalColumn: "QuestionTypeId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -458,6 +481,23 @@ namespace WebSiteHocTiengNhat.Migrations
                         principalTable: "Lessons",
                         principalColumn: "LessonId",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.InsertData(
+                table: "QuestionTypes",
+                columns: new[] { "QuestionTypeId", "QuestionTypeName" },
+                values: new object[,]
+                {
+                    { "QT1", "FillInBlanks" },
+                    { "QT10", "AnswerShortQuestion" },
+                    { "QT2", "McSingleAnswer" },
+                    { "QT3", "ReOrderParagraphs" },
+                    { "QT4", "McMultipleAnswer" },
+                    { "QT5", "WriteFromDictation" },
+                    { "QT6", "AnalysisText" },
+                    { "QT7", "WriteEssay" },
+                    { "QT8", "RepeatSentence" },
+                    { "QT9", "DescribeImage" }
                 });
 
             migrationBuilder.CreateIndex(
@@ -560,6 +600,11 @@ namespace WebSiteHocTiengNhat.Migrations
                 column: "ExerciseId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Questions_QuestionTypeId",
+                table: "Questions",
+                column: "QuestionTypeId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_ScoreTables_CategoryId",
                 table: "ScoreTables",
                 column: "CategoryId");
@@ -627,6 +672,9 @@ namespace WebSiteHocTiengNhat.Migrations
 
             migrationBuilder.DropTable(
                 name: "CategoryQuestions");
+
+            migrationBuilder.DropTable(
+                name: "QuestionTypes");
 
             migrationBuilder.DropTable(
                 name: "Exercises");

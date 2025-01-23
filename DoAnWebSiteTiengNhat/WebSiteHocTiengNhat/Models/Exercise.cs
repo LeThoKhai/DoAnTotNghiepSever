@@ -25,6 +25,8 @@ namespace WebSiteHocTiengNhat.Models
         public int CourseId { get; set; }
         [JsonIgnore]
         public Course? Course { get; set; }
+        /*[Required]
+        public bool IsExam {  get; set; } = false;*/
 
     }
 }

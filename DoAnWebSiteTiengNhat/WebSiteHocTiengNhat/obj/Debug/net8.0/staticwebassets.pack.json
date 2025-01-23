@@ -1377,8 +1377,20 @@
       "PackagePath": "staticwebassets\\User\\register.html"
     },
     {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\55689a08-aeb2-46e1-b2bf-4cf838b303c8.mp3",
+      "PackagePath": "staticwebassets\\audio\\55689a08-aeb2-46e1-b2bf-4cf838b303c8.mp3"
+    },
+    {
       "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\N3 T7-2021.mp3",
       "PackagePath": "staticwebassets\\audio\\N3 T7-2021.mp3"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\cbf31dcc-b57d-49d5-bb96-0c0925cceba6.mp3",
+      "PackagePath": "staticwebassets\\audio\\cbf31dcc-b57d-49d5-bb96-0c0925cceba6.mp3"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\f8837002-db82-4944-8916-45ea6933af12.mp3",
+      "PackagePath": "staticwebassets\\audio\\f8837002-db82-4944-8916-45ea6933af12.mp3"
     },
     {
       "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\courses-master.zip",
@@ -1427,6 +1439,18 @@
     {
       "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\462613685_408283542315455_6110709202213012228_n.jpg",
       "PackagePath": "staticwebassets\\images\\462613685_408283542315455_6110709202213012228_n.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\462629806_408283622315447_5770682514124069377_n.jpg",
+      "PackagePath": "staticwebassets\\images\\462629806_408283622315447_5770682514124069377_n.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\462683283_408283598982116_7472105840482215696_n.jpg",
+      "PackagePath": "staticwebassets\\images\\462683283_408283598982116_7472105840482215696_n.jpg"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\462809023_408283708982105_5721366390909127515_n.jpg",
+      "PackagePath": "staticwebassets\\images\\462809023_408283708982105_5721366390909127515_n.jpg"
     },
     {
       "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\8104517.jpg",

@@ -25,13 +25,25 @@ namespace WebSiteHocTiengNhat.Data
         public DbSet<CategoryQuestion> CategoryQuestions { get; set; }
         public DbSet<Certificate> Certificates { get; set; }
 
+        public DbSet<QuestionType> QuestionTypes { get; set; }
 
 
-        //tạo bảng gồm 2 khóa chính
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
 
+            builder.Entity<QuestionType>().HasData(
+            new QuestionType { QuestionTypeId = "QT1", QuestionTypeName = "FillInBlanks" },
+            new QuestionType { QuestionTypeId = "QT2", QuestionTypeName = "McSingleAnswer" },
+            new QuestionType { QuestionTypeId = "QT3", QuestionTypeName = "ReOrderParagraphs" },
+            new QuestionType { QuestionTypeId = "QT4", QuestionTypeName = "McMultipleAnswer" },
+            new QuestionType { QuestionTypeId = "QT5", QuestionTypeName = "WriteFromDictation" },
+            new QuestionType { QuestionTypeId = "QT6", QuestionTypeName = "AnalysisText" },
+            new QuestionType { QuestionTypeId = "QT7", QuestionTypeName = "WriteEssay" },
+            new QuestionType { QuestionTypeId = "QT8", QuestionTypeName = "RepeatSentence" },
+            new QuestionType { QuestionTypeId = "QT9", QuestionTypeName = "DescribeImage" },
+            new QuestionType { QuestionTypeId = "QT10", QuestionTypeName = "AnswerShortQuestion" }
+            );
             // Configure composite primary key
             builder.Entity<UserCourse>()
                 .HasKey(uc => new { uc.CourseId, uc.UserId });

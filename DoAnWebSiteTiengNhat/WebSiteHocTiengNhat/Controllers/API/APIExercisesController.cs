@@ -6,13 +6,14 @@ using WebSiteHocTiengNhat.Repositories;
 using WebSiteHocTiengNhat.Repository;
 using System.Text.Json;
 using Microsoft.Extensions.Caching.Memory;
+
+//using static WebSiteHocTiengNhat.Controllers.APIExercisesController.Reponsive;
 namespace WebSiteHocTiengNhat.Controllers
 {
 
     [Route("api/[controller]")]
     [ApiController]
     // Class để chứa thông tin câu trả lời của người dùng
-
     public class APIExercisesController : ControllerBase
     {
 
@@ -35,7 +36,6 @@ namespace WebSiteHocTiengNhat.Controllers
             _memoryCache = memoryCache;
         }
 
-        // GET: api/APIExercises
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Exercise>>> GetExercises()
         {
@@ -43,7 +43,6 @@ namespace WebSiteHocTiengNhat.Controllers
             return Ok(exercises);
         }
 
-        // GET: api/APIExercises/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Exercise>> GetExercise(int id)
         {
@@ -57,7 +56,6 @@ namespace WebSiteHocTiengNhat.Controllers
             return Ok(exercise);
         }
 
-        // GET: api/APIExercises/course/{courseId}
         [HttpGet("GetExerciseByCourse/{courseId}")]
         public async Task<ActionResult<Exercise>> GetExerciseByCourseId(int courseId)
         {
@@ -71,7 +69,6 @@ namespace WebSiteHocTiengNhat.Controllers
             return Ok(exercise);
         }
 
-        // GET: api/APIExercises/course/{courseId}/category/{categoryId}
         [HttpGet("course/{courseId}/category/{categoryId}")]
         public async Task<ActionResult<IEnumerable<Exercise>>> GetExerciseByCourseIdAndCategoryId(int courseId, int categoryId)
         {
@@ -81,11 +78,11 @@ namespace WebSiteHocTiengNhat.Controllers
             {
                 return NotFound();
             }
-
+             
             return Ok(exercises);
         }
 
-        // POST: api/APIExercises
+
         [HttpPost]
         public async Task<ActionResult<Exercise>> PostExercise([FromBody] Exercise exercise)
         {
@@ -133,7 +130,7 @@ namespace WebSiteHocTiengNhat.Controllers
             await _repository.DeleteAsync(id);
             return NoContent();
         }
-        [HttpGet("{exerciseId}/questions")]
+        [HttpGet("getQuestionListByExerciseId/{exerciseId}")]
         public async Task<ActionResult<IEnumerable<Question>>> GetQuestionsByExercise(int exerciseId)
         {
             var questions = await _questionRepository.GetByExerciseId(exerciseId);
@@ -146,8 +143,32 @@ namespace WebSiteHocTiengNhat.Controllers
             return Ok(questions);
         }
 
-        // API để nhận danh sách câu trả lời và tính điểm
-        [HttpPost("{exerciseId}/submit")]
+        [HttpPost("/submitquestion")]
+        public async Task<ActionResult<Reponsive>> SubmitAnswerForOneQuestion([FromBody] UserAnswer userAnswer)
+        {
+            if (userAnswer != null)
+            {
+                var reponsive = await _questionRepository.CaculateScore(userAnswer);
+                return reponsive;
+            }
+            else
+            {
+                return NotFound(); 
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+        //Ky thi cho app se phat trien sau
+        // API để nhận danh sách câu trả lời và tính điểm 
+        [HttpPost("{exerciseId}/{userid}/submitlistquestion")]
         public async Task<ActionResult<int>> SubmitAnswers(int exerciseId, string userId, [FromBody] List<AnswerSubmission> submissions)
         {
             var exercise = await _repository.GetByIdAsync(exerciseId);
@@ -228,7 +249,6 @@ namespace WebSiteHocTiengNhat.Controllers
             _memoryCache.Set("questions", questionsString, TimeSpan.FromHours(1)); // Cache tồn tại trong 1 giờ
             _memoryCache.Set("submissions", submissionsString, TimeSpan.FromHours(1)); // Cache tồn tại trong 1 giờ
         }
-
 
     }
 

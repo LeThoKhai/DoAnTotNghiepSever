@@ -1,4 +1,5 @@
-﻿using WebSiteHocTiengNhat.Models;
+﻿using Microsoft.AspNetCore.Mvc;
+using WebSiteHocTiengNhat.Models;
 
 namespace WebSiteHocTiengNhat.Repository
 {
@@ -10,5 +11,6 @@ namespace WebSiteHocTiengNhat.Repository
         Task AddAsync(Question question);
         Task UpdateAsync(Question question);
         Task DeleteAsync(int? id);
+        Task<ActionResult<Reponsive>> CaculateScore(UserAnswer userAnswer);
     }
 }
