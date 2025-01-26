@@ -20,7 +20,6 @@ public class TranslationController : ControllerBase
         {
             return BadRequest("Please provide valid input parameters.");
         }
-
         var translatedText = await _translationService.TranslateAsync(text, "ja", "vi");
         return Ok(new { TranslatedText = translatedText });
     }

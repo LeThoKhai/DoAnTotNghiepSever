@@ -1377,8 +1377,16 @@
       "PackagePath": "staticwebassets\\User\\register.html"
     },
     {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\20bc21d4-2acb-4e44-a296-3f0a11ab5777.jpg",
+      "PackagePath": "staticwebassets\\audio\\20bc21d4-2acb-4e44-a296-3f0a11ab5777.jpg"
+    },
+    {
       "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\55689a08-aeb2-46e1-b2bf-4cf838b303c8.mp3",
       "PackagePath": "staticwebassets\\audio\\55689a08-aeb2-46e1-b2bf-4cf838b303c8.mp3"
+    },
+    {
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\5e309d5a-ecdc-4539-95c0-66a66d172b9c.mp3",
+      "PackagePath": "staticwebassets\\audio\\5e309d5a-ecdc-4539-95c0-66a66d172b9c.mp3"
     },
     {
       "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\N3 T7-2021.mp3",
@@ -1405,140 +1413,12 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\1306752.jpg",
-      "PackagePath": "staticwebassets\\images\\1306752.jpg"
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\462611747_408283662315443_2696017188123012746_n.jpg",
+      "PackagePath": "staticwebassets\\images\\462611747_408283662315443_2696017188123012746_n.jpg"
     },
     {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\1687542991.flutti_meows_morales-min (1).jpg",
-      "PackagePath": "staticwebassets\\images\\1687542991.flutti_meows_morales-min (1).jpg"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\2560x1600-340160-Digital-Art-The-Witcher-Video-Game-Wolf-Minimalist-Minimalism-Simple.jpg",
-      "PackagePath": "staticwebassets\\images\\2560x1600-340160-Digital-Art-The-Witcher-Video-Game-Wolf-Minimalist-Minimalism-Simple.jpg"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\2560x1600-340229-Digital-Art-Chill-Chilling-Night-Coffee-Apartment.jpg",
-      "PackagePath": "staticwebassets\\images\\2560x1600-340229-Digital-Art-Chill-Chilling-Night-Coffee-Apartment.jpg"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\328719395_557686349721805_2327815102489462683_n.jpg",
-      "PackagePath": "staticwebassets\\images\\328719395_557686349721805_2327815102489462683_n.jpg"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\461999067_408283912315418_5887761276845934551_n.jpg",
-      "PackagePath": "staticwebassets\\images\\461999067_408283912315418_5887761276845934551_n.jpg"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\462573773_408283855648757_1394538077716190259_n.jpg",
-      "PackagePath": "staticwebassets\\images\\462573773_408283855648757_1394538077716190259_n.jpg"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\462608628_408283898982086_5786814941651502595_n.jpg",
-      "PackagePath": "staticwebassets\\images\\462608628_408283898982086_5786814941651502595_n.jpg"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\462613685_408283542315455_6110709202213012228_n.jpg",
-      "PackagePath": "staticwebassets\\images\\462613685_408283542315455_6110709202213012228_n.jpg"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\462629806_408283622315447_5770682514124069377_n.jpg",
-      "PackagePath": "staticwebassets\\images\\462629806_408283622315447_5770682514124069377_n.jpg"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\462683283_408283598982116_7472105840482215696_n.jpg",
-      "PackagePath": "staticwebassets\\images\\462683283_408283598982116_7472105840482215696_n.jpg"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\462809023_408283708982105_5721366390909127515_n.jpg",
-      "PackagePath": "staticwebassets\\images\\462809023_408283708982105_5721366390909127515_n.jpg"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\8104517.jpg",
-      "PackagePath": "staticwebassets\\images\\8104517.jpg"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\8104531.jpg",
-      "PackagePath": "staticwebassets\\images\\8104531.jpg"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\Ảnh chụp màn hình (16).png",
-      "PackagePath": "staticwebassets\\images\\Ảnh chụp màn hình (16).png"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\Ảnh chụp màn hình (26).png",
-      "PackagePath": "staticwebassets\\images\\Ảnh chụp màn hình (26).png"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\BTS_N3.svg.png",
-      "PackagePath": "staticwebassets\\images\\BTS_N3.svg.png"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\BTS_N4.svg.png",
-      "PackagePath": "staticwebassets\\images\\BTS_N4.svg.png"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\BTS_N5.png",
-      "PackagePath": "staticwebassets\\images\\BTS_N5.png"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\Liên Minh_ (30).jpg",
-      "PackagePath": "staticwebassets\\images\\Liên Minh_ (30).jpg"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\Lofi Chill_ (30).jpg",
-      "PackagePath": "staticwebassets\\images\\Lofi Chill_ (30).jpg"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\Lop-giao-tiep-3.png",
-      "PackagePath": "staticwebassets\\images\\Lop-giao-tiep-3.png"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\animated-girl-rainy-day-p8tl4bziwywzt1pm.jpg",
-      "PackagePath": "staticwebassets\\images\\animated-girl-rainy-day-p8tl4bziwywzt1pm.jpg"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\morty-smith-rick-5120x2880-9365.jpg",
-      "PackagePath": "staticwebassets\\images\\morty-smith-rick-5120x2880-9365.jpg"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\nezuko.jpg",
-      "PackagePath": "staticwebassets\\images\\nezuko.jpg"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\run-the-jewels-rick-8000x4500-9370.png",
-      "PackagePath": "staticwebassets\\images\\run-the-jewels-rick-8000x4500-9370.png"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\sakura.png",
-      "PackagePath": "staticwebassets\\images\\sakura.png"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\sakura2.jpg",
-      "PackagePath": "staticwebassets\\images\\sakura2.jpg"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\tải xuống (1).png",
-      "PackagePath": "staticwebassets\\images\\tải xuống (1).png"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\tải xuống (2).png",
-      "PackagePath": "staticwebassets\\images\\tải xuống (2).png"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\tải xuống (3).png",
-      "PackagePath": "staticwebassets\\images\\tải xuống (3).png"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\tải xuống (4).png",
-      "PackagePath": "staticwebassets\\images\\tải xuống (4).png"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\tải xuống.png",
-      "PackagePath": "staticwebassets\\images\\tải xuống.png"
-    },
-    {
-      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\Ảnh chụp màn hình (135).png",
-      "PackagePath": "staticwebassets\\images\\Ảnh chụp màn hình (135).png"
+      "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\462857309_408283825648760_8374185704753488900_n.jpg",
+      "PackagePath": "staticwebassets\\images\\462857309_408283825648760_8374185704753488900_n.jpg"
     },
     {
       "Id": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\js\\site.js",

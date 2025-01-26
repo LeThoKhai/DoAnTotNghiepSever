@@ -36,6 +36,12 @@ namespace WebSiteHocTiengNhat.Repository
             var questions = await _context.Questions.Where(n => n.ExerciseId == exerciseId).ToListAsync();
             return questions;
         }
+        //public async Task<List<Question>> GetByCategoryQuestionId(int? categoryquestionId)
+        //{
+        //    if (categoryquestionId == null) return new List<Question>();
+        //    var questions = await _context.Questions.Where(n => n.CategoryQuestionId == categoryquestionId).ToListAsync();
+        //    return questions;
+        //}
         public async Task AddAsync(Question question)
         {
             _context.Questions.Add(question);
@@ -52,6 +58,7 @@ namespace WebSiteHocTiengNhat.Repository
             _context.Questions.Remove(question);
             await _context.SaveChangesAsync();
         }
+
         public async Task<ActionResult<Reponsive>> CaculateScore(UserAnswer userAnswer)
         {
             var question = await GetByIdAsync(userAnswer.QuestionID);
@@ -75,7 +82,14 @@ namespace WebSiteHocTiengNhat.Repository
                             Score = 1
                         };
                     }
-                    break;
+                    else
+                    {
+                        return new Reponsive
+                        {
+                            Sever_reponsive = "Câu trả lời chưa chính xác",
+                            Score = 0
+                        };
+                    }
 
                 case "QT2":
                     if (question.CorrectAnswer == userAnswer.Answer)
@@ -87,8 +101,16 @@ namespace WebSiteHocTiengNhat.Repository
                             Score = 1
                         };
                     }
-                    break;
+                    else
+                    {
+                        return new Reponsive
+                        {
+                            Sever_reponsive = "Câu trả lời chưa chính xác",
+                            Score = 0
+                        };
+                    }
 
+                    //break;
                 case "QT3":
                     if (question.CorrectAnswerString == userAnswer.Answer)
                     {
@@ -99,7 +121,14 @@ namespace WebSiteHocTiengNhat.Repository
                             Score = 1
                         };
                     }
-                    break;
+                    else
+                    {
+                        return new Reponsive
+                        {
+                            Sever_reponsive = "Câu trả lời chưa chính xác",
+                            Score = 0
+                        };
+                    }
 
                 case "QT4":
                     if (question.CorrectAnswerString == userAnswer.Answer)
@@ -111,7 +140,14 @@ namespace WebSiteHocTiengNhat.Repository
                             Score = 1
                         };
                     }
-                    break;
+                    else
+                    {
+                        return new Reponsive
+                        {
+                            Sever_reponsive = "Câu trả lời chưa chính xác",
+                            Score = 0
+                        };
+                    }
 
                 case "QT5":
                     float score= CalculateSimilarity(question.CorrectAnswerString, userAnswer.Answer);
@@ -158,7 +194,7 @@ namespace WebSiteHocTiengNhat.Repository
                     float score2 = CalculateSimilarity(question.CorrectAnswerString, userAnswer.Answer);
                     if (score2 > 0)
                     {
-                        Console.WriteLine($"Processing QT...OK {question.CorrectAnswer} == {userAnswer.Answer}");
+                        Console.WriteLine($"Processing QT8...OK {question.CorrectAnswer} == {userAnswer.Answer}");
                         return new Reponsive
                         {
                             Sever_reponsive = null,

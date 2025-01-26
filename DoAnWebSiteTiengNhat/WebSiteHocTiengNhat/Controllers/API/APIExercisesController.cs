@@ -168,9 +168,10 @@ namespace WebSiteHocTiengNhat.Controllers
 
         //Ky thi cho app se phat trien sau
         // API để nhận danh sách câu trả lời và tính điểm 
-        [HttpPost("{exerciseId}/{userid}/submitlistquestion")]
-        public async Task<ActionResult<int>> SubmitAnswers(int exerciseId, string userId, [FromBody] List<AnswerSubmission> submissions)
+        [HttpPost("{exerciseId}/submitlistquestion")]
+        public async Task<ActionResult<int>> SubmitAnswers(int exerciseId, [FromBody] List<AnswerSubmission> submissions)
         {
+            var userId = User.FindFirst("userId")?.Value;
             var exercise = await _repository.GetByIdAsync(exerciseId);
             if (exercise == null) return NotFound("Exercise not found.");
 

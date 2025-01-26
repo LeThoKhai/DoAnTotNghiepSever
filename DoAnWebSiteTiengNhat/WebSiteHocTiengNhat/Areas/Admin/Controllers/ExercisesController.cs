@@ -220,7 +220,7 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
             var exercise = new Exercise { CourseId = courseId };
             var categories = await _categoryRepository.GetAllAsync();
             ViewBag.Categories = new SelectList(categories, "CategoryId", "CategoryName");
-
+            
             return View(exercise);
         }
 

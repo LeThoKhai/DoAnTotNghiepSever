@@ -30,7 +30,7 @@ namespace WebSiteHocTiengNhat.Models
         public string? CorrectAnswerString { get; set; }
 
         [Required]
-        public int Point { get; set; } = 1;
+        public int Level { get; set; } = 1;
         [Required]
         [ForeignKey("CategoryQuestion")]
         public int CategoryQuestionId { get; set; }

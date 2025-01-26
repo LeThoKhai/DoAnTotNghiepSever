@@ -9,5 +9,8 @@ namespace WebSiteHocTiengNhat.Repository
         Task AddAsync(CategoryQuestion categoryquestion);
         Task UpdateAsync(CategoryQuestion categoryquestion);
         Task DeleteAsync(int id);
+        Task<List<Question>> GetByCategoryQuestionId(int? categoryquestionId);
+
+
     }
 }

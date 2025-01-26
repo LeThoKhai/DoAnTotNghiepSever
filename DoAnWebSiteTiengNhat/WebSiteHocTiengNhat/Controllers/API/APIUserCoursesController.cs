@@ -29,9 +29,10 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
         }
 
         // Kiểm tra nếu user đã tham gia vào khóa học hay chưa
-        [HttpGet("check-user-in-course/{courseId}/{userId}")]
-        public async Task<IActionResult> CheckUserInCourse(int courseId, string userId)
+        [HttpGet("check-user-in-course/{courseId}")]
+        public async Task<IActionResult> CheckUserInCourse(int courseId)
         {
+            var userId = User.FindFirst("userId")?.Value;
             var userCourse = await _userCourseRepository.GetUserCoursesByCourseIdAndUserIdAsync(courseId, userId);
 
             if (userCourse.Any())
@@ -62,9 +63,10 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
         }
 
         // Lấy thông tin user trong khóa học theo userId và courseId
-        [HttpGet("get-user-in-course/{courseId}/{userId}")]
-        public async Task<IActionResult> GetUserInCourse(int courseId, string userId)
+        [HttpGet("get-user-in-course/{courseId}")]
+        public async Task<IActionResult> GetUserInCourse(int courseId)
         {
+            var userId = User.FindFirst("userId")?.Value;
             var userCourse = await _userCourseRepository.GetUserCoursesByCourseIdAndUserIdAsync(courseId, userId);
 
             if (userCourse == null || !userCourse.Any())
@@ -83,9 +85,10 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
 
             return Ok(user); // Trả về thông tin user trong khóa học
         }
-        [HttpGet("get-courses-by-user/{userId}")]
-        public async Task<IActionResult> GetCoursesByUserId(string userId)
+        [HttpGet("get-courses-by-user")]
+        public async Task<IActionResult> GetCoursesByUserId()
         {
+            var userId = User.FindFirst("userId")?.Value;
             var userCourses = await _userCourseRepository.GetUserCoursesByUserIdAsync(userId);
 
             if (userCourses == null || !userCourses.Any())
@@ -106,20 +109,21 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
 
             return Ok(courses); 
         }
-        [HttpGet("get_score_table/{userId}")]
-        public async Task<IActionResult> GetScoreTable(string userId)
+        [HttpGet("get_score_table")]
+        public async Task<IActionResult> GetScoreTable()
         {
+            var userid = User.FindFirst("userId")?.Value;
             var categories = await _categoryRepository.GetAllAsync();
             var result = new List<AverageScore>();
 
             foreach (var category in categories)
             {
                 // Kiểm tra xem có điểm nào cho userId và categoryId này không
-                bool hasScore = await _scoreTableRepository.CheckCategoryInScoreTable(userId, category.CategoryId);
+                bool hasScore = await _scoreTableRepository.CheckCategoryInScoreTable(userid, category.CategoryId);
 
                 if (hasScore) // Chỉ tính toán nếu có điểm
                 {
-                    double averageScore = await _scoreTableRepository.GetAverageScoreByCategoryAsync(userId, category.CategoryId);
+                    double averageScore = await _scoreTableRepository.GetAverageScoreByCategoryAsync(userid, category.CategoryId);
 
                     if (!double.IsNaN(averageScore))
                     {

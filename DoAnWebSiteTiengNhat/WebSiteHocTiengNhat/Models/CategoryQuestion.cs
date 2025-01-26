@@ -10,10 +10,11 @@ namespace WebSiteHocTiengNhat.Models
         [Required]
         public string CategoryQuestionName { get; set; }
         
-        public bool IsListen { get; set; } = false;
+        public bool IsListening { get; set; } = false;
         public bool IsReading { get; set; } = false;
         public bool IsGrammarVocabulary { get; set; } = false;
-
+        public bool IsSpeacking { get; set; } = false;
+        public bool IsWriting { get; set; } = false;
 
 
     }

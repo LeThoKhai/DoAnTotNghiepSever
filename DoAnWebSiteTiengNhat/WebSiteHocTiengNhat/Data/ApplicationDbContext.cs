@@ -16,12 +16,12 @@ namespace WebSiteHocTiengNhat.Data
         public DbSet<Category> Categories { get; set; }
         public DbSet<Lesson> Lessons { get; set; }
         public DbSet<Exercise> Exercises { get; set; }
-        public DbSet<Question> Questions{ get; set; }
+        public DbSet<Question> Questions { get; set; }
         public DbSet<UserCourse> UserCourses { get; set; }
         public DbSet<FlashCard> FlashCards { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<ScoreTable> ScoreTables { get; set; }
-        public DbSet<Post> Posts {  get; set; }
+        public DbSet<Post> Posts { get; set; }
         public DbSet<CategoryQuestion> CategoryQuestions { get; set; }
         public DbSet<Certificate> Certificates { get; set; }
 
@@ -43,6 +43,19 @@ namespace WebSiteHocTiengNhat.Data
             new QuestionType { QuestionTypeId = "QT8", QuestionTypeName = "RepeatSentence" },
             new QuestionType { QuestionTypeId = "QT9", QuestionTypeName = "DescribeImage" },
             new QuestionType { QuestionTypeId = "QT10", QuestionTypeName = "AnswerShortQuestion" }
+            );
+            builder.Entity<CategoryQuestion>().HasData(
+            new CategoryQuestion {CategoryQuestionId=1, CategoryQuestionName= "Đọc hiểu", IsReading = true },
+            new CategoryQuestion {CategoryQuestionId=2, CategoryQuestionName = "Nghe hiểu", IsListening = true },
+            new CategoryQuestion {CategoryQuestionId=3, CategoryQuestionName = "Ngữ pháp từ vựng", IsGrammarVocabulary = true },
+            new CategoryQuestion {CategoryQuestionId=4, CategoryQuestionName = "Luyện nói" , IsSpeacking = true },
+            new CategoryQuestion {CategoryQuestionId=5, CategoryQuestionName = "Luyện viết", IsWriting = true }
+            );
+            builder.Entity<Category>().HasData(
+            new Category {CategoryId=1, CategoryName= "Ngữ pháp" },
+            new Category {CategoryId=2, CategoryName = "Từ vựng" },
+            new Category {CategoryId=3, CategoryName = "Hán tự" },
+            new Category {CategoryId=4, CategoryName = "Kỳ thi" }
             );
             // Configure composite primary key
             builder.Entity<UserCourse>()

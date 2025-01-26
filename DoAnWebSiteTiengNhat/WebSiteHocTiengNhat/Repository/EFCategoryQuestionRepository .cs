@@ -7,17 +7,32 @@ namespace WebSiteHocTiengNhat.Repository
     public class EFCategoryQuestionRepository : ICategoryQuestionRepository
     {
         private readonly ApplicationDbContext _context;
-        public EFCategoryQuestionRepository(ApplicationDbContext context)
+        private readonly IQuestionRepository _questionRepository;
+        public EFCategoryQuestionRepository(ApplicationDbContext context, IQuestionRepository questionRepository)
         {
             _context = context;
+            _questionRepository = questionRepository;
         }
         public async Task<IEnumerable<CategoryQuestion>> GetAllAsync()
         {
             return await _context.CategoryQuestions.ToListAsync();
         }
+
         public async Task<CategoryQuestion> GetByIdAsync(int? id)
         {
             return await _context.CategoryQuestions.FindAsync(id);
+        }
+        //public async Task<IEnumerable<Question>> GetListQuestions(int? categoryQuestionId)
+        //{
+        //    var list = await _questionRepository.GetAllAsync();
+
+        //    return list.Where(n => n.CategoryQuestionId == categoryQuestionId);
+        //}
+        public async Task<List<Question>> GetByCategoryQuestionId(int? categoryquestionId)
+        {
+            if (categoryquestionId == null) return new List<Question>();
+            var questions = await _context.Questions.Where(n => n.CategoryQuestionId == categoryquestionId).ToListAsync();
+            return questions;
         }
         public async Task AddAsync(CategoryQuestion CategoryQuestion)
         {
@@ -35,6 +50,12 @@ namespace WebSiteHocTiengNhat.Repository
             _context.CategoryQuestions.Remove(CategoryQuestion);
             await _context.SaveChangesAsync();
         }
+       /* public async Task<int?> GetCategoryQuestionIdReading()
+        {
+            var categoryQuestions = await GetAllAsync();
+            var readingCategoryQuestion = categoryQuestions.FirstOrDefault(n => n.IsReading);
+            return readingCategoryQuestion?.CategoryQuestionId;
+        }*/
 
     }
 }

@@ -59,10 +59,11 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
             if (ModelState.IsValid)
             {
                 // Đặt giá trị true/false dựa trên radio được chọn
-                categoryQuestion.IsListen = QuestionType == "IsListen";
+                categoryQuestion.IsListening = QuestionType == "IsListen";
                 categoryQuestion.IsReading = QuestionType == "IsReading";
                 categoryQuestion.IsGrammarVocabulary = QuestionType == "IsGrammarVocabulary";
-
+                categoryQuestion.IsSpeacking = QuestionType == "IsSpeacking";
+                categoryQuestion.IsWriting = QuestionType == "IsWriting";
                 // Lưu vào database
                 _context.Add(categoryQuestion);
                 await _context.SaveChangesAsync();

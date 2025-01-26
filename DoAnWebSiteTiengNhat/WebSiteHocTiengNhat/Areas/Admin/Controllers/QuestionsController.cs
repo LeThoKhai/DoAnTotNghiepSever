@@ -68,6 +68,7 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
             var questiontype =await _context.QuestionTypes.ToListAsync();
             ViewBag.QuestionType = new SelectList(questiontype,"QuestionTypeId","QuestionTypeName");
             ViewBag.CorrectAnswer = new SelectList(new List<string> { "A", "B", "C", "D" });
+            ViewBag.Level = new SelectList(new List<int> { 1, 2, 3, 4, 5 });
             // Trả về view Create với model đã khởi tạo
             return View(question);
         }

@@ -25,7 +25,7 @@
     </div>
     <!-- Textbox for Link -->
     <div class="form-group">
-        <label asp-for="Link" as for="audioFile">Upload Audio</label>
+        <label asp-for="Link" as for="audioFile">Upload Audio/Image</label>
         <input asp-for="Link" type="file" name="audioFile" id="audioFile" class="form-control" accept="audio/*" />
     </div>
 
@@ -59,11 +59,9 @@
         <span asp-validation-for="CorrectAnswerString" class="text-danger"></span>
     </div>
 
-    <!-- Textbox for Point -->
     <div class="form-group">
-        <label asp-for="Point">Point</label>
-        <input asp-for="Point" type="number" class="form-control" min="1" />
-        <span asp-validation-for="Point" class="text-danger"></span>
+        <label asp-for="Level"></label>
+        <select asp-for="Level" asp-items="ViewBag.Level" class="form-control"></select>
     </div>
 
 
