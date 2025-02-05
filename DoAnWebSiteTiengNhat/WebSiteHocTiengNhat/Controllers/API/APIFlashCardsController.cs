@@ -57,59 +57,59 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
             return Ok(flashCard);
         }
 
-        // POST: api/FlashCardsApi
-        [HttpPost]
-        public async Task<IActionResult> CreateFlashCard([FromBody] FlashCard flashCard)
-        {
-            if (ModelState.IsValid)
-            {
-                await _flashCardRepository.AddAsync(flashCard);
-                return CreatedAtAction(nameof(GetFlashCardById), new { id = flashCard.CardId }, flashCard);
-            }
-            return BadRequest(ModelState);
-        }
+        //// POST: api/FlashCardsApi
+        //[HttpPost]
+        //public async Task<IActionResult> CreateFlashCard([FromBody] FlashCard flashCard)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        await _flashCardRepository.AddAsync(flashCard);
+        //        return CreatedAtAction(nameof(GetFlashCardById), new { id = flashCard.CardId }, flashCard);
+        //    }
+        //    return BadRequest(ModelState);
+        //}
 
-        // PUT: api/FlashCardsApi/5
-        [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateFlashCard(int id, [FromBody] FlashCard flashCard)
-        {
-            if (id != flashCard.CardId)
-            {
-                return BadRequest("FlashCard ID mismatch.");
-            }
+        //// PUT: api/FlashCardsApi/5
+        //[HttpPut("{id}")]
+        //public async Task<IActionResult> UpdateFlashCard(int id, [FromBody] FlashCard flashCard)
+        //{
+        //    if (id != flashCard.CardId)
+        //    {
+        //        return BadRequest("FlashCard ID mismatch.");
+        //    }
 
-            var existingFlashCard = await _flashCardRepository.GetByIdAsync(id);
-            if (existingFlashCard == null)
-            {
-                return NotFound();
-            }
+        //    var existingFlashCard = await _flashCardRepository.GetByIdAsync(id);
+        //    if (existingFlashCard == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            if (ModelState.IsValid)
-            {
-                existingFlashCard.CardName = flashCard.CardName;
-                existingFlashCard.LessonId = flashCard.LessonId;
-                existingFlashCard.CardBack = flashCard.CardBack;
-                existingFlashCard.CardFront = flashCard.CardFront;
+        //    if (ModelState.IsValid)
+        //    {
+        //        existingFlashCard.CardName = flashCard.CardName;
+        //        existingFlashCard.LessonId = flashCard.LessonId;
+        //        existingFlashCard.CardBack = flashCard.CardBack;
+        //        existingFlashCard.CardFront = flashCard.CardFront;
 
 
-                await _flashCardRepository.UpdateAsync(existingFlashCard);
-                return NoContent();
-            }
-            return BadRequest(ModelState);
-        }
+        //        await _flashCardRepository.UpdateAsync(existingFlashCard);
+        //        return NoContent();
+        //    }
+        //    return BadRequest(ModelState);
+        //}
 
-        // DELETE: api/FlashCardsApi/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteFlashCard(int id)
-        {
-            var flashCard = await _flashCardRepository.GetByIdAsync(id);
-            if (flashCard == null)
-            {
-                return NotFound();
-            }
+        //// DELETE: api/FlashCardsApi/5
+        //[HttpDelete("{id}")]
+        //public async Task<IActionResult> DeleteFlashCard(int id)
+        //{
+        //    var flashCard = await _flashCardRepository.GetByIdAsync(id);
+        //    if (flashCard == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            await _flashCardRepository.DeleteAsync(id);
-            return NoContent();
-        }
+        //    await _flashCardRepository.DeleteAsync(id);
+        //    return NoContent();
+        //}
     }
 }

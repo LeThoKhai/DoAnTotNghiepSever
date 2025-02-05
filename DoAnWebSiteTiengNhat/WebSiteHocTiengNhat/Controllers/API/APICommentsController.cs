@@ -70,20 +70,22 @@ public class CommentsController : ControllerBase
     //    return NoContent();
     //}
 
+
+
     // DELETE: api/Comments/{id}
-    [HttpDelete("{id}")]
-    [Authorize]
-    public async Task<IActionResult> DeleteComment(int id)
-    {
-        var username = User.FindFirstValue(ClaimTypes.NameIdentifier);
-        var isAdmin = User.IsInRole("Admin");
+    //[HttpDelete("{id}")]
+    //[Authorize]
+    //public async Task<IActionResult> DeleteComment(int id)
+    //{
+    //    var username = User.FindFirstValue(ClaimTypes.NameIdentifier);
+    //    var isAdmin = User.IsInRole("Admin");
 
-        var success = await _commentRepository.DeleteCommentAsync(id, username, isAdmin);
-        if (!success)
-        {
-            return Unauthorized();
-        }
+    //    var success = await _commentRepository.DeleteCommentAsync(id, username, isAdmin);
+    //    if (!success)
+    //    {
+    //        return Unauthorized();
+    //    }
 
-        return NoContent();
-    }
+    //    return NoContent();
+    //}
 }

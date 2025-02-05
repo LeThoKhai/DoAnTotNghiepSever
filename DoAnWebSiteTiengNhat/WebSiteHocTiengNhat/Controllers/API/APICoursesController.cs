@@ -66,94 +66,94 @@ namespace WebSiteHocTiengNhat.Controllers
 
 
 
-        // PUT: api/Courses/5
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutCourse(int id, [FromForm] Course course, IFormFile? image)
-        {
-            if (id != course.CourseId)
-            {
-                return BadRequest("Course ID mismatch.");
-            }
+        //// PUT: api/Courses/5
+        //[HttpPut("{id}")]
+        //public async Task<IActionResult> PutCourse(int id, [FromForm] Course course, IFormFile? image)
+        //{
+        //    if (id != course.CourseId)
+        //    {
+        //        return BadRequest("Course ID mismatch.");
+        //    }
 
-            var existingCourse = await _repository.GetByIdAsync(id);
-            if (existingCourse == null)
-            {
-                return NotFound();
-            }
+        //    var existingCourse = await _repository.GetByIdAsync(id);
+        //    if (existingCourse == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            // Nếu người dùng không nhập hình ảnh, giữ nguyên hình ảnh cũ
-            if (image != null)
-            {
-                existingCourse.Image = await SaveImage(image); // Cập nhật ảnh mới
-            }
+        //    // Nếu người dùng không nhập hình ảnh, giữ nguyên hình ảnh cũ
+        //    if (image != null)
+        //    {
+        //        existingCourse.Image = await SaveImage(image); // Cập nhật ảnh mới
+        //    }
 
-            // Cập nhật các trường khác ngoại trừ CourseId
-            existingCourse.CourseName = course.CourseName;
-            existingCourse.Price = course.Price;
-            existingCourse.Content = course.Content;
-            existingCourse.Status = course.Status;
+        //    // Cập nhật các trường khác ngoại trừ CourseId
+        //    existingCourse.CourseName = course.CourseName;
+        //    existingCourse.Price = course.Price;
+        //    existingCourse.Content = course.Content;
+        //    existingCourse.Status = course.Status;
 
-            try
-            {
-                await _repository.UpdateAsync(existingCourse); // Lưu thay đổi qua repository
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!await CourseExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+        //    try
+        //    {
+        //        await _repository.UpdateAsync(existingCourse); // Lưu thay đổi qua repository
+        //    }
+        //    catch (DbUpdateConcurrencyException)
+        //    {
+        //        if (!await CourseExists(id))
+        //        {
+        //            return NotFound();
+        //        }
+        //        else
+        //        {
+        //            throw;
+        //        }
+        //    }
 
-            return NoContent();
-        }
+        //    return NoContent();
+        //}
 
-        // POST: api/Courses
-        [HttpPost]
-        public async Task<ActionResult<Course>> PostCourse([FromForm] Course course, IFormFile? image)
-        {
-            if (image != null)
-            {
-                course.Image = await SaveImage(image);
-            }
+        //// POST: api/Courses
+        //[HttpPost]
+        //public async Task<ActionResult<Course>> PostCourse([FromForm] Course course, IFormFile? image)
+        //{
+        //    if (image != null)
+        //    {
+        //        course.Image = await SaveImage(image);
+        //    }
 
-            await _repository.AddAsync(course);
-            return CreatedAtAction("GetCourse", new { id = course.CourseId }, course);
-        }
+        //    await _repository.AddAsync(course);
+        //    return CreatedAtAction("GetCourse", new { id = course.CourseId }, course);
+        //}
 
-        // DELETE: api/Courses/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteCourse(int id)
-        {
-            var course = await _repository.GetByIdAsync(id);
-            if (course == null)
-            {
-                return NotFound();
-            }
+        //// DELETE: api/Courses/5
+        //[HttpDelete("{id}")]
+        //public async Task<IActionResult> DeleteCourse(int id)
+        //{
+        //    var course = await _repository.GetByIdAsync(id);
+        //    if (course == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            await _repository.DeleteAsync(id);
-            return NoContent();
-        }
+        //    await _repository.DeleteAsync(id);
+        //    return NoContent();
+        //}
 
-        // Private method to save image
-        private async Task<string> SaveImage(IFormFile image)
-        {
-            var savePath = Path.Combine("wwwroot/images", image.FileName);
-            using (var fileStream = new FileStream(savePath, FileMode.Create))
-            {
-                await image.CopyToAsync(fileStream);
-            }
-            return "/images/" + image.FileName;
-        }
+        //// Private method to save image
+        //private async Task<string> SaveImage(IFormFile image)
+        //{
+        //    var savePath = Path.Combine("wwwroot/images", image.FileName);
+        //    using (var fileStream = new FileStream(savePath, FileMode.Create))
+        //    {
+        //        await image.CopyToAsync(fileStream);
+        //    }
+        //    return "/images/" + image.FileName;
+        //}
 
-        private async Task<bool> CourseExists(int id)
-        {
-            return await _repository.GetByIdAsync(id) != null;
-        }
+        //private async Task<bool> CourseExists(int id)
+        //{
+        //    return await _repository.GetByIdAsync(id) != null;
+        //}
         public class CourseDetail
         {
             public Course Course { get; set; }

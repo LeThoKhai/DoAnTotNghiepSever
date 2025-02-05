@@ -69,67 +69,67 @@ namespace WebSiteHocTiengNhat.Controllers
             return Ok(exercise);
         }
 
-        [HttpGet("course/{courseId}/category/{categoryId}")]
-        public async Task<ActionResult<IEnumerable<Exercise>>> GetExerciseByCourseIdAndCategoryId(int courseId, int categoryId)
-        {
-            var exercises = await _repository.GetByCourseIdAndCategoryIdAsync(courseId, categoryId);
+        //[HttpGet("course/{courseId}/category/{categoryId}")]
+        //public async Task<ActionResult<IEnumerable<Exercise>>> GetExerciseByCourseIdAndCategoryId(int courseId, int categoryId)
+        //{
+        //    var exercises = await _repository.GetByCourseIdAndCategoryIdAsync(courseId, categoryId);
 
-            if (exercises == null || exercises.Count == 0)
-            {
-                return NotFound();
-            }
+        //    if (exercises == null || exercises.Count == 0)
+        //    {
+        //        return NotFound();
+        //    }
              
-            return Ok(exercises);
-        }
+        //    return Ok(exercises);
+        //}
 
 
-        [HttpPost]
-        public async Task<ActionResult<Exercise>> PostExercise([FromBody] Exercise exercise)
-        {
-            // Kiểm tra tính hợp lệ của ModelState
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
+        //[HttpPost]
+        //public async Task<ActionResult<Exercise>> PostExercise([FromBody] Exercise exercise)
+        //{
+        //    // Kiểm tra tính hợp lệ của ModelState
+        //    if (!ModelState.IsValid)
+        //    {
+        //        return BadRequest(ModelState);
+        //    }
 
-            // Thêm bài tập mới vào cơ sở dữ liệu
-            await _exercisesRepository.AddAsync(exercise);
+        //    // Thêm bài tập mới vào cơ sở dữ liệu
+        //    await _exercisesRepository.AddAsync(exercise);
 
-            // Trả về trạng thái Created cùng với đường dẫn đến bài tập vừa được tạo
-            return CreatedAtAction(nameof(GetExercise), new { id = exercise.ExerciseId }, exercise);
-        }
+        //    // Trả về trạng thái Created cùng với đường dẫn đến bài tập vừa được tạo
+        //    return CreatedAtAction(nameof(GetExercise), new { id = exercise.ExerciseId }, exercise);
+        //}
 
-        // PUT: api/APIExercises/5
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutExercise(int id, [FromBody] Exercise exercise)
-        {
-            if (id != exercise.ExerciseId)
-            {
-                return BadRequest("Exercise ID mismatch.");
-            }
+        //// PUT: api/APIExercises/5
+        //[HttpPut("{id}")]
+        //public async Task<IActionResult> PutExercise(int id, [FromBody] Exercise exercise)
+        //{
+        //    if (id != exercise.ExerciseId)
+        //    {
+        //        return BadRequest("Exercise ID mismatch.");
+        //    }
 
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
+        //    if (!ModelState.IsValid)
+        //    {
+        //        return BadRequest(ModelState);
+        //    }
 
-            await _repository.UpdateAsync(exercise);
-            return NoContent();
-        }
+        //    await _repository.UpdateAsync(exercise);
+        //    return NoContent();
+        //}
 
-        // DELETE: api/APIExercises/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteExercise(int id)
-        {
-            var exercise = await _repository.GetByIdAsync(id);
-            if (exercise == null)
-            {
-                return NotFound();
-            }
+        //// DELETE: api/APIExercises/5
+        //[HttpDelete("{id}")]
+        //public async Task<IActionResult> DeleteExercise(int id)
+        //{
+        //    var exercise = await _repository.GetByIdAsync(id);
+        //    if (exercise == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            await _repository.DeleteAsync(id);
-            return NoContent();
-        }
+        //    await _repository.DeleteAsync(id);
+        //    return NoContent();
+        //}
         [HttpGet("getQuestionListByExerciseId/{exerciseId}")]
         public async Task<ActionResult<IEnumerable<Question>>> GetQuestionsByExercise(int exerciseId)
         {

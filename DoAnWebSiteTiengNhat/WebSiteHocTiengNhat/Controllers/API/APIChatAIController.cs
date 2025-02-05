@@ -1,14 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System.Text;
 
 [ApiController]
 [Route("api/[controller]")]
 public class ChatController : ControllerBase
 {
-    private readonly string _geminiApiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent";
-    private readonly string _apiKey = "AIzaSyDkh-E-q9D9RVA0mzxtPc35WTY9JjxyeoI";
-
+    private readonly string _ollamaApiUrl = "http://localhost:11434/api/chat";
     private readonly HttpClient _httpClient;
 
     public ChatController(HttpClient httpClient)
@@ -24,57 +23,66 @@ public class ChatController : ControllerBase
             return BadRequest("Question cannot be empty.");
         }
 
-        // Tạo payload JSON đúng định dạng API yêu cầu
+        // Tạo payload theo cấu trúc yêu cầu của API
         var requestBody = new
         {
-            contents = new[]
+            model = "llama3.2:3b", // Tên mô hình
+            messages = new[]
             {
-            new
-            {
-                parts = new[]
-                {
-                    new { text = "Đóng vai bạn là một giảng viên dạy tiếng nhật tên là Manabihub dễ thương, hài hước và chỉ trả lời những câu hỏi liên quan đến tiếng nhật." +
-                    "Câu trả lời phải có tâm huyết. Trả lời ngắn gọn không lòng vòng.Nếu đã chào hỏi giới thiệu rồi thì ko cần trả lời lại. bỏ các biểu cảm trong ngoặc đơn" },
-                    new { text = userQuestion }
-                }
+                new { role = "user", content = userQuestion }
             }
-        }
         };
 
         var jsonContent = JsonConvert.SerializeObject(requestBody);
 
-        // API Key được truyền qua query string
-        var apiUrlWithKey = $"{_geminiApiUrl}?key={_apiKey}";
-
-        var requestMessage = new HttpRequestMessage(HttpMethod.Post, apiUrlWithKey)
+        var requestMessage = new HttpRequestMessage(HttpMethod.Post, _ollamaApiUrl)
         {
             Content = new StringContent(jsonContent, Encoding.UTF8, "application/json")
         };
 
-        // Gửi yêu cầu tới API Gemini
-        var response = await _httpClient.SendAsync(requestMessage);
-
-        if (response.IsSuccessStatusCode)
+        try
         {
-            var responseData = await response.Content.ReadAsStringAsync();
+            var response = await _httpClient.SendAsync(requestMessage, HttpCompletionOption.ResponseHeadersRead);
 
-            // Parse JSON trực tiếp bằng JObject
-            var jsonObject = JsonConvert.DeserializeObject<dynamic>(responseData);
-
-            // Trích xuất "text" từ phản hồi JSON
-            var text = jsonObject?["candidates"]?[0]?["content"]?["parts"]?[0]?["text"]?.ToString();
-
-            if (string.IsNullOrWhiteSpace(text))
+            if (!response.IsSuccessStatusCode)
             {
-                return Ok("Không nhận được nội dung từ AI.");
+                var errorContent = await response.Content.ReadAsStringAsync();
+                return StatusCode((int)response.StatusCode, $"API Error: {errorContent}");
             }
 
-            return Ok(text);
+            var responseStream = await response.Content.ReadAsStreamAsync();
+
+            using (var streamReader = new StreamReader(responseStream))
+            {
+                string line;
+                var fullContent = new StringBuilder();
+
+                // Đọc từng dòng JSON từ stream
+                while ((line = await streamReader.ReadLineAsync()) != null)
+                {
+                    try
+                    {
+                        var jsonObject = JsonConvert.DeserializeObject<JObject>(line);
+                        var content = jsonObject?["message"]?["content"]?.ToString();
+
+                        if (!string.IsNullOrWhiteSpace(content))
+                        {
+                            fullContent.Append(content);
+                        }
+                    }
+                    catch (JsonReaderException)
+                    {
+                        // Nếu dòng không phải JSON hợp lệ, bỏ qua
+                        continue;
+                    }
+                }
+
+                return Ok(fullContent.ToString());
+            }
         }
-
-
-        // Xử lý lỗi trả về từ API
-        return StatusCode((int)response.StatusCode, await response.Content.ReadAsStringAsync());
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"Lỗi xảy ra khi gọi API: {ex.Message}");
+        }
     }
-
 }

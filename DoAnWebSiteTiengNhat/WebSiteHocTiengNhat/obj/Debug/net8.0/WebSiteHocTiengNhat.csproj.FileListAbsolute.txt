@@ -1003,7 +1003,6 @@ D:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\bin\Debug\net8.0\System.Reflection.M
 D:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\bin\Debug\net8.0\System.Runtime.Caching.dll
 D:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 D:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\bin\Debug\net8.0\System.Security.Permissions.dll
-D:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\bin\Debug\net8.0\System.Text.Json.dll
 D:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\bin\Debug\net8.0\System.Windows.Extensions.dll
 D:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\bin\Debug\net8.0\af\Humanizer.resources.dll
 D:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\bin\Debug\net8.0\ar\Humanizer.resources.dll
@@ -1510,3 +1509,10 @@ E:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\obj\Debug\net8.0\ref\WebSiteHocTieng
 E:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\bin\Debug\net8.0\RestSharp.dll
 E:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 E:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\bin\Debug\net8.0\WebSiteHocTiengNhat.staticwebassets.endpoints.json
+D:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\bin\Debug\net8.0\RestSharp.dll
+D:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\obj\Debug\net8.0\staticwebassets\msbuild.WebSiteHocTiengNhat.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j4d61OPZIVY=",
+  "dgSpecHash": "ugJI66vFFGM=",
   "success": true,
-  "projectFilePath": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj",
+  "projectFilePath": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\letho\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\letho\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

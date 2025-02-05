@@ -21,32 +21,6 @@
   },
   {
     "ContainingType": "WebSiteHocTiengNhat.Controllers.APICategoriesController",
-    "Method": "PostCategory",
-    "RelativePath": "api/APICategories",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "category",
-        "Type": "WebSiteHocTiengNhat.Models.Category",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "WebSiteHocTiengNhat.Models.Category",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "WebSiteHocTiengNhat.Controllers.APICategoriesController",
     "Method": "GetCategory",
     "RelativePath": "api/APICategories/{id}",
     "HttpMethod": "GET",
@@ -72,31 +46,30 @@
     ]
   },
   {
-    "ContainingType": "WebSiteHocTiengNhat.Controllers.APICategoriesController",
-    "Method": "PutCategory",
-    "RelativePath": "api/APICategories/{id}",
-    "HttpMethod": "PUT",
+    "ContainingType": "WebSiteHocTiengNhat.Controllers.API.APICategoryQuestionsController",
+    "Method": "getCategories",
+    "RelativePath": "api/APICategoryQuestions",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
+    "Parameters": [],
+    "ReturnTypes": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "category",
-        "Type": "WebSiteHocTiengNhat.Models.Category",
-        "IsRequired": true
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebSiteHocTiengNhat.Models.CategoryQuestion, WebSiteHocTiengNhat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
       }
-    ],
-    "ReturnTypes": []
+    ]
   },
   {
-    "ContainingType": "WebSiteHocTiengNhat.Controllers.APICategoriesController",
-    "Method": "DeleteCategory",
-    "RelativePath": "api/APICategories/{id}",
-    "HttpMethod": "DELETE",
+    "ContainingType": "WebSiteHocTiengNhat.Controllers.API.APICategoryQuestionsController",
+    "Method": "getQuestionByQuestionCategoryId",
+    "RelativePath": "api/APICategoryQuestions/getQuestionByCategoryQuestionId/{id}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -106,7 +79,17 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "WebSiteHocTiengNhat.Models.Category",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExercisesController",
@@ -130,60 +113,8 @@
   },
   {
     "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExercisesController",
-    "Method": "PostExercise",
-    "RelativePath": "api/APIExercises",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "exercise",
-        "Type": "WebSiteHocTiengNhat.Models.Exercise",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "WebSiteHocTiengNhat.Models.Exercise",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExercisesController",
-    "Method": "GetQuestionsByExercise",
-    "RelativePath": "api/APIExercises/{exerciseId}/questions",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "exerciseId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebSiteHocTiengNhat.Models.Question, WebSiteHocTiengNhat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExercisesController",
     "Method": "SubmitAnswers",
-    "RelativePath": "api/APIExercises/{exerciseId}/submit",
+    "RelativePath": "api/APIExercises/{exerciseId}/submitlistquestion",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -192,11 +123,6 @@
         "Name": "exerciseId",
         "Type": "System.Int32",
         "IsRequired": true
-      },
-      {
-        "Name": "userId",
-        "Type": "System.String",
-        "IsRequired": false
       },
       {
         "Name": "submissions",
@@ -244,74 +170,6 @@
   },
   {
     "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExercisesController",
-    "Method": "PutExercise",
-    "RelativePath": "api/APIExercises/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "exercise",
-        "Type": "WebSiteHocTiengNhat.Models.Exercise",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExercisesController",
-    "Method": "DeleteExercise",
-    "RelativePath": "api/APIExercises/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExercisesController",
-    "Method": "GetExerciseByCourseIdAndCategoryId",
-    "RelativePath": "api/APIExercises/course/{courseId}/category/{categoryId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "courseId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "categoryId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebSiteHocTiengNhat.Models.Exercise, WebSiteHocTiengNhat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExercisesController",
     "Method": "GetExerciseByCourseId",
     "RelativePath": "api/APIExercises/GetExerciseByCourse/{courseId}",
     "HttpMethod": "GET",
@@ -335,6 +193,48 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExercisesController",
+    "Method": "GetQuestionsByExercise",
+    "RelativePath": "api/APIExercises/getQuestionListByExerciseId/{exerciseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "exerciseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebSiteHocTiengNhat.Models.Question, WebSiteHocTiengNhat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChatController",
+    "Method": "SendMessage",
+    "RelativePath": "api/Chat/sendMessage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userQuestion",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "CommentsController",
@@ -369,22 +269,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "CommentsController",
-    "Method": "DeleteComment",
-    "RelativePath": "api/Comments/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "WebSiteHocTiengNhat.Controllers.CoursesController",
     "Method": "GetCourses",
     "RelativePath": "api/Courses",
@@ -395,67 +279,6 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.IEnumerable\u00601[[WebSiteHocTiengNhat.Models.Course, WebSiteHocTiengNhat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "WebSiteHocTiengNhat.Controllers.CoursesController",
-    "Method": "PostCourse",
-    "RelativePath": "api/Courses",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "CourseId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "CourseName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Price",
-        "Type": "System.Decimal",
-        "IsRequired": false
-      },
-      {
-        "Name": "Content",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Status",
-        "Type": "System.Boolean",
-        "IsRequired": false
-      },
-      {
-        "Name": "Image",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "quantity",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "image",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "WebSiteHocTiengNhat.Models.Course",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -493,78 +316,6 @@
   },
   {
     "ContainingType": "WebSiteHocTiengNhat.Controllers.CoursesController",
-    "Method": "PutCourse",
-    "RelativePath": "api/Courses/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "CourseId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "CourseName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Price",
-        "Type": "System.Decimal",
-        "IsRequired": false
-      },
-      {
-        "Name": "Content",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Status",
-        "Type": "System.Boolean",
-        "IsRequired": false
-      },
-      {
-        "Name": "Image",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "quantity",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "image",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebSiteHocTiengNhat.Controllers.CoursesController",
-    "Method": "DeleteCourse",
-    "RelativePath": "api/Courses/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebSiteHocTiengNhat.Controllers.CoursesController",
     "Method": "GetCourseDetail",
     "RelativePath": "api/Courses/details/{id}",
     "HttpMethod": "GET",
@@ -591,62 +342,9 @@
   },
   {
     "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.FlashCardsApiController",
-    "Method": "CreateFlashCard",
-    "RelativePath": "api/FlashCardsApi",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "flashCard",
-        "Type": "WebSiteHocTiengNhat.Models.FlashCard",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.FlashCardsApiController",
     "Method": "GetFlashCardById",
     "RelativePath": "api/FlashCardsApi/{id}",
     "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.FlashCardsApiController",
-    "Method": "UpdateFlashCard",
-    "RelativePath": "api/FlashCardsApi/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "flashCard",
-        "Type": "WebSiteHocTiengNhat.Models.FlashCard",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.FlashCardsApiController",
-    "Method": "DeleteFlashCard",
-    "RelativePath": "api/FlashCardsApi/{id}",
-    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -692,22 +390,6 @@
   },
   {
     "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.LessonsApiController",
-    "Method": "CreateLesson",
-    "RelativePath": "api/LessonsApi",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "lesson",
-        "Type": "WebSiteHocTiengNhat.Models.Lesson",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.LessonsApiController",
     "Method": "GetLessonById",
     "RelativePath": "api/LessonsApi/{id}",
     "HttpMethod": "GET",
@@ -718,64 +400,6 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.LessonsApiController",
-    "Method": "UpdateLesson",
-    "RelativePath": "api/LessonsApi/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "lesson",
-        "Type": "WebSiteHocTiengNhat.Models.Lesson",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.LessonsApiController",
-    "Method": "DeleteLesson",
-    "RelativePath": "api/LessonsApi/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.LessonsApiController",
-    "Method": "GetLessons",
-    "RelativePath": "api/LessonsApi/course/{courseId}/lessons",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "courseId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "categoryId",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -797,9 +421,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.UserCoursesController",
-    "Method": "CheckUserInCourse",
-    "RelativePath": "api/UserCourses/check-user-in-course/{courseId}/{userId}",
+    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.LessonsApiController",
+    "Method": "GetLessons",
+    "RelativePath": "api/LessonsApi/GetLessonByCourseAndCategory/{courseId}/{categoryId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -810,77 +434,29 @@
         "IsRequired": true
       },
       {
-        "Name": "userId",
-        "Type": "System.String",
+        "Name": "categoryId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.UserCoursesController",
-    "Method": "GetScoreTable",
-    "RelativePath": "api/UserCourses/get_score_table/{userId}",
+    "ContainingType": "TranslationController",
+    "Method": "Translate",
+    "RelativePath": "api/Translation/translate/{text}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userId",
+        "Name": "text",
         "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.UserCoursesController",
-    "Method": "GetCoursesByUserId",
-    "RelativePath": "api/UserCourses/get-courses-by-user/{userId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "userId",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.UserCoursesController",
-    "Method": "GetUserInCourse",
-    "RelativePath": "api/UserCourses/get-user-in-course/{courseId}/{userId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "courseId",
-        "Type": "System.Int32",
-        "IsRequired": true
+        "IsRequired": false
       },
       {
-        "Name": "userId",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.UserCoursesController",
-    "Method": "GetUsersByCourse",
-    "RelativePath": "api/UserCourses/get-users-by-course/{courseId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "courseId",
-        "Type": "System.Int32",
+        "Name": "text",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -937,5 +513,244 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExercisesController",
+    "Method": "Explain",
+    "RelativePath": "explain",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.ExercisesController",
+    "Method": "GenerateExercises",
+    "RelativePath": "generate-exercise",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ExerciseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ExerciseName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category.CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category.CategoryName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Content",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CourseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.CourseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.CourseName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Content",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Status",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Image",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.quantity",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsExam",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.LessonsController",
+    "Method": "GenerateFlashCards",
+    "RelativePath": "generate-flashcards",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "LessonId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "LessonName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Link",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category.CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category.CategoryName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Content",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CourseId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.CourseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.CourseName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Content",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Status",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.Image",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Course.quantity",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.LessonsApiController",
+    "Method": "GetExplain",
+    "RelativePath": "GetExplain",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "question",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "lessonid",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExercisesController",
+    "Method": "SubmitAnswerForOneQuestion",
+    "RelativePath": "submitquestion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userAnswer",
+        "Type": "WebSiteHocTiengNhat.Repository.UserAnswer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebSiteHocTiengNhat.Repository.Reponsive",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]
