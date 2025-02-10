@@ -6,6 +6,9 @@ using WebSiteHocTiengNhat.Repositories;
 using WebSiteHocTiengNhat.Repository;
 using System.Text.Json;
 using Microsoft.Extensions.Caching.Memory;
+using WebSiteHocTiengNhat.Data;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using Microsoft.AspNetCore.Identity;
 
 //using static WebSiteHocTiengNhat.Controllers.APIExercisesController.Reponsive;
 namespace WebSiteHocTiengNhat.Controllers
@@ -24,9 +27,14 @@ namespace WebSiteHocTiengNhat.Controllers
         private readonly IUserCourseRepository _userCourseRepository;
         private readonly IAI_Repository _aiRepository;
         private readonly IMemoryCache _memoryCache;
+        private readonly ApplicationDbContext _dbContext;
+        private readonly UserManager<IdentityUser> _userManager;
         public APIExercisesController(IExercisesRepository repository, IQuestionRepository questionRepository, IScoreTableRepository scoreTableRepository,
-            IExercisesRepository exercisesRepository, IUserCourseRepository userCourseRepository, IAI_Repository aiRepository,IMemoryCache memoryCache)
+            IExercisesRepository exercisesRepository, IUserCourseRepository userCourseRepository, IAI_Repository aiRepository,IMemoryCache memoryCache,ApplicationDbContext dbContext,
+            UserManager<IdentityUser> userManager)
         {
+            _userManager = userManager;
+            _dbContext= dbContext;
             _repository = repository;
             _questionRepository = questionRepository;
             _scoreTableRepository = scoreTableRepository;
@@ -55,7 +63,17 @@ namespace WebSiteHocTiengNhat.Controllers
 
             return Ok(exercise);
         }
-
+        [HttpGet("getListExam/{courseId}")]
+        public async Task<ActionResult<IEnumerable<Exercise>>> getExam(int courseId)
+        {
+            var exercise= await _repository.GetAllByCourseIdAsync(courseId);
+            exercise = exercise.Where(n=>n.IsExam==true).ToList();
+            if (exercise == null)
+            {
+                return NotFound();
+            }
+            return Ok(exercise);
+        }
         [HttpGet("GetExerciseByCourse/{courseId}")]
         public async Task<ActionResult<Exercise>> GetExerciseByCourseId(int courseId)
         {
@@ -156,10 +174,71 @@ namespace WebSiteHocTiengNhat.Controllers
                 return NotFound(); 
             }
         }
+        [HttpPost("/submitExam/{excerciseId}")]
+        public async Task<ActionResult<Certificate>> SubmitAnswerForExamQuestion(int excerciseId, [FromBody] List<AnswerSubmission> submissions)
+        {
+            var ex = await _exercisesRepository.GetByIdAsync(excerciseId);
 
-
-
-
+            int vcb = 0, red = 0, lis = 0;
+            var question = await _questionRepository.GetByExerciseId(excerciseId);
+            int countred = question.Count(n => n.CategoryQuestionId == 1);
+            int countlis = question.Count(n => n.CategoryQuestionId == 2);
+            int countvcb = question.Count(n => n.CategoryQuestionId == 3);
+            if (question != null)
+            {
+                foreach(var qt in question)
+                {
+                    var sb = submissions.FirstOrDefault(n=>n.QuestionId==qt.QuestionId);
+                    // trường hợp đáp án đúng
+                    if (qt.CorrectAnswer == sb.SelectedAnswer)
+                    {
+                        if (qt.CategoryQuestionId == 1)
+                        {
+                            red++;
+                        }
+                        else if(qt.CategoryQuestionId == 2)
+                        {
+                            lis++;
+                        }
+                        else if(qt.CategoryQuestionId == 3)
+                        {
+                            vcb++;
+                        }
+                        else { 
+                            return BadRequest(new { Message = "Không nằm trong categoryquestionid"});
+                        }
+                    }
+                }
+                int score1 = (vcb / countvcb) * 10,score2 = (red / countred) * 10,score3 = (lis / countlis) *10;
+                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value?? User.FindFirst("sub")?.Value;
+                if (userId != null) { 
+                    var user= await _userManager.FindByNameAsync(userId);
+                    var certificate = new Certificate
+                    {
+                        Score1 = score1,
+                        Score2 = score2,
+                        Score3 = score3,
+                        TotelScore = score1 + score2 + score3,
+                        CreatedBy = "App Học Tiếng Nhật ManabiHub",
+                        CreatedDay = DateTime.Now,
+                        UserId = user.Id,
+                        User= user,
+                        CertificateName=ex.ExerciseName
+                    };
+                    await _dbContext.Certificates.AddAsync(certificate);
+                    _dbContext.SaveChanges();
+                    return Ok(certificate);
+                }
+                else
+                {
+                    return BadRequest(new { Message = "Không tìm thấy user" });
+                }
+            }
+            else
+            {
+                return BadRequest(new { Message = "Không tìm thấy question"});
+            }
+        }
 
 
 

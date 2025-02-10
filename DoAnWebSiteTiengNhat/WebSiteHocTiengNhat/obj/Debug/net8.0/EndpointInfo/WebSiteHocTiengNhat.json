@@ -239,6 +239,55 @@
         }
       }
     },
+    "/api/APIExercises/getListExam/{courseId}": {
+      "get": {
+        "tags": [
+          "APIExercises"
+        ],
+        "parameters": [
+          {
+            "name": "courseId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Exercise"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Exercise"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Exercise"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/APIExercises/GetExerciseByCourse/{courseId}": {
       "get": {
         "tags": [
@@ -369,6 +418,74 @@
               "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Reponsive"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/submitExam/{excerciseId}": {
+      "post": {
+        "tags": [
+          "APIExercises"
+        ],
+        "parameters": [
+          {
+            "name": "excerciseId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/AnswerSubmission"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/AnswerSubmission"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/AnswerSubmission"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Certificate"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Certificate"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Certificate"
                 }
               }
             }
@@ -1135,7 +1252,7 @@
         }
       }
     },
-    "/api/Translation/translate/{text}": {
+    "/api/Translation/translate": {
       "get": {
         "tags": [
           "Translation"
@@ -1144,14 +1261,6 @@
           {
             "name": "text",
             "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "text",
-            "in": "path",
-            "required": true,
             "schema": {
               "type": "string"
             }
@@ -1238,6 +1347,18 @@
         }
       }
     },
+    "/api/Users/userCertificateList": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Users/get-user-info": {
       "get": {
         "tags": [
@@ -1313,6 +1434,61 @@
           },
           "isWriting": {
             "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Certificate": {
+        "required": [
+          "certificateName",
+          "createdDay",
+          "score1",
+          "score2",
+          "score3",
+          "score4",
+          "totelScore"
+        ],
+        "type": "object",
+        "properties": {
+          "certificateId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "certificateName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "totelScore": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "score1": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "score2": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "score3": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "score4": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "createdDay": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdBy": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1586,6 +1762,10 @@
             "nullable": true
           },
           "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "phone": {
             "type": "string",
             "nullable": true
           }

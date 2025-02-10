@@ -196,6 +196,32 @@
   },
   {
     "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExercisesController",
+    "Method": "getExam",
+    "RelativePath": "api/APIExercises/getListExam/{courseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebSiteHocTiengNhat.Models.Exercise, WebSiteHocTiengNhat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExercisesController",
     "Method": "GetQuestionsByExercise",
     "RelativePath": "api/APIExercises/getQuestionListByExerciseId/{exerciseId}",
     "HttpMethod": "GET",
@@ -444,7 +470,7 @@
   {
     "ContainingType": "TranslationController",
     "Method": "Translate",
-    "RelativePath": "api/Translation/translate/{text}",
+    "RelativePath": "api/Translation/translate",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -453,11 +479,6 @@
         "Name": "text",
         "Type": "System.String",
         "IsRequired": false
-      },
-      {
-        "Name": "text",
-        "Type": "",
-        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -502,6 +523,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsersController",
+    "Method": "ListCertificate",
+    "RelativePath": "api/Users/userCertificateList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -726,6 +757,37 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExercisesController",
+    "Method": "SubmitAnswerForExamQuestion",
+    "RelativePath": "submitExam/{excerciseId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "excerciseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "submissions",
+        "Type": "System.Collections.Generic.List\u00601[[WebSiteHocTiengNhat.Controllers.AnswerSubmission, WebSiteHocTiengNhat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebSiteHocTiengNhat.Models.Certificate",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExercisesController",

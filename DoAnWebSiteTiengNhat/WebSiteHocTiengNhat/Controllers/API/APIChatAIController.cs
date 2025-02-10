@@ -26,10 +26,11 @@ public class ChatController : ControllerBase
         // Tạo payload theo cấu trúc yêu cầu của API
         var requestBody = new
         {
-            model = "llama3.2:3b", // Tên mô hình
+            model = "llama3.2:1b", // Tên mô hình
             messages = new[]
             {
-                new { role = "user", content = userQuestion }
+                new { role = "user", content = "Đóng vai bạn là một giảng viên dạy tiếng nhật thân thiện tên là Manabihub, chỉ trả lời các câu hỏi ngắn gọn liên quan đến tiếng nhật," +
+                "nếu đã giới thiệu rồi thì không cần giới thiệu lại" + userQuestion }
             }
         };
 

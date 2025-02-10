@@ -13,7 +13,7 @@ public class TranslationController : ControllerBase
         _translationService = translationService;
     }
 
-    [HttpGet("translate/{text}")]
+    [HttpGet("translate")]
     public async Task<IActionResult> Translate([FromQuery] string text)
     {
         if (string.IsNullOrEmpty(text))

@@ -1,10 +1,13 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using DocumentFormat.OpenXml.Wordprocessing;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using WebSiteHocTiengNhat.Data;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -14,13 +17,15 @@ public class UsersController : ControllerBase
     private readonly SignInManager<IdentityUser> _signInManager;
     private readonly RoleManager<IdentityRole> _roleManager;
     private readonly IConfiguration _configuration;
-
-    public UsersController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, IConfiguration configuration, RoleManager<IdentityRole> roleManager)
+    private readonly ApplicationDbContext _dbcontext;
+    public UsersController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, IConfiguration configuration, RoleManager<IdentityRole> roleManager,
+        ApplicationDbContext dbContext)
     {
         _userManager = userManager;
         _signInManager = signInManager;
         _configuration = configuration;
         _roleManager= roleManager;
+        _dbcontext= dbContext;
     }
 
     // Đăng ký
@@ -31,7 +36,9 @@ public class UsersController : ControllerBase
         var user = new IdentityUser
         {
             UserName = register.Username,
-            Email = register.Email
+            Email = register.Email,
+            PhoneNumber= register.Phone,
+            
         };
 
         // Tạo người dùng mới với mật khẩu
@@ -100,6 +107,25 @@ public class UsersController : ControllerBase
         }
         return Ok(userList);
     }
+
+    [HttpGet("userCertificateList")]
+    public async Task<IActionResult> ListCertificate()
+    {
+        // Lấy thông tin user
+        var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? User.FindFirst("sub")?.Value;
+        if (string.IsNullOrEmpty(userId))
+        {
+            return Unauthorized("Không được phân quyền.");
+        }
+        var user = await _userManager.FindByNameAsync(userId);
+        if (user == null)
+        {
+            return NotFound("Không tìm thấy user");
+        }
+        var list = await _dbcontext.Certificates.Where(n => n.UserId == user.Id).ToListAsync();
+        return Ok(list);
+    }
+
     // Lấy thông tin người dùng từ token
     [HttpGet("get-user-info")]
     [Authorize]
@@ -205,6 +231,7 @@ public class UsersController : ControllerBase
         public string Username { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
+        public string Phone {  get; set; }
     }
 
 }
