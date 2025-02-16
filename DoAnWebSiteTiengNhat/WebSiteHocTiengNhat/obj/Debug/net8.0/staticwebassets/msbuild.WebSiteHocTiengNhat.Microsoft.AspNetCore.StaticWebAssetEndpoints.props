@@ -912,6 +912,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"891924"},{"Name":"Content-Type","Value":"audio/mpeg"},{"Name":"ETag","Value":"\u0022FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c=\u0022"},{"Name":"Last-Modified","Value":"Thu, 23 Jan 2025 09:30:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WebSiteHocTiengNhat/audio/804a1dbb-496f-4b30-ba64-8e248252913d.ia4jk966yg.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\804a1dbb-496f-4b30-ba64-8e248252913d.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ia4jk966yg"},{"Name":"integrity","Value":"sha256-hiuArJunUPuY82PLNg1Xfaxn6zfaz2J07/b0zuEAGOg="},{"Name":"label","Value":"_content/WebSiteHocTiengNhat/audio/804a1dbb-496f-4b30-ba64-8e248252913d.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"31433"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022hiuArJunUPuY82PLNg1Xfaxn6zfaz2J07/b0zuEAGOg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Feb 2025 13:45:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WebSiteHocTiengNhat/audio/804a1dbb-496f-4b30-ba64-8e248252913d.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\804a1dbb-496f-4b30-ba64-8e248252913d.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hiuArJunUPuY82PLNg1Xfaxn6zfaz2J07/b0zuEAGOg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"31433"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022hiuArJunUPuY82PLNg1Xfaxn6zfaz2J07/b0zuEAGOg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Feb 2025 13:45:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WebSiteHocTiengNhat/audio/cbf31dcc-b57d-49d5-bb96-0c0925cceba6.lwkdc48gdl.mp3">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\cbf31dcc-b57d-49d5-bb96-0c0925cceba6.mp3'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

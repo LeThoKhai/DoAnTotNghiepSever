@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oHuo9nuzOpHuOyOKMENOIQB+gkHnhkgyZAFAStZQgN4=",
+  "Hash": "g8fmGYPgnXElyVXVWs+TtHRnaEiOPHRskLF1ZTt/GhE=",
   "Source": "WebSiteHocTiengNhat",
   "BasePath": "_content/WebSiteHocTiengNhat",
   "Mode": "Default",
@@ -2913,6 +2913,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\audio\\5e309d5a-ecdc-4539-95c0-66a66d172b9c.mp3"
+    },
+    {
+      "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\804a1dbb-496f-4b30-ba64-8e248252913d.png",
+      "SourceId": "WebSiteHocTiengNhat",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\",
+      "BasePath": "_content/WebSiteHocTiengNhat",
+      "RelativePath": "audio/804a1dbb-496f-4b30-ba64-8e248252913d#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ia4jk966yg",
+      "Integrity": "hiuArJunUPuY82PLNg1Xfaxn6zfaz2J07/b0zuEAGOg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\audio\\804a1dbb-496f-4b30-ba64-8e248252913d.png"
     },
     {
       "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\cbf31dcc-b57d-49d5-bb96-0c0925cceba6.mp3",
@@ -16306,6 +16327,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c="
+        }
+      ]
+    },
+    {
+      "Route": "audio/804a1dbb-496f-4b30-ba64-8e248252913d.ia4jk966yg.png",
+      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\804a1dbb-496f-4b30-ba64-8e248252913d.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31433"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hiuArJunUPuY82PLNg1Xfaxn6zfaz2J07/b0zuEAGOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 13:45:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ia4jk966yg"
+        },
+        {
+          "Name": "label",
+          "Value": "audio/804a1dbb-496f-4b30-ba64-8e248252913d.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hiuArJunUPuY82PLNg1Xfaxn6zfaz2J07/b0zuEAGOg="
+        }
+      ]
+    },
+    {
+      "Route": "audio/804a1dbb-496f-4b30-ba64-8e248252913d.png",
+      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\804a1dbb-496f-4b30-ba64-8e248252913d.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31433"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hiuArJunUPuY82PLNg1Xfaxn6zfaz2J07/b0zuEAGOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 13:45:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hiuArJunUPuY82PLNg1Xfaxn6zfaz2J07/b0zuEAGOg="
         }
       ]
     },

@@ -53,6 +53,7 @@
         <label asp-for="CorrectAnswer"></label>
         <select asp-for="CorrectAnswer" asp-items="ViewBag.CorrectAnswer" class="form-control"></select>
     </div>
+
     <div class="form-group">
         <label asp-for="CorrectAnswerString">Correct Answer String</label>
         <input type="text" asp-for="CorrectAnswerString" class="form-control" value="Empty" />
@@ -64,6 +65,7 @@
         <select asp-for="Level" asp-items="ViewBag.Level" class="form-control"></select>
     </div>
 
-
+    <div asp-validation-summary="All" class="text-danger"></div>
     <button type="submit" class="btn btn-primary">Create</button>
+
 </form>

@@ -197,22 +197,25 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
             var lesson = new Lesson { CourseId = courseId };
             var categories = await _categoryRepository.GetAllAsync();
             ViewBag.Categories = new SelectList(categories, "CategoryId", "CategoryName");
+            ViewBag.CourseId = courseId;
             return View(lesson);
         }
 
         [HttpPost]
         public async Task<IActionResult> Create(Lesson lesson)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid || string.IsNullOrEmpty(lesson.Link))
             {
-                await _lessonRepository.AddAsync(lesson);
-                await GenerateFlashCards(lesson); // Đợi tạo FlashCards hoàn tất
-                return RedirectToAction(nameof(LessonList), new { courseId = lesson.CourseId });
+                ModelState.AddModelError("", "Vui lòng nhập đầy đủ thông tin.");
+                var categories = await _categoryRepository.GetAllAsync();
+                ViewBag.Categories = new SelectList(categories, "CategoryId", "CategoryName");
+                lesson.CourseId=ViewBag.CourseId;
+                return View(lesson);
             }
-
+            await _lessonRepository.AddAsync(lesson);
             return RedirectToAction(nameof(LessonList), new { courseId = lesson.CourseId });
-
         }
+
 
         public async Task<IActionResult> Update(int id)
         {
