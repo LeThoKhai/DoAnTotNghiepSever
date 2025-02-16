@@ -3,12 +3,52 @@
   "WorkspaceRootPath": "D:\\DoAnWebSiteTiengNhat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\views\\lessons\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\views\\lessons\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\controllers\\lessonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\controllers\\lessonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\api\\apiexercisescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\apiexercisescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\api\\apilessonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\apilessonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\api\\apiuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\apiuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\api\\apiusercoursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\apiusercoursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\api\\apichataicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\apichataicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\api\\translationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\translationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\api\\apicoursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\apicoursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\api\\apicategoryquestionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\apicategoryquestionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\views\\lessons\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\areas\\admin\\views\\lessons\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\areas\\admin\\views\\lessons\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -39,28 +79,8 @@
       "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\repository\\efflashcardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\api\\apichataicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\apichataicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\api\\apiuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\apiuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\api\\apiexercisescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\apiexercisescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\models\\categoryquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\models\\categoryquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\api\\apiusercoursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\apiusercoursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\api\\apilessonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\apilessonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\models\\certificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,16 +91,8 @@
       "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\apicategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\api\\apicategoryquestionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\apicategoryquestionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\api\\apicommentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\apicommentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\api\\apicoursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\apicoursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\repository\\efquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -159,10 +171,6 @@
       "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\repository\\mymemorytranslationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\api\\translationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\translationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\repository\\iai_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\repository\\iai_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -181,10 +189,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\repository\\efcoursesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\repository\\efcoursesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doanwebsitetiengnhat\\websitehoctiengnhat\\models\\exercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -253,17 +257,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1256,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "APIExercisesController.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APIExercisesController.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\APIExercisesController.cs",
               "ToolTip": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APIExercisesController.cs",
               "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\APIExercisesController.cs",
-              "ViewState": "AgIAAL4AAAAAAAAAAAAqwNYAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAwNYAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-22T00:41:37.165Z",
               "IsPinned": true,
@@ -271,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "APIUsersController.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APIUsersController.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\APIUsersController.cs",
@@ -284,77 +292,132 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "APIChatAIController.cs",
+              "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APIChatAIController.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\APIChatAIController.cs",
+              "ToolTip": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APIChatAIController.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\APIChatAIController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T01:50:25.346Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
+              "Title": "APICoursesController.cs",
+              "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APICoursesController.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\APICoursesController.cs",
+              "ToolTip": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APICoursesController.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\APICoursesController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwJsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T01:55:30.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TranslationController.cs",
+              "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\TranslationController.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\TranslationController.cs",
+              "ToolTip": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\TranslationController.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\TranslationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T01:30:52.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Update.cshtml",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Lessons\\Update.cshtml",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Lessons\\Update.cshtml",
               "ToolTip": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Lessons\\Update.cshtml",
               "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Lessons\\Update.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T07:35:21.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T07:35:21.405Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Lessons\\Create.cshtml",
-              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Lessons\\Create.cshtml",
-              "ToolTip": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Lessons\\Create.cshtml",
-              "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Lessons\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T07:31:54.836Z",
+              "Title": "APILessonsController.cs",
+              "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APILessonsController.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\APILessonsController.cs",
+              "ToolTip": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APILessonsController.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\APILessonsController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowEEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T00:41:37.178Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "APIUserCoursesController.cs",
+              "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APIUserCoursesController.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\APIUserCoursesController.cs",
+              "ToolTip": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APIUserCoursesController.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\APIUserCoursesController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAJUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T01:48:15.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "LessonsController.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\LessonsController.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\LessonsController.cs",
               "ToolTip": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\LessonsController.cs",
               "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\LessonsController.cs",
-              "ViewState": "AgIAANUAAAAAAAAAAAAQwOYAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAALAAAAAAAAAAAAAAAMMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-22T07:10:43.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ILessonRepository.cs",
-              "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\ILessonRepository.cs",
-              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\ILessonRepository.cs",
-              "ToolTip": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\ILessonRepository.cs",
-              "RelativeToolTip": "WebSiteHocTiengNhat\\Repository\\ILessonRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T08:53:12.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "EFFlashCardRepository.cs",
-              "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFFlashCardRepository.cs",
-              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\EFFlashCardRepository.cs",
-              "ToolTip": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFFlashCardRepository.cs",
-              "RelativeToolTip": "WebSiteHocTiengNhat\\Repository\\EFFlashCardRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAsAAAAfAAAAAAAAAA==",
+              "Title": "APICategoryQuestionsController.cs",
+              "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APICategoryQuestionsController.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\APICategoryQuestionsController.cs",
+              "ToolTip": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APICategoryQuestionsController.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\APICategoryQuestionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T02:58:03.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-24T03:07:16.176Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T01:16:30.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T08:49:41.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "EFLessonRepository.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFLessonRepository.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\EFLessonRepository.cs",
@@ -367,7 +430,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 18,
+              "Title": "EFFlashCardRepository.cs",
+              "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFFlashCardRepository.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\EFFlashCardRepository.cs",
+              "ToolTip": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFFlashCardRepository.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Repository\\EFFlashCardRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T02:58:03.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ILessonRepository.cs",
+              "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\ILessonRepository.cs",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\ILessonRepository.cs",
+              "ToolTip": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\ILessonRepository.cs",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Repository\\ILessonRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T08:53:12.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Lessons\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Lessons\\Create.cshtml",
+              "ToolTip": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Lessons\\Create.cshtml",
+              "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Lessons\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-10T07:31:54.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "EFCategoryRepository.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFCategoryRepository.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\EFCategoryRepository.cs",
@@ -375,12 +474,11 @@
               "RelativeToolTip": "WebSiteHocTiengNhat\\Repository\\EFCategoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T03:51:26.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T03:51:26.371Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "FlashCardsController.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\FlashCardsController.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\FlashCardsController.cs",
@@ -388,12 +486,11 @@
               "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\FlashCardsController.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAqwFIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T07:10:42.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T07:10:42.217Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "APICategoriesController.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APICategoriesController.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\APICategoriesController.cs",
@@ -405,20 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "APIChatAIController.cs",
-              "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APIChatAIController.cs",
-              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\APIChatAIController.cs",
-              "ToolTip": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APIChatAIController.cs",
-              "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\APIChatAIController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwB8AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T01:50:25.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "APIFlashCardsController.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APIFlashCardsController.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\APIFlashCardsController.cs",
@@ -426,12 +510,11 @@
               "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\APIFlashCardsController.cs",
               "ViewState": "AgIAAF0AAAAAAAAAAAAAAHAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T01:47:04.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-24T01:47:04.213Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "CategoryQuestion.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\CategoryQuestion.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Models\\CategoryQuestion.cs",
@@ -443,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "Certificate.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\Certificate.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Models\\Certificate.cs",
@@ -455,43 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "APILessonsController.cs",
-              "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APILessonsController.cs",
-              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\APILessonsController.cs",
-              "ToolTip": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APILessonsController.cs",
-              "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\APILessonsController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowEEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T00:41:37.178Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "APIUserCoursesController.cs",
-              "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APIUserCoursesController.cs",
-              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\APIUserCoursesController.cs",
-              "ToolTip": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APIUserCoursesController.cs",
-              "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\APIUserCoursesController.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAAAJUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T01:48:15.78Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "APICategoryQuestionsController.cs",
-              "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APICategoryQuestionsController.cs",
-              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\APICategoryQuestionsController.cs",
-              "ToolTip": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APICategoryQuestionsController.cs",
-              "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\APICategoryQuestionsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T03:07:16.176Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "APICommentsController.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APICommentsController.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\APICommentsController.cs",
@@ -503,19 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "APICoursesController.cs",
-              "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APICoursesController.cs",
-              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\APICoursesController.cs",
-              "ToolTip": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\APICoursesController.cs",
-              "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\APICoursesController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwJsAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T01:55:30.186Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "EFAI_Repository.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFAI_Repository.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\EFAI_Repository.cs",
@@ -527,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "EFUserCourseRepository.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFUserCourseRepository.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\EFUserCourseRepository.cs",
@@ -539,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "EFScoreTableRepository.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFScoreTableRepository.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\EFScoreTableRepository.cs",
@@ -551,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Program.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Program.cs",
@@ -563,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "EFQuestionRepository.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFQuestionRepository.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\EFQuestionRepository.cs",
@@ -575,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "UsersController.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\UsersController.cs",
@@ -587,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "UserCourseController.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\UserCourseController.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\UserCourseController.cs",
@@ -599,7 +634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "ScoreTable.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\ScoreTable.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Models\\ScoreTable.cs",
@@ -611,7 +646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "UserCourse.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\UserCourse.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Models\\UserCourse.cs",
@@ -623,7 +658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "Comment.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\Comment.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Models\\Comment.cs",
@@ -635,7 +670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "QuestionType.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\QuestionType.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Models\\QuestionType.cs",
@@ -647,7 +682,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "Question.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\Question.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Models\\Question.cs",
@@ -659,7 +694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "Post.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\Post.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Models\\Post.cs",
@@ -671,7 +706,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "ExercisesController.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\ExercisesController.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\ExercisesController.cs",
@@ -683,7 +718,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\CategoriesController.cs",
@@ -695,7 +730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "IScoreTableRepository.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\IScoreTableRepository.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\IScoreTableRepository.cs",
@@ -707,7 +742,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "CoursesController.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\CoursesController.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\CoursesController.cs",
@@ -719,7 +754,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "QuestionsController.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\QuestionsController.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\QuestionsController.cs",
@@ -731,7 +766,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "MyMemoryTranslationService.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\MyMemoryTranslationService.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\MyMemoryTranslationService.cs",
@@ -743,19 +778,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "TranslationController.cs",
-              "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\TranslationController.cs",
-              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\TranslationController.cs",
-              "ToolTip": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\API\\TranslationController.cs",
-              "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\TranslationController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T01:30:52.741Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "IAI_Repository.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\IAI_Repository.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\IAI_Repository.cs",
@@ -767,7 +790,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "EFCommentRepository.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFCommentRepository.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\EFCommentRepository.cs",
@@ -779,7 +802,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "ICategoryQuestionRepository.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\ICategoryQuestionRepository.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\ICategoryQuestionRepository.cs",
@@ -791,7 +814,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "EFCategoryQuestionRepository .cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFCategoryQuestionRepository .cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\EFCategoryQuestionRepository .cs",
@@ -803,7 +826,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "EFCoursesRepository.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\EFCoursesRepository.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\EFCoursesRepository.cs",
@@ -815,7 +838,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Exercises\\Create.cshtml",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Exercises\\Create.cshtml",
@@ -827,19 +850,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T01:16:30.797Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "Exercise.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\Exercise.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Models\\Exercise.cs",
@@ -851,7 +862,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "20250127020853_mydb.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Migrations\\20250127020853_mydb.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Migrations\\20250127020853_mydb.cs",
@@ -863,7 +874,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\appsettings.json",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\appsettings.json",
@@ -875,7 +886,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "IQuestionRepository.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\IQuestionRepository.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\IQuestionRepository.cs",
@@ -887,7 +898,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Questions\\Create.cshtml",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Questions\\Create.cshtml",
@@ -899,7 +910,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "CategoriesQuestionController.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\CategoriesQuestionController.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\CategoriesQuestionController.cs",
@@ -911,7 +922,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "Add.cshtml",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Courses\\Add.cshtml",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Courses\\Add.cshtml",
@@ -923,7 +934,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "IUserCourseRepository.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\IUserCourseRepository.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\IUserCourseRepository.cs",
@@ -935,7 +946,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\Category.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Models\\Category.cs",
@@ -947,7 +958,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Areas\\Admin\\Views\\CategoriesQuestion\\Create.cshtml",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\CategoriesQuestion\\Create.cshtml",
@@ -959,7 +970,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "bundleconfig.json",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\bundleconfig.json",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\bundleconfig.json",
@@ -971,7 +982,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "ICoursesRepository.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Repository\\ICoursesRepository.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Repository\\ICoursesRepository.cs",
@@ -983,7 +994,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Models\\ErrorViewModel.cs",
@@ -995,7 +1006,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "20250121092047_mydb.cs",
               "DocumentMoniker": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Migrations\\20250121092047_mydb.cs",
               "ToolTip": "E:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\Migrations\\20250121092047_mydb.cs",
