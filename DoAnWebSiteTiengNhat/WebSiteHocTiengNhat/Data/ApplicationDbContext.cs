@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Reflection.Emit;
 using WebSiteHocTiengNhat.Models;
+using WebSiteHocTiengNhat.Models3;
 
 namespace WebSiteHocTiengNhat.Data
 {
@@ -20,12 +21,17 @@ namespace WebSiteHocTiengNhat.Data
         public DbSet<UserCourse> UserCourses { get; set; }
         public DbSet<FlashCard> FlashCards { get; set; }
         public DbSet<Comment> Comments { get; set; }
-        public DbSet<ScoreTable> ScoreTables { get; set; }
         public DbSet<Post> Posts { get; set; }
         public DbSet<CategoryQuestion> CategoryQuestions { get; set; }
         public DbSet<Certificate> Certificates { get; set; }
-
         public DbSet<QuestionType> QuestionTypes { get; set; }
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+        public DbSet<Exam> Exams { get; set; }
+        public DbSet<ExamQuestion> ExamQuestions{ get; set; }
+        public DbSet<ListeningQuestion> ListeningQuestions{ get; set; }
+        public DbSet<ReadingQuestion> ReadingQuestions{ get; set; }
+        public DbSet<SpeakingQuestion> SpeakingQuestions { get; set; }
+        public DbSet<WritingQuestion> WritingQuestions{ get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder builder)
@@ -47,9 +53,7 @@ namespace WebSiteHocTiengNhat.Data
             builder.Entity<CategoryQuestion>().HasData(
             new CategoryQuestion {CategoryQuestionId=1, CategoryQuestionName= "Đọc hiểu", IsReading = true },
             new CategoryQuestion {CategoryQuestionId=2, CategoryQuestionName = "Nghe hiểu", IsListening = true },
-            new CategoryQuestion {CategoryQuestionId=3, CategoryQuestionName = "Ngữ pháp từ vựng", IsGrammarVocabulary = true },
-            new CategoryQuestion {CategoryQuestionId=4, CategoryQuestionName = "Luyện nói" , IsSpeacking = true },
-            new CategoryQuestion {CategoryQuestionId=5, CategoryQuestionName = "Luyện viết", IsWriting = true }
+            new CategoryQuestion {CategoryQuestionId=3, CategoryQuestionName = "Ngữ pháp từ vựng", IsGrammarVocabulary = true }
             );
             builder.Entity<Category>().HasData(
             new Category {CategoryId=1, CategoryName= "Ngữ pháp" },
@@ -63,25 +67,7 @@ namespace WebSiteHocTiengNhat.Data
 
             // Configure relationships and other settings if needed
 
-            builder.Entity<ScoreTable>()
-                .HasOne(s => s.Exercise)
-                .WithMany()
-                .HasForeignKey(s => s.ExerciseId)
-                .OnDelete(DeleteBehavior.Restrict); // Tránh xóa theo chuỗi
-
-            // Cấu hình khóa ngoại cho ScoreTable -> Category
-            builder.Entity<ScoreTable>()
-                .HasOne(s => s.Category)
-                .WithMany()
-                .HasForeignKey(s => s.CategoryId)
-                .OnDelete(DeleteBehavior.Restrict); // Tránh xóa theo chuỗi
-
-            // Cấu hình khóa ngoại cho ScoreTable -> User (AspNetUsers)
-            builder.Entity<ScoreTable>()
-                .HasOne(s => s.User)
-                .WithMany()
-                .HasForeignKey(s => s.UserId)
-                .OnDelete(DeleteBehavior.Restrict); // Tránh xóa theo chuỗi
+         
         }
     }
 }

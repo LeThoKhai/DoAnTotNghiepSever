@@ -21,18 +21,18 @@ namespace WebSiteHocTiengNhat.Controllers.API
             var categoryquestion= await _categoryQuestionRepository.GetAllAsync();
             return Ok(categoryquestion);
         }
-        [HttpGet("getQuestionByCategoryQuestionId/{id}")]
-        public async Task<ActionResult<Category>> getQuestionByQuestionCategoryId(int id)
-        {
-            var listquestion = await _categoryQuestionRepository.GetByCategoryQuestionId(id);
+        //[HttpGet("getQuestionByCategoryQuestionId/{id}")]
+        //public async Task<ActionResult<Category>> getQuestionByQuestionCategoryId(int id)
+        //{
+        //    var listquestion = await _categoryQuestionRepository.GetByCategoryQuestionId(id);
 
-            if (listquestion == null)
-            {
-                return NotFound();
-            }
+        //    if (listquestion == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            return Ok(listquestion);
-        }
+        //    return Ok(listquestion);
+        //}
 /*        [HttpGet()]
         //[HttpGet("getQuestionReading")]
         //public async Task<ActionResult<Category>> getQuestionReading()

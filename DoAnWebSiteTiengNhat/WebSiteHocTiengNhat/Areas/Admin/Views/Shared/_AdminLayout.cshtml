@@ -77,22 +77,37 @@
                     <nav>
                         <ul class="metismenu" id="menu">
                             <li class="active">
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-menu"></i><span>Manage course</span></a>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-menu"></i><span>Manage Course</span></a>
                                 <ul class="collapse">
                                     <li><a asp-area="Admin" asp-controller="Courses" asp-action="Index">Courses</a></li>
                                     <li><a asp-area="Admin" asp-controller="Categories" asp-action="Index">Categories</a></li> 
                                     <li><a asp-area="Admin" asp-controller="Lessons" asp-action="Index">Lessons</a></li>
                                     <li><a asp-area="Admin" asp-controller="Exercises" asp-action="Index">Exercises</a></li>
-                                    <li><a asp-area="Admin" asp-controller="CategoriesQuestion" asp-action="Index">Category Question</a></li>
+                                    @* <li><a asp-area="Admin" asp-controller="CategoriesQuestion" asp-action="Index">Category Question</a></li> *@
                                     <li><a asp-area="Admin" asp-controller="FlashCards" asp-action="Index">FlashCards</a></li>
 
+                                </ul>
+                            </li>
+                            <li class="active">
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-menu"></i><span>Manage Pratice Skill</span></a>
+                                <ul class="collapse">
+                                    <li><a asp-area="Admin" asp-controller="ListeningQuestion" asp-action="Index">Listening Question</a></li>
+                                    <li><a asp-area="Admin" asp-controller="ReadingQuestion" asp-action="Index">Reading Question</a></li>
+                                    <li><a asp-area="Admin" asp-controller="SpeakingQuestion" asp-action="Index">Speaking Question</a></li>
+                                    <li><a asp-area="Admin" asp-controller="WritingQuestion" asp-action="Index">Writing Question</a></li>
+                                </ul>
+                            </li>
+                            <li class="active">
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-menu"></i><span>Manage Exam</span></a>
+                                <ul class="collapse">
+                                    <li><a asp-area="Admin" asp-controller="Exam" asp-action="Index">List Exam</a></li>
                                 </ul>
                             </li>
                             <li class="active">
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="ti-user"></i><span>Manage user</span></a>
                                 <ul class="collapse">
                                     <li><a asp-area="Admin" asp-controller="Users" asp-action="Index">User infor</a></li>
-                                    <li><a asp-area="Admin" asp-controller="UserCourse" asp-action="Index">User & Course</a></li>
+                                    @* <li><a asp-area="Admin" asp-controller="UserCourse" asp-action="Index">User & Course</a></li> *@
                                 </ul>
                             </li>
                         </ul>

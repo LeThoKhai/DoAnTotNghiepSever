@@ -121,46 +121,6 @@
         }
       }
     },
-    "/api/APICategoryQuestions/getQuestionByCategoryQuestionId/{id}": {
-      "get": {
-        "tags": [
-          "APICategoryQuestions"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Category"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Category"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Category"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "/api/APIExercises": {
       "get": {
         "tags": [
@@ -377,55 +337,7 @@
         }
       }
     },
-    "/submitquestion": {
-      "post": {
-        "tags": [
-          "APIExercises"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UserAnswer"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UserAnswer"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/UserAnswer"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Reponsive"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Reponsive"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Reponsive"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/submitExam/{excerciseId}": {
+    "/submitquestion/{excerciseId}": {
       "post": {
         "tags": [
           "APIExercises"
@@ -493,46 +405,74 @@
         }
       }
     },
-    "/api/APIExercises/{exerciseId}/submitlistquestion": {
+    "/api/APIPraticeSkill/getListeningQuestion": {
+      "get": {
+        "tags": [
+          "APIPraticeSkill"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/APIPraticeSkill/getReadingQuestion": {
+      "get": {
+        "tags": [
+          "APIPraticeSkill"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/APIPraticeSkill/getSpeakingQuestion": {
+      "get": {
+        "tags": [
+          "APIPraticeSkill"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/APIPraticeSkill/getWritingQuestion": {
+      "get": {
+        "tags": [
+          "APIPraticeSkill"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/APIPraticeSkill/submitSpeakingQuestion": {
       "post": {
         "tags": [
-          "APIExercises"
-        ],
-        "parameters": [
-          {
-            "name": "exerciseId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
+          "APIPraticeSkill"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/AnswerSubmission"
-                }
+                "$ref": "#/components/schemas/UserAnswer"
               }
             },
             "text/json": {
               "schema": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/AnswerSubmission"
-                }
+                "$ref": "#/components/schemas/UserAnswer"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/AnswerSubmission"
-                }
+                "$ref": "#/components/schemas/UserAnswer"
               }
             }
           }
@@ -543,20 +483,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "type": "integer",
-                  "format": "int32"
+                  "$ref": "#/components/schemas/Reponsive2"
                 }
               },
               "application/json": {
                 "schema": {
-                  "type": "integer",
-                  "format": "int32"
+                  "$ref": "#/components/schemas/Reponsive2"
                 }
               },
               "text/json": {
                 "schema": {
-                  "type": "integer",
-                  "format": "int32"
+                  "$ref": "#/components/schemas/Reponsive2"
                 }
               }
             }
@@ -564,31 +501,167 @@
         }
       }
     },
-    "/explain": {
-      "get": {
+    "/api/APIPraticeSkill/submitWritingQuestion": {
+      "post": {
         "tags": [
-          "APIExercises"
+          "APIPraticeSkill"
         ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserAnswer"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserAnswer"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserAnswer"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK",
             "content": {
               "text/plain": {
                 "schema": {
-                  "type": "string"
+                  "$ref": "#/components/schemas/Reponsive2"
                 }
               },
               "application/json": {
                 "schema": {
-                  "type": "string"
+                  "$ref": "#/components/schemas/Reponsive2"
                 }
               },
               "text/json": {
                 "schema": {
-                  "type": "string"
+                  "$ref": "#/components/schemas/Reponsive2"
                 }
               }
             }
+          }
+        }
+      }
+    },
+    "/api/APIPraticeSkill/submitListeningQuestion": {
+      "post": {
+        "tags": [
+          "APIPraticeSkill"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserAnswer"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserAnswer"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserAnswer"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reponsive2"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reponsive2"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reponsive2"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/APIPraticeSkill/submitReadingQuestion": {
+      "post": {
+        "tags": [
+          "APIPraticeSkill"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserAnswer"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserAnswer"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserAnswer"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reponsive2"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reponsive2"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reponsive2"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/APITranslation/translate": {
+      "get": {
+        "tags": [
+          "APITranslation"
+        ],
+        "parameters": [
+          {
+            "name": "text",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }
@@ -1252,27 +1325,6 @@
         }
       }
     },
-    "/api/Translation/translate": {
-      "get": {
-        "tags": [
-          "Translation"
-        ],
-        "parameters": [
-          {
-            "name": "text",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/Users/register": {
       "post": {
         "tags": [
@@ -1427,12 +1479,6 @@
             "type": "boolean"
           },
           "isGrammarVocabulary": {
-            "type": "boolean"
-          },
-          "isSpeacking": {
-            "type": "boolean"
-          },
-          "isWriting": {
             "type": "boolean"
           }
         },
@@ -1688,10 +1734,12 @@
       },
       "Question": {
         "required": [
-          "categoryQuestionId",
+          "correctAnswer",
           "exerciseId",
-          "level",
-          "questionTypeId"
+          "optionA",
+          "optionB",
+          "optionC",
+          "questionText"
         ],
         "type": "object",
         "properties": {
@@ -1700,52 +1748,36 @@
             "format": "int32"
           },
           "questionText": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "link": {
             "type": "string",
             "nullable": true
           },
           "optionA": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "optionB": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "optionC": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "optionD": {
             "type": "string",
             "nullable": true
           },
           "correctAnswer": {
-            "type": "string",
-            "nullable": true
-          },
-          "correctAnswerString": {
-            "type": "string",
-            "nullable": true
-          },
-          "level": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "categoryQuestionId": {
-            "type": "integer",
-            "format": "int32"
+            "minLength": 1,
+            "type": "string"
           },
           "exerciseId": {
             "type": "integer",
             "format": "int32"
-          },
-          "questionTypeId": {
-            "minLength": 1,
-            "type": "string"
           }
         },
         "additionalProperties": false
@@ -1768,18 +1800,22 @@
           "phone": {
             "type": "string",
             "nullable": true
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "Reponsive": {
+      "Reponsive2": {
         "type": "object",
         "properties": {
           "score": {
             "type": "number",
             "format": "float"
           },
-          "sever_reponsive": {
+          "server_reponsive": {
             "type": "string",
             "nullable": true
           }
@@ -1789,7 +1825,7 @@
       "UserAnswer": {
         "type": "object",
         "properties": {
-          "questionID": {
+          "questionId": {
             "type": "integer",
             "format": "int32"
           },

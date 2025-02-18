@@ -1377,32 +1377,12 @@
       "PackagePath": "staticwebassets\\User\\register.html"
     },
     {
-      "Id": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\20bc21d4-2acb-4e44-a296-3f0a11ab5777.jpg",
-      "PackagePath": "staticwebassets\\audio\\20bc21d4-2acb-4e44-a296-3f0a11ab5777.jpg"
+      "Id": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\2d30ff3f-3469-4a18-bdf1-8355f4d4ffb3.mp3",
+      "PackagePath": "staticwebassets\\audio\\2d30ff3f-3469-4a18-bdf1-8355f4d4ffb3.mp3"
     },
     {
-      "Id": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\55689a08-aeb2-46e1-b2bf-4cf838b303c8.mp3",
-      "PackagePath": "staticwebassets\\audio\\55689a08-aeb2-46e1-b2bf-4cf838b303c8.mp3"
-    },
-    {
-      "Id": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\5e309d5a-ecdc-4539-95c0-66a66d172b9c.mp3",
-      "PackagePath": "staticwebassets\\audio\\5e309d5a-ecdc-4539-95c0-66a66d172b9c.mp3"
-    },
-    {
-      "Id": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\804a1dbb-496f-4b30-ba64-8e248252913d.png",
-      "PackagePath": "staticwebassets\\audio\\804a1dbb-496f-4b30-ba64-8e248252913d.png"
-    },
-    {
-      "Id": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\N3 T7-2021.mp3",
-      "PackagePath": "staticwebassets\\audio\\N3 T7-2021.mp3"
-    },
-    {
-      "Id": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\cbf31dcc-b57d-49d5-bb96-0c0925cceba6.mp3",
-      "PackagePath": "staticwebassets\\audio\\cbf31dcc-b57d-49d5-bb96-0c0925cceba6.mp3"
-    },
-    {
-      "Id": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\f8837002-db82-4944-8916-45ea6933af12.mp3",
-      "PackagePath": "staticwebassets\\audio\\f8837002-db82-4944-8916-45ea6933af12.mp3"
+      "Id": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\8a6c78c7-0f53-49e4-b3d7-eed1e8602b11.mp3",
+      "PackagePath": "staticwebassets\\audio\\8a6c78c7-0f53-49e4-b3d7-eed1e8602b11.mp3"
     },
     {
       "Id": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\courses-master.zip",
@@ -1417,6 +1397,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\28ad31e6-0a6a-4688-ab67-94991038dea7.jpg",
+      "PackagePath": "staticwebassets\\images\\28ad31e6-0a6a-4688-ab67-94991038dea7.jpg"
+    },
+    {
       "Id": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\462611747_408283662315443_2696017188123012746_n.jpg",
       "PackagePath": "staticwebassets\\images\\462611747_408283662315443_2696017188123012746_n.jpg"
     },
@@ -1425,8 +1409,20 @@
       "PackagePath": "staticwebassets\\images\\462857309_408283825648760_8374185704753488900_n.jpg"
     },
     {
+      "Id": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\84400b30-ce91-41ee-98ce-6a592d66c7aa.jpg",
+      "PackagePath": "staticwebassets\\images\\84400b30-ce91-41ee-98ce-6a592d66c7aa.jpg"
+    },
+    {
+      "Id": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\download.jpg",
+      "PackagePath": "staticwebassets\\images\\download.jpg"
+    },
+    {
       "Id": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\nezuko.jpg",
       "PackagePath": "staticwebassets\\images\\nezuko.jpg"
+    },
+    {
+      "Id": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\pxfuel.jpg",
+      "PackagePath": "staticwebassets\\images\\pxfuel.jpg"
     },
     {
       "Id": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\js\\site.js",

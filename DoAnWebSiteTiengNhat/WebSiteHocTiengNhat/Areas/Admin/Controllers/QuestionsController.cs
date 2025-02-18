@@ -62,47 +62,18 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
 
         public async Task<IActionResult> Create(int exerciseId)
         {
-            // Khởi tạo một model mới cho view Create
             var question = new Question { ExerciseId= exerciseId};
-            var categoryquestion = await _categoryQuestionRepository.GetAllAsync();
-            ViewBag.CategoryQuestion = new SelectList(categoryquestion, "CategoryQuestionId", "CategoryQuestionName");
-            var questiontype =await _context.QuestionTypes.ToListAsync();
-            ViewBag.QuestionType = new SelectList(questiontype,"QuestionTypeId","QuestionTypeName");
-            ViewBag.CorrectAnswer = new SelectList(new List<string> { "Empty","A", "B", "C", "D" });
-            ViewBag.Level = new SelectList(new List<int> { 1, 2, 3, 4, 5 });
+            ViewBag.CorrectAnswer = new SelectList(new List<string> {"A", "B", "C", "D" });
             ViewBag.ExerciseId= exerciseId;
-            // Trả về view Create với model đã khởi tạo
             return View(question);
         }
 
 
         [HttpPost]
         public async Task<IActionResult> Create(Question? question, IFormFile? audioFile)
-        {
+        {      
             if (ModelState.IsValid)
             {
-                if (question.QuestionTypeId != "QT2" && question.CorrectAnswerString == "Empty")
-                {
-                    if((question.QuestionTypeId == "QT8" || question.QuestionTypeId == "QT9") && audioFile==null)
-                    {
-                        ModelState.AddModelError("", "Thiếu file âm thanh hoặc hình ảnh và chuỗi đáp án không được để trống.");
-                        var cq1 = await _categoryQuestionRepository.GetAllAsync();
-                        ViewBag.CategoryQuestion = new SelectList(cq1, "CategoryQuestionId", "CategoryQuestionName");
-                        var qt1 = await _context.QuestionTypes.ToListAsync();
-                        ViewBag.QuestionType = new SelectList(qt1, "QuestionTypeId", "QuestionTypeName");
-                        ViewBag.CorrectAnswer = new SelectList(new List<string> { "A", "B", "C", "D" });
-                        ViewBag.Level = new SelectList(new List<int> { 1, 2, 3, 4, 5 });
-                        return View(question);
-                    }
-                    ModelState.AddModelError("", "Thiếu thông tin cho chuỗi đáp án.");
-                    var cq = await _categoryQuestionRepository.GetAllAsync();
-                    ViewBag.CategoryQuestion = new SelectList(cq, "CategoryQuestionId", "CategoryQuestionName");
-                    var qt = await _context.QuestionTypes.ToListAsync();
-                    ViewBag.QuestionType = new SelectList(qt, "QuestionTypeId", "QuestionTypeName");
-                    ViewBag.CorrectAnswer = new SelectList(new List<string> { "A", "B", "C", "D" });
-                    ViewBag.Level = new SelectList(new List<int> { 1, 2, 3, 4, 5 });
-                    return View(question);
-                }
                 try
                 {
                     if (audioFile != null)
@@ -118,14 +89,9 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
                     ModelState.AddModelError("", $"Error saving audio: {ex.Message}");
                 }
             }
-
             // Nếu lỗi, trả về view với dữ liệu đã nhập
             var categoryquestion = await _categoryQuestionRepository.GetAllAsync();
-            ViewBag.CategoryQuestion = new SelectList(categoryquestion, "CategoryQuestionId", "CategoryQuestionName");
-            var questiontype = await _context.QuestionTypes.ToListAsync();
-            ViewBag.QuestionType = new SelectList(questiontype, "QuestionTypeId", "QuestionTypeName");
-            ViewBag.CorrectAnswer = new SelectList(new List<string> { "Empty","A", "B", "C", "D" });
-            ViewBag.Level = new SelectList(new List<int> { 1, 2, 3, 4, 5 });
+            ViewBag.CorrectAnswer = new SelectList(new List<string> { "A", "B", "C", "D" });
             return View(question);
         }
 

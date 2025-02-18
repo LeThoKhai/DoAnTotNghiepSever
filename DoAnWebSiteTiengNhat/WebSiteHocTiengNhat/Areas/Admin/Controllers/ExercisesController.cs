@@ -110,7 +110,7 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
                     {
                         new
                         {
-                            text = $"Hãy tạo 1-10 danh sách question dựa trên việc tóm tắt ngắn gọn ý chính dựa trên nội dung sau: {content}.Trả về định dạng JSON với các thuộc tính: QuestionText, OptionA, OptionB, OptionC, OptionD, CorrectAnswer, ExerciseId={exercise.ExerciseId}, CategoryQuestionId={categoryQuestionId}, QuestionTypeId='QT2'"+
+                            text = $"Hãy tạo 1-10 danh sách question dựa trên việc tóm tắt ngắn gọn ý chính dựa trên nội dung sau: {content}.Trả về định dạng JSON với các thuộc tính: QuestionText, OptionA, OptionB, OptionC, OptionD, CorrectAnswer"+
                             $"loại bỏ các ký tự đặc biệt, chỉ trả về chuỗi JSON thuần túy không chú thích hay đóng ngoặc,loại bỏ chữ '''json khi trả về vì tôi không cần. phải có thuộc tính ExerciseId, giá trị của CorrectAnswer chỉ nhận 'A,B,C,D'"
                         }
                     }

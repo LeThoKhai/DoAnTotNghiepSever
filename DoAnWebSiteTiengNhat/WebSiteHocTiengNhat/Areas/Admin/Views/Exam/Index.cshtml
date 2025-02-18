@@ -1,0 +1,56 @@
+﻿@model List<WebSiteHocTiengNhat.Models.Exam>
+@{
+    ViewData["Title"] = "List exam";
+}
+<h2 style="padding-bottom:10px">@ViewData["Title"]</h2>
+<a asp-area="Admin" asp-controller="Exam" asp-action="Create" style="padding: 8px; background-color:deepskyblue;
+                    border-radius: 5px; text-decoration:none;color:white;font-style:initial;max-width:160px">Create new</a>
+<div style="padding-top:10px">
+    <div class="container">
+        <div class="row">
+            @foreach (var exam in Model)
+            {
+                <div class="col-md-3 d-flex align-items-stretch">
+                    <div class="card mb-4 zoom-card" style="width: 100%;" data-url="@Url.Action("Detail", new { id = exam.ExamId })">
+                        @* <img class="card-img-top" src="@exam." alt="Card image cap" style="height: 200px; object-fit: cover;"> *@
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">@exam.ExamName</h5>
+                            <ul class="list-group list-group-flush flex-grow-1">
+                                <li class="list-group-item">Ngày tạo: @(exam.Created?.ToString("dd/MM/yyyy"))</li>
+                            </ul>
+                            <div class="mt-auto d-flex justify-content-between">
+                                <div class="btn-group" role="group">
+                                    <a asp-action="Detail" asp-route-id="@exam.ExamId" class="btn btn-success btn-sm">Detail</a>
+                                    <a asp-action="Update" asp-route-id="@exam.ExamId" class="btn btn-warning btn-sm">Update</a>
+                                    <a asp-action="Delete" asp-route-id="@exam.ExamId" class="btn btn-danger btn-sm">Delete</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+    .zoom-card {
+        transition: transform .2s; /* Animation */
+    }
+
+        .zoom-card:hover {
+            transform: scale(1.05); /* Zoom in */
+            cursor: pointer;
+        }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var cards = document.querySelectorAll('.zoom-card');
+        cards.forEach(function (card) {
+            card.addEventListener('click', function () {
+                window.location.href = card.getAttribute('data-url');
+            });
+        });
+    });
+</script>

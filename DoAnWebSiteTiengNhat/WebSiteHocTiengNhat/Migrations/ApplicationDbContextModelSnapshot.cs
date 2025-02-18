@@ -86,6 +86,11 @@ namespace WebSiteHocTiengNhat.Migrations
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasMaxLength(21)
+                        .HasColumnType("nvarchar(21)");
+
                     b.Property<string>("Email")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
@@ -137,6 +142,10 @@ namespace WebSiteHocTiengNhat.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasDiscriminator().HasValue("IdentityUser");
+
+                    b.UseTphMappingStrategy();
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -281,12 +290,6 @@ namespace WebSiteHocTiengNhat.Migrations
                     b.Property<bool>("IsReading")
                         .HasColumnType("bit");
 
-                    b.Property<bool>("IsSpeacking")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("IsWriting")
-                        .HasColumnType("bit");
-
                     b.HasKey("CategoryQuestionId");
 
                     b.ToTable("CategoryQuestions");
@@ -298,9 +301,7 @@ namespace WebSiteHocTiengNhat.Migrations
                             CategoryQuestionName = "Đọc hiểu",
                             IsGrammarVocabulary = false,
                             IsListening = false,
-                            IsReading = true,
-                            IsSpeacking = false,
-                            IsWriting = false
+                            IsReading = true
                         },
                         new
                         {
@@ -308,9 +309,7 @@ namespace WebSiteHocTiengNhat.Migrations
                             CategoryQuestionName = "Nghe hiểu",
                             IsGrammarVocabulary = false,
                             IsListening = true,
-                            IsReading = false,
-                            IsSpeacking = false,
-                            IsWriting = false
+                            IsReading = false
                         },
                         new
                         {
@@ -318,29 +317,7 @@ namespace WebSiteHocTiengNhat.Migrations
                             CategoryQuestionName = "Ngữ pháp từ vựng",
                             IsGrammarVocabulary = true,
                             IsListening = false,
-                            IsReading = false,
-                            IsSpeacking = false,
-                            IsWriting = false
-                        },
-                        new
-                        {
-                            CategoryQuestionId = 4,
-                            CategoryQuestionName = "Luyện nói",
-                            IsGrammarVocabulary = false,
-                            IsListening = false,
-                            IsReading = false,
-                            IsSpeacking = true,
-                            IsWriting = false
-                        },
-                        new
-                        {
-                            CategoryQuestionId = 5,
-                            CategoryQuestionName = "Luyện viết",
-                            IsGrammarVocabulary = false,
-                            IsListening = false,
-                            IsReading = false,
-                            IsSpeacking = false,
-                            IsWriting = true
+                            IsReading = false
                         });
                 });
 
@@ -464,6 +441,82 @@ namespace WebSiteHocTiengNhat.Migrations
                     b.ToTable("Courses");
                 });
 
+            modelBuilder.Entity("WebSiteHocTiengNhat.Models.Exam", b =>
+                {
+                    b.Property<int>("ExamId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ExamId"));
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("Created")
+                        .IsRequired()
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ExamName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ExamId");
+
+                    b.ToTable("Exams");
+                });
+
+            modelBuilder.Entity("WebSiteHocTiengNhat.Models.ExamQuestion", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CategoryQuestionId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("CorrectAnswer")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ExamId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Link")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("OptionA")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("OptionB")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("OptionC")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("OptionD")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("QuestionContent")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CategoryQuestionId");
+
+                    b.HasIndex("ExamId");
+
+                    b.ToTable("ExamQuestions");
+                });
+
             modelBuilder.Entity("WebSiteHocTiengNhat.Models.Exercise", b =>
                 {
                     b.Property<int>("ExerciseId")
@@ -564,6 +617,45 @@ namespace WebSiteHocTiengNhat.Migrations
                     b.ToTable("Lessons");
                 });
 
+            modelBuilder.Entity("WebSiteHocTiengNhat.Models.ListeningQuestion", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Answer")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Level")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Link")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("OptionA")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("OptionB")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("OptionC")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("OptionD")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("QuestionContent")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ListeningQuestions");
+                });
+
             modelBuilder.Entity("WebSiteHocTiengNhat.Models.Post", b =>
                 {
                     b.Property<string>("PostId")
@@ -604,32 +696,26 @@ namespace WebSiteHocTiengNhat.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("QuestionId"));
 
-                    b.Property<int>("CategoryQuestionId")
-                        .HasColumnType("int");
-
                     b.Property<string>("CorrectAnswer")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("CorrectAnswerString")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int>("ExerciseId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Level")
                         .HasColumnType("int");
 
                     b.Property<string>("Link")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("OptionA")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("OptionB")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("OptionC")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("OptionD")
@@ -639,17 +725,9 @@ namespace WebSiteHocTiengNhat.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("QuestionTypeId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
                     b.HasKey("QuestionId");
 
-                    b.HasIndex("CategoryQuestionId");
-
                     b.HasIndex("ExerciseId");
-
-                    b.HasIndex("QuestionTypeId");
 
                     b.ToTable("Questions");
                 });
@@ -720,36 +798,70 @@ namespace WebSiteHocTiengNhat.Migrations
                         });
                 });
 
-            modelBuilder.Entity("WebSiteHocTiengNhat.Models.ScoreTable", b =>
+            modelBuilder.Entity("WebSiteHocTiengNhat.Models.ReadingQuestion", b =>
                 {
-                    b.Property<int>("ScoreTableId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ScoreTableId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("CategoryId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ExerciseId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Score")
-                        .HasColumnType("int");
-
-                    b.Property<string>("UserId")
+                    b.Property<string>("Answer")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("ScoreTableId");
+                    b.Property<int>("Level")
+                        .HasColumnType("int");
 
-                    b.HasIndex("CategoryId");
+                    b.Property<string>("Link")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.HasIndex("ExerciseId");
+                    b.Property<string>("OptionA")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.HasIndex("UserId");
+                    b.Property<string>("OptionB")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.ToTable("ScoreTables");
+                    b.Property<string>("OptionC")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("OptionD")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("QuestionContent")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ReadingQuestions");
+                });
+
+            modelBuilder.Entity("WebSiteHocTiengNhat.Models.SpeakingQuestion", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Answer")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Level")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Link")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("QuestionContent")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("SpeakingQuestions");
                 });
 
             modelBuilder.Entity("WebSiteHocTiengNhat.Models.UserCourse", b =>
@@ -771,6 +883,59 @@ namespace WebSiteHocTiengNhat.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("UserCourses");
+                });
+
+            modelBuilder.Entity("WebSiteHocTiengNhat.Models.WritingQuestion", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Answer")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Level")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Link")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("QuestionContent")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("WritingQuestions");
+                });
+
+            modelBuilder.Entity("WebSiteHocTiengNhat.Models3.ApplicationUser", b =>
+                {
+                    b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsVip")
+                        .HasColumnType("bit");
+
+                    b.Property<float?>("Score1")
+                        .HasColumnType("real");
+
+                    b.Property<float?>("Score2")
+                        .HasColumnType("real");
+
+                    b.Property<float?>("Score3")
+                        .HasColumnType("real");
+
+                    b.Property<DateTime?>("VipActivatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasDiscriminator().HasValue("ApplicationUser");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -854,6 +1019,25 @@ namespace WebSiteHocTiengNhat.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("WebSiteHocTiengNhat.Models.ExamQuestion", b =>
+                {
+                    b.HasOne("WebSiteHocTiengNhat.Models.CategoryQuestion", "CategoryQuestion")
+                        .WithMany()
+                        .HasForeignKey("CategoryQuestionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WebSiteHocTiengNhat.Models.Exam", "Exam")
+                        .WithMany()
+                        .HasForeignKey("ExamId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CategoryQuestion");
+
+                    b.Navigation("Exam");
+                });
+
             modelBuilder.Entity("WebSiteHocTiengNhat.Models.Exercise", b =>
                 {
                     b.HasOne("WebSiteHocTiengNhat.Models.Category", "Category")
@@ -924,56 +1108,13 @@ namespace WebSiteHocTiengNhat.Migrations
 
             modelBuilder.Entity("WebSiteHocTiengNhat.Models.Question", b =>
                 {
-                    b.HasOne("WebSiteHocTiengNhat.Models.CategoryQuestion", "CategoryQuestion")
-                        .WithMany()
-                        .HasForeignKey("CategoryQuestionId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("WebSiteHocTiengNhat.Models.Exercise", "Exercise")
                         .WithMany()
                         .HasForeignKey("ExerciseId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("WebSiteHocTiengNhat.Models.QuestionType", "QuestionType")
-                        .WithMany()
-                        .HasForeignKey("QuestionTypeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("CategoryQuestion");
-
                     b.Navigation("Exercise");
-
-                    b.Navigation("QuestionType");
-                });
-
-            modelBuilder.Entity("WebSiteHocTiengNhat.Models.ScoreTable", b =>
-                {
-                    b.HasOne("WebSiteHocTiengNhat.Models.Category", "Category")
-                        .WithMany()
-                        .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("WebSiteHocTiengNhat.Models.Exercise", "Exercise")
-                        .WithMany()
-                        .HasForeignKey("ExerciseId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Category");
-
-                    b.Navigation("Exercise");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("WebSiteHocTiengNhat.Models.UserCourse", b =>

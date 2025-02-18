@@ -28,12 +28,12 @@ namespace WebSiteHocTiengNhat.Repository
 
         //    return list.Where(n => n.CategoryQuestionId == categoryQuestionId);
         //}
-        public async Task<List<Question>> GetByCategoryQuestionId(int? categoryquestionId)
+/*        public async Task<List<Question>> GetByCategoryQuestionId(int? categoryquestionId)
         {
             if (categoryquestionId == null) return new List<Question>();
             var questions = await _context.Questions.Where(n => n.CategoryQuestionId == categoryquestionId).ToListAsync();
             return questions;
-        }
+        }*/
         public async Task AddAsync(CategoryQuestion CategoryQuestion)
         {
             _context.CategoryQuestions.Add(CategoryQuestion);

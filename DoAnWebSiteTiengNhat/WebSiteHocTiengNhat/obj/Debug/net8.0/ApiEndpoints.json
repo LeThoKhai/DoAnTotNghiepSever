@@ -66,32 +66,6 @@
     ]
   },
   {
-    "ContainingType": "WebSiteHocTiengNhat.Controllers.API.APICategoryQuestionsController",
-    "Method": "getQuestionByQuestionCategoryId",
-    "RelativePath": "api/APICategoryQuestions/getQuestionByCategoryQuestionId/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "WebSiteHocTiengNhat.Models.Category",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
     "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExercisesController",
     "Method": "GetExercises",
     "RelativePath": "api/APIExercises",
@@ -102,37 +76,6 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.IEnumerable\u00601[[WebSiteHocTiengNhat.Models.Exercise, WebSiteHocTiengNhat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExercisesController",
-    "Method": "SubmitAnswers",
-    "RelativePath": "api/APIExercises/{exerciseId}/submitlistquestion",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "exerciseId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "submissions",
-        "Type": "System.Collections.Generic.List\u00601[[WebSiteHocTiengNhat.Controllers.AnswerSubmission, WebSiteHocTiengNhat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Int32",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -245,6 +188,166 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.APIPraticeSkillController",
+    "Method": "ListeningQuestion",
+    "RelativePath": "api/APIPraticeSkill/getListeningQuestion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.APIPraticeSkillController",
+    "Method": "ReadingQuestion",
+    "RelativePath": "api/APIPraticeSkill/getReadingQuestion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.APIPraticeSkillController",
+    "Method": "SpeakingQuestion",
+    "RelativePath": "api/APIPraticeSkill/getSpeakingQuestion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.APIPraticeSkillController",
+    "Method": "WritingQuestion",
+    "RelativePath": "api/APIPraticeSkill/getWritingQuestion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.APIPraticeSkillController",
+    "Method": "SubmitListeningQuestion",
+    "RelativePath": "api/APIPraticeSkill/submitListeningQuestion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userAnswer",
+        "Type": "WebSiteHocTiengNhat.Areas.Admin.Controllers.UserAnswer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebSiteHocTiengNhat.Repository.Reponsive2",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.APIPraticeSkillController",
+    "Method": "SubmitReadingQuestion",
+    "RelativePath": "api/APIPraticeSkill/submitReadingQuestion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userAnswer",
+        "Type": "WebSiteHocTiengNhat.Areas.Admin.Controllers.UserAnswer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebSiteHocTiengNhat.Repository.Reponsive2",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.APIPraticeSkillController",
+    "Method": "SubmitSpeakingQuestion",
+    "RelativePath": "api/APIPraticeSkill/submitSpeakingQuestion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userAnswer",
+        "Type": "WebSiteHocTiengNhat.Areas.Admin.Controllers.UserAnswer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebSiteHocTiengNhat.Repository.Reponsive2",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.APIPraticeSkillController",
+    "Method": "SubmitWritingQuestion",
+    "RelativePath": "api/APIPraticeSkill/submitWritingQuestion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userAnswer",
+        "Type": "WebSiteHocTiengNhat.Areas.Admin.Controllers.UserAnswer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebSiteHocTiengNhat.Repository.Reponsive2",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APITranslationController",
+    "Method": "Translate",
+    "RelativePath": "api/APITranslation/translate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "text",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ChatController",
@@ -468,22 +571,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "TranslationController",
-    "Method": "Translate",
-    "RelativePath": "api/Translation/translate",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "text",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "UsersController",
     "Method": "GetUserInfo",
     "RelativePath": "api/Users/get-user-info",
@@ -544,26 +631,6 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExercisesController",
-    "Method": "Explain",
-    "RelativePath": "explain",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
   },
   {
     "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.ExercisesController",
@@ -761,7 +828,7 @@
   {
     "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExercisesController",
     "Method": "SubmitAnswerForExamQuestion",
-    "RelativePath": "submitExam/{excerciseId}",
+    "RelativePath": "submitquestion/{excerciseId}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -780,32 +847,6 @@
     "ReturnTypes": [
       {
         "Type": "WebSiteHocTiengNhat.Models.Certificate",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExercisesController",
-    "Method": "SubmitAnswerForOneQuestion",
-    "RelativePath": "submitquestion",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "userAnswer",
-        "Type": "WebSiteHocTiengNhat.Repository.UserAnswer",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "WebSiteHocTiengNhat.Repository.Reponsive",
         "MediaTypes": [
           "text/plain",
           "application/json",

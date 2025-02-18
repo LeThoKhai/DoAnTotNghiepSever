@@ -10,14 +10,7 @@
 <form asp-action="Create" method="post" enctype="multipart/form-data">
     <input type="hidden" asp-for="QuestionId" />
     <input type="hidden" asp-for="ExerciseId" />
-    <div class="form-group">
-        <label asp-for="CategoryQuestionId"></label>
-        <select asp-for="CategoryQuestionId" asp-items="ViewBag.CategoryQuestion" class="form-control"></select>
-    </div>
-    <div class="form-group">
-        <label asp-for="QuestionTypeId"></label>
-        <select asp-for="QuestionTypeId" asp-items="ViewBag.QuestionType" class="form-control"></select>
-    </div>
+
     <div class="form-group">
         <label asp-for="QuestionText"></label>
         <textarea asp-for="QuestionText" class="form-control" value="Empty">Question</textarea>
@@ -28,43 +21,30 @@
         <label asp-for="Link" as for="audioFile">Upload Audio/Image</label>
         <input asp-for="Link" type="file" name="audioFile" id="audioFile" class="form-control" accept="audio/*" />
     </div>
-
     <div class="form-group">
         <label asp-for="OptionA">A</label>
-        <input asp-for="OptionA" class="form-control" value="Empty" />
+        <input asp-for="OptionA" class="form-control" value="" />
         <span asp-validation-for="OptionA" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="OptionB">B</label>
-        <input asp-for="OptionB" class="form-control" value="Empty" />
+        <input asp-for="OptionB" class="form-control" value="" />
         <span asp-validation-for="OptionB" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="OptionC">C</label>
-        <input asp-for="OptionC" class="form-control" value="Empty" />
+        <input asp-for="OptionC" class="form-control" value="" />
         <span asp-validation-for="OptionC" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="OptionD">D</label>
-        <input asp-for="OptionD" class="form-control" value="Empty" />
+        <input asp-for="OptionD" class="form-control" value="" />
         <span asp-validation-for="OptionD" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="CorrectAnswer"></label>
         <select asp-for="CorrectAnswer" asp-items="ViewBag.CorrectAnswer" class="form-control"></select>
     </div>
-
-    <div class="form-group">
-        <label asp-for="CorrectAnswerString">Correct Answer String</label>
-        <input type="text" asp-for="CorrectAnswerString" class="form-control" value="Empty" />
-        <span asp-validation-for="CorrectAnswerString" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="Level"></label>
-        <select asp-for="Level" asp-items="ViewBag.Level" class="form-control"></select>
-    </div>
-
     <div asp-validation-summary="All" class="text-danger"></div>
     <button type="submit" class="btn btn-primary">Create</button>
 

@@ -8,6 +8,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using WebSiteHocTiengNhat.Data;
+using WebSiteHocTiengNhat.Models3;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -33,12 +34,14 @@ public class UsersController : ControllerBase
     public async Task<IActionResult> Register([FromBody] RegisterRequest register)
     {
         // Tạo đối tượng IdentityUser với thông tin đăng ký
-        var user = new IdentityUser
+        var user = new ApplicationUser
         {
             UserName = register.Username,
             Email = register.Email,
             PhoneNumber= register.Phone,
-            
+            IsVip=false,
+            VipActivatedDate = DateTime.UtcNow,
+            Address=register.Address,
         };
 
         // Tạo người dùng mới với mật khẩu
@@ -232,6 +235,7 @@ public class UsersController : ControllerBase
         public string Email { get; set; }
         public string Password { get; set; }
         public string Phone {  get; set; }
+        public string Address { get; set; }
     }
 
 }

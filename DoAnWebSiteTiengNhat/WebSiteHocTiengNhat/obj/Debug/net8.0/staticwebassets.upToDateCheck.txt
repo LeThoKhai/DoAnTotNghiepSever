@@ -71,19 +71,18 @@ wwwroot\Admin\assets\js\popper.min.js
 wwwroot\Admin\assets\js\scripts.js
 wwwroot\Admin\assets\js\vendor\jquery-2.2.4.min.js
 wwwroot\Admin\assets\js\vendor\modernizr-2.8.3.min.js
-wwwroot\audio\20bc21d4-2acb-4e44-a296-3f0a11ab5777.jpg
-wwwroot\audio\55689a08-aeb2-46e1-b2bf-4cf838b303c8.mp3
-wwwroot\audio\5e309d5a-ecdc-4539-95c0-66a66d172b9c.mp3
-wwwroot\audio\804a1dbb-496f-4b30-ba64-8e248252913d.png
-wwwroot\audio\cbf31dcc-b57d-49d5-bb96-0c0925cceba6.mp3
-wwwroot\audio\f8837002-db82-4944-8916-45ea6933af12.mp3
-wwwroot\audio\N3 T7-2021.mp3
+wwwroot\audio\2d30ff3f-3469-4a18-bdf1-8355f4d4ffb3.mp3
+wwwroot\audio\8a6c78c7-0f53-49e4-b3d7-eed1e8602b11.mp3
 wwwroot\courses-master.zip
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\28ad31e6-0a6a-4688-ab67-94991038dea7.jpg
 wwwroot\images\462611747_408283662315443_2696017188123012746_n.jpg
 wwwroot\images\462857309_408283825648760_8374185704753488900_n.jpg
+wwwroot\images\84400b30-ce91-41ee-98ce-6a592d66c7aa.jpg
+wwwroot\images\download.jpg
 wwwroot\images\nezuko.jpg
+wwwroot\images\pxfuel.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

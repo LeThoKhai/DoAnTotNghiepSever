@@ -1314,30 +1314,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\assets\js\vendor\modernizr-2.8.3.min.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\20bc21d4-2acb-4e44-a296-3f0a11ab5777.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\2d30ff3f-3469-4a18-bdf1-8355f4d4ffb3.mp3'))">
       <SourceType>Package</SourceType>
       <SourceId>WebSiteHocTiengNhat</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebSiteHocTiengNhat</BasePath>
-      <RelativePath>audio/20bc21d4-2acb-4e44-a296-3f0a11ab5777.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ie2qr17r3r</Fingerprint>
-      <Integrity>ql3KFER0YYogjHbOfqH8/pTT43sNIhF0aLjP355cyGw=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\20bc21d4-2acb-4e44-a296-3f0a11ab5777.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\55689a08-aeb2-46e1-b2bf-4cf838b303c8.mp3'))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebSiteHocTiengNhat</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebSiteHocTiengNhat</BasePath>
-      <RelativePath>audio/55689a08-aeb2-46e1-b2bf-4cf838b303c8.mp3</RelativePath>
+      <RelativePath>audio/2d30ff3f-3469-4a18-bdf1-8355f4d4ffb3.mp3</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1348,14 +1330,14 @@
       <Integrity>FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\55689a08-aeb2-46e1-b2bf-4cf838b303c8.mp3'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\2d30ff3f-3469-4a18-bdf1-8355f4d4ffb3.mp3'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\5e309d5a-ecdc-4539-95c0-66a66d172b9c.mp3'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\8a6c78c7-0f53-49e4-b3d7-eed1e8602b11.mp3'))">
       <SourceType>Package</SourceType>
       <SourceId>WebSiteHocTiengNhat</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebSiteHocTiengNhat</BasePath>
-      <RelativePath>audio/5e309d5a-ecdc-4539-95c0-66a66d172b9c.mp3</RelativePath>
+      <RelativePath>audio/8a6c78c7-0f53-49e4-b3d7-eed1e8602b11.mp3</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1366,79 +1348,7 @@
       <Integrity>FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\5e309d5a-ecdc-4539-95c0-66a66d172b9c.mp3'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\804a1dbb-496f-4b30-ba64-8e248252913d.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebSiteHocTiengNhat</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebSiteHocTiengNhat</BasePath>
-      <RelativePath>audio/804a1dbb-496f-4b30-ba64-8e248252913d.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ia4jk966yg</Fingerprint>
-      <Integrity>hiuArJunUPuY82PLNg1Xfaxn6zfaz2J07/b0zuEAGOg=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\804a1dbb-496f-4b30-ba64-8e248252913d.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\cbf31dcc-b57d-49d5-bb96-0c0925cceba6.mp3'))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebSiteHocTiengNhat</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebSiteHocTiengNhat</BasePath>
-      <RelativePath>audio/cbf31dcc-b57d-49d5-bb96-0c0925cceba6.mp3</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lwkdc48gdl</Fingerprint>
-      <Integrity>FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\cbf31dcc-b57d-49d5-bb96-0c0925cceba6.mp3'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\f8837002-db82-4944-8916-45ea6933af12.mp3'))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebSiteHocTiengNhat</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebSiteHocTiengNhat</BasePath>
-      <RelativePath>audio/f8837002-db82-4944-8916-45ea6933af12.mp3</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lwkdc48gdl</Fingerprint>
-      <Integrity>FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\f8837002-db82-4944-8916-45ea6933af12.mp3'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\N3 T7-2021.mp3'))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebSiteHocTiengNhat</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebSiteHocTiengNhat</BasePath>
-      <RelativePath>audio/N3 T7-2021.mp3</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ngzfwlp7vc</Fingerprint>
-      <Integrity>ubpVScgYQtexHt+aVRikuAEORwnz8nVY8xAOHWlYRrk=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\N3 T7-2021.mp3'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audio\8a6c78c7-0f53-49e4-b3d7-eed1e8602b11.mp3'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\courses-master.zip'))">
       <SourceType>Package</SourceType>
@@ -1494,6 +1404,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\28ad31e6-0a6a-4688-ab67-94991038dea7.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebSiteHocTiengNhat</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebSiteHocTiengNhat</BasePath>
+      <RelativePath>images/28ad31e6-0a6a-4688-ab67-94991038dea7.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cyxz9vaang</Fingerprint>
+      <Integrity>XMSZw5FnEkPoufmjQ3v55SRC0hl/1VBHJANx/O0AJcU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\28ad31e6-0a6a-4688-ab67-94991038dea7.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\462611747_408283662315443_2696017188123012746_n.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebSiteHocTiengNhat</SourceId>
@@ -1530,6 +1458,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\462857309_408283825648760_8374185704753488900_n.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\84400b30-ce91-41ee-98ce-6a592d66c7aa.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebSiteHocTiengNhat</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebSiteHocTiengNhat</BasePath>
+      <RelativePath>images/84400b30-ce91-41ee-98ce-6a592d66c7aa.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>srmvtgo3l7</Fingerprint>
+      <Integrity>+L3Sm5UyxFvsBBPRisZsWPe7kwimn9olo+Fevx/AvZs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\84400b30-ce91-41ee-98ce-6a592d66c7aa.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\download.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebSiteHocTiengNhat</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebSiteHocTiengNhat</BasePath>
+      <RelativePath>images/download.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cyxz9vaang</Fingerprint>
+      <Integrity>XMSZw5FnEkPoufmjQ3v55SRC0hl/1VBHJANx/O0AJcU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\download.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\nezuko.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebSiteHocTiengNhat</SourceId>
@@ -1547,6 +1511,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\nezuko.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pxfuel.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebSiteHocTiengNhat</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebSiteHocTiengNhat</BasePath>
+      <RelativePath>images/pxfuel.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>n5qgu9dfbn</Fingerprint>
+      <Integrity>leUSRCuqLznQOOCM6hIWbtvIm5x2vzVsVNAPn7FXUPg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pxfuel.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))">
       <SourceType>Package</SourceType>

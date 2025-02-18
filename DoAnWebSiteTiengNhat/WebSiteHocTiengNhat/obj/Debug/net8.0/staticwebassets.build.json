@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "g8fmGYPgnXElyVXVWs+TtHRnaEiOPHRskLF1ZTt/GhE=",
+  "Hash": "ojlcHnkVExq4cLrAODWFxPGHYC0QO3CII5xWn5FvA8w=",
   "Source": "WebSiteHocTiengNhat",
   "BasePath": "_content/WebSiteHocTiengNhat",
   "Mode": "Default",
@@ -2852,33 +2852,12 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\vendor\\modernizr-2.8.3.min.js"
     },
     {
-      "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\20bc21d4-2acb-4e44-a296-3f0a11ab5777.jpg",
+      "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\2d30ff3f-3469-4a18-bdf1-8355f4d4ffb3.mp3",
       "SourceId": "WebSiteHocTiengNhat",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\",
       "BasePath": "_content/WebSiteHocTiengNhat",
-      "RelativePath": "audio/20bc21d4-2acb-4e44-a296-3f0a11ab5777#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ie2qr17r3r",
-      "Integrity": "ql3KFER0YYogjHbOfqH8/pTT43sNIhF0aLjP355cyGw=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\audio\\20bc21d4-2acb-4e44-a296-3f0a11ab5777.jpg"
-    },
-    {
-      "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\55689a08-aeb2-46e1-b2bf-4cf838b303c8.mp3",
-      "SourceId": "WebSiteHocTiengNhat",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\",
-      "BasePath": "_content/WebSiteHocTiengNhat",
-      "RelativePath": "audio/55689a08-aeb2-46e1-b2bf-4cf838b303c8#[.{fingerprint}]?.mp3",
+      "RelativePath": "audio/2d30ff3f-3469-4a18-bdf1-8355f4d4ffb3#[.{fingerprint}]?.mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2891,15 +2870,15 @@
       "Integrity": "FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\audio\\55689a08-aeb2-46e1-b2bf-4cf838b303c8.mp3"
+      "OriginalItemSpec": "wwwroot\\audio\\2d30ff3f-3469-4a18-bdf1-8355f4d4ffb3.mp3"
     },
     {
-      "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\5e309d5a-ecdc-4539-95c0-66a66d172b9c.mp3",
+      "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\8a6c78c7-0f53-49e4-b3d7-eed1e8602b11.mp3",
       "SourceId": "WebSiteHocTiengNhat",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\",
       "BasePath": "_content/WebSiteHocTiengNhat",
-      "RelativePath": "audio/5e309d5a-ecdc-4539-95c0-66a66d172b9c#[.{fingerprint}]?.mp3",
+      "RelativePath": "audio/8a6c78c7-0f53-49e4-b3d7-eed1e8602b11#[.{fingerprint}]?.mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2912,91 +2891,7 @@
       "Integrity": "FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\audio\\5e309d5a-ecdc-4539-95c0-66a66d172b9c.mp3"
-    },
-    {
-      "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\804a1dbb-496f-4b30-ba64-8e248252913d.png",
-      "SourceId": "WebSiteHocTiengNhat",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\",
-      "BasePath": "_content/WebSiteHocTiengNhat",
-      "RelativePath": "audio/804a1dbb-496f-4b30-ba64-8e248252913d#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ia4jk966yg",
-      "Integrity": "hiuArJunUPuY82PLNg1Xfaxn6zfaz2J07/b0zuEAGOg=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\audio\\804a1dbb-496f-4b30-ba64-8e248252913d.png"
-    },
-    {
-      "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\cbf31dcc-b57d-49d5-bb96-0c0925cceba6.mp3",
-      "SourceId": "WebSiteHocTiengNhat",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\",
-      "BasePath": "_content/WebSiteHocTiengNhat",
-      "RelativePath": "audio/cbf31dcc-b57d-49d5-bb96-0c0925cceba6#[.{fingerprint}]?.mp3",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "lwkdc48gdl",
-      "Integrity": "FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\audio\\cbf31dcc-b57d-49d5-bb96-0c0925cceba6.mp3"
-    },
-    {
-      "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\f8837002-db82-4944-8916-45ea6933af12.mp3",
-      "SourceId": "WebSiteHocTiengNhat",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\",
-      "BasePath": "_content/WebSiteHocTiengNhat",
-      "RelativePath": "audio/f8837002-db82-4944-8916-45ea6933af12#[.{fingerprint}]?.mp3",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "lwkdc48gdl",
-      "Integrity": "FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\audio\\f8837002-db82-4944-8916-45ea6933af12.mp3"
-    },
-    {
-      "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\N3 T7-2021.mp3",
-      "SourceId": "WebSiteHocTiengNhat",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\",
-      "BasePath": "_content/WebSiteHocTiengNhat",
-      "RelativePath": "audio/N3 T7-2021#[.{fingerprint}]?.mp3",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ngzfwlp7vc",
-      "Integrity": "ubpVScgYQtexHt+aVRikuAEORwnz8nVY8xAOHWlYRrk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\audio\\N3 T7-2021.mp3"
+      "OriginalItemSpec": "wwwroot\\audio\\8a6c78c7-0f53-49e4-b3d7-eed1e8602b11.mp3"
     },
     {
       "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\courses-master.zip",
@@ -3062,6 +2957,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\28ad31e6-0a6a-4688-ab67-94991038dea7.jpg",
+      "SourceId": "WebSiteHocTiengNhat",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\",
+      "BasePath": "_content/WebSiteHocTiengNhat",
+      "RelativePath": "images/28ad31e6-0a6a-4688-ab67-94991038dea7#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cyxz9vaang",
+      "Integrity": "XMSZw5FnEkPoufmjQ3v55SRC0hl/1VBHJANx/O0AJcU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\28ad31e6-0a6a-4688-ab67-94991038dea7.jpg"
+    },
+    {
       "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\462611747_408283662315443_2696017188123012746_n.jpg",
       "SourceId": "WebSiteHocTiengNhat",
       "SourceType": "Discovered",
@@ -3104,6 +3020,48 @@
       "OriginalItemSpec": "wwwroot\\images\\462857309_408283825648760_8374185704753488900_n.jpg"
     },
     {
+      "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\84400b30-ce91-41ee-98ce-6a592d66c7aa.jpg",
+      "SourceId": "WebSiteHocTiengNhat",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\",
+      "BasePath": "_content/WebSiteHocTiengNhat",
+      "RelativePath": "images/84400b30-ce91-41ee-98ce-6a592d66c7aa#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "srmvtgo3l7",
+      "Integrity": "+L3Sm5UyxFvsBBPRisZsWPe7kwimn9olo+Fevx/AvZs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\84400b30-ce91-41ee-98ce-6a592d66c7aa.jpg"
+    },
+    {
+      "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\download.jpg",
+      "SourceId": "WebSiteHocTiengNhat",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\",
+      "BasePath": "_content/WebSiteHocTiengNhat",
+      "RelativePath": "images/download#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cyxz9vaang",
+      "Integrity": "XMSZw5FnEkPoufmjQ3v55SRC0hl/1VBHJANx/O0AJcU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\download.jpg"
+    },
+    {
       "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\nezuko.jpg",
       "SourceId": "WebSiteHocTiengNhat",
       "SourceType": "Discovered",
@@ -3123,6 +3081,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\nezuko.jpg"
+    },
+    {
+      "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\pxfuel.jpg",
+      "SourceId": "WebSiteHocTiengNhat",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\",
+      "BasePath": "_content/WebSiteHocTiengNhat",
+      "RelativePath": "images/pxfuel#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n5qgu9dfbn",
+      "Integrity": "leUSRCuqLznQOOCM6hIWbtvIm5x2vzVsVNAPn7FXUPg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pxfuel.jpg"
     },
     {
       "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\js\\site.js",
@@ -16085,90 +16064,8 @@
       ]
     },
     {
-      "Route": "audio/20bc21d4-2acb-4e44-a296-3f0a11ab5777.ie2qr17r3r.jpg",
-      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\20bc21d4-2acb-4e44-a296-3f0a11ab5777.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "112947"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ql3KFER0YYogjHbOfqH8/pTT43sNIhF0aLjP355cyGw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 23 Jan 2025 09:35:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ie2qr17r3r"
-        },
-        {
-          "Name": "label",
-          "Value": "audio/20bc21d4-2acb-4e44-a296-3f0a11ab5777.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ql3KFER0YYogjHbOfqH8/pTT43sNIhF0aLjP355cyGw="
-        }
-      ]
-    },
-    {
-      "Route": "audio/20bc21d4-2acb-4e44-a296-3f0a11ab5777.jpg",
-      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\20bc21d4-2acb-4e44-a296-3f0a11ab5777.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "112947"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ql3KFER0YYogjHbOfqH8/pTT43sNIhF0aLjP355cyGw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 23 Jan 2025 09:35:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ql3KFER0YYogjHbOfqH8/pTT43sNIhF0aLjP355cyGw="
-        }
-      ]
-    },
-    {
-      "Route": "audio/55689a08-aeb2-46e1-b2bf-4cf838b303c8.lwkdc48gdl.mp3",
-      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\55689a08-aeb2-46e1-b2bf-4cf838b303c8.mp3",
+      "Route": "audio/2d30ff3f-3469-4a18-bdf1-8355f4d4ffb3.lwkdc48gdl.mp3",
+      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\2d30ff3f-3469-4a18-bdf1-8355f4d4ffb3.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16189,7 +16086,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Jan 2025 01:59:49 GMT"
+          "Value": "Tue, 18 Feb 2025 01:59:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16203,7 +16100,7 @@
         },
         {
           "Name": "label",
-          "Value": "audio/55689a08-aeb2-46e1-b2bf-4cf838b303c8.mp3"
+          "Value": "audio/2d30ff3f-3469-4a18-bdf1-8355f4d4ffb3.mp3"
         },
         {
           "Name": "integrity",
@@ -16212,8 +16109,8 @@
       ]
     },
     {
-      "Route": "audio/55689a08-aeb2-46e1-b2bf-4cf838b303c8.mp3",
-      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\55689a08-aeb2-46e1-b2bf-4cf838b303c8.mp3",
+      "Route": "audio/2d30ff3f-3469-4a18-bdf1-8355f4d4ffb3.mp3",
+      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\2d30ff3f-3469-4a18-bdf1-8355f4d4ffb3.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16234,7 +16131,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Jan 2025 01:59:49 GMT"
+          "Value": "Tue, 18 Feb 2025 01:59:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16249,8 +16146,8 @@
       ]
     },
     {
-      "Route": "audio/5e309d5a-ecdc-4539-95c0-66a66d172b9c.lwkdc48gdl.mp3",
-      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\5e309d5a-ecdc-4539-95c0-66a66d172b9c.mp3",
+      "Route": "audio/8a6c78c7-0f53-49e4-b3d7-eed1e8602b11.lwkdc48gdl.mp3",
+      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\8a6c78c7-0f53-49e4-b3d7-eed1e8602b11.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16271,7 +16168,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Jan 2025 09:30:39 GMT"
+          "Value": "Tue, 18 Feb 2025 02:28:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16285,7 +16182,7 @@
         },
         {
           "Name": "label",
-          "Value": "audio/5e309d5a-ecdc-4539-95c0-66a66d172b9c.mp3"
+          "Value": "audio/8a6c78c7-0f53-49e4-b3d7-eed1e8602b11.mp3"
         },
         {
           "Name": "integrity",
@@ -16294,8 +16191,8 @@
       ]
     },
     {
-      "Route": "audio/5e309d5a-ecdc-4539-95c0-66a66d172b9c.mp3",
-      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\5e309d5a-ecdc-4539-95c0-66a66d172b9c.mp3",
+      "Route": "audio/8a6c78c7-0f53-49e4-b3d7-eed1e8602b11.mp3",
+      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\8a6c78c7-0f53-49e4-b3d7-eed1e8602b11.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16316,7 +16213,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Jan 2025 09:30:39 GMT"
+          "Value": "Tue, 18 Feb 2025 02:28:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16327,334 +16224,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c="
-        }
-      ]
-    },
-    {
-      "Route": "audio/804a1dbb-496f-4b30-ba64-8e248252913d.ia4jk966yg.png",
-      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\804a1dbb-496f-4b30-ba64-8e248252913d.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "31433"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hiuArJunUPuY82PLNg1Xfaxn6zfaz2J07/b0zuEAGOg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 13:45:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ia4jk966yg"
-        },
-        {
-          "Name": "label",
-          "Value": "audio/804a1dbb-496f-4b30-ba64-8e248252913d.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hiuArJunUPuY82PLNg1Xfaxn6zfaz2J07/b0zuEAGOg="
-        }
-      ]
-    },
-    {
-      "Route": "audio/804a1dbb-496f-4b30-ba64-8e248252913d.png",
-      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\804a1dbb-496f-4b30-ba64-8e248252913d.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "31433"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hiuArJunUPuY82PLNg1Xfaxn6zfaz2J07/b0zuEAGOg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 13:45:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hiuArJunUPuY82PLNg1Xfaxn6zfaz2J07/b0zuEAGOg="
-        }
-      ]
-    },
-    {
-      "Route": "audio/cbf31dcc-b57d-49d5-bb96-0c0925cceba6.lwkdc48gdl.mp3",
-      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\cbf31dcc-b57d-49d5-bb96-0c0925cceba6.mp3",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "891924"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "audio/mpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Jan 2025 07:20:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lwkdc48gdl"
-        },
-        {
-          "Name": "label",
-          "Value": "audio/cbf31dcc-b57d-49d5-bb96-0c0925cceba6.mp3"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c="
-        }
-      ]
-    },
-    {
-      "Route": "audio/cbf31dcc-b57d-49d5-bb96-0c0925cceba6.mp3",
-      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\cbf31dcc-b57d-49d5-bb96-0c0925cceba6.mp3",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "891924"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "audio/mpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Jan 2025 07:20:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c="
-        }
-      ]
-    },
-    {
-      "Route": "audio/f8837002-db82-4944-8916-45ea6933af12.lwkdc48gdl.mp3",
-      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\f8837002-db82-4944-8916-45ea6933af12.mp3",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "891924"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "audio/mpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Jan 2025 07:20:53 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lwkdc48gdl"
-        },
-        {
-          "Name": "label",
-          "Value": "audio/f8837002-db82-4944-8916-45ea6933af12.mp3"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c="
-        }
-      ]
-    },
-    {
-      "Route": "audio/f8837002-db82-4944-8916-45ea6933af12.mp3",
-      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\f8837002-db82-4944-8916-45ea6933af12.mp3",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "891924"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "audio/mpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Jan 2025 07:20:53 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c="
-        }
-      ]
-    },
-    {
-      "Route": "audio/N3 T7-2021.mp3",
-      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\N3 T7-2021.mp3",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "34565686"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "audio/mpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ubpVScgYQtexHt+aVRikuAEORwnz8nVY8xAOHWlYRrk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 06:05:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ubpVScgYQtexHt+aVRikuAEORwnz8nVY8xAOHWlYRrk="
-        }
-      ]
-    },
-    {
-      "Route": "audio/N3 T7-2021.ngzfwlp7vc.mp3",
-      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\N3 T7-2021.mp3",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "34565686"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "audio/mpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ubpVScgYQtexHt+aVRikuAEORwnz8nVY8xAOHWlYRrk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 06:05:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ngzfwlp7vc"
-        },
-        {
-          "Name": "label",
-          "Value": "audio/N3 T7-2021.mp3"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ubpVScgYQtexHt+aVRikuAEORwnz8nVY8xAOHWlYRrk="
         }
       ]
     },
@@ -19125,6 +18694,88 @@
       ]
     },
     {
+      "Route": "images/28ad31e6-0a6a-4688-ab67-94991038dea7.cyxz9vaang.jpg",
+      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\28ad31e6-0a6a-4688-ab67-94991038dea7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "579758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XMSZw5FnEkPoufmjQ3v55SRC0hl/1VBHJANx/O0AJcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 02:16:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cyxz9vaang"
+        },
+        {
+          "Name": "label",
+          "Value": "images/28ad31e6-0a6a-4688-ab67-94991038dea7.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XMSZw5FnEkPoufmjQ3v55SRC0hl/1VBHJANx/O0AJcU="
+        }
+      ]
+    },
+    {
+      "Route": "images/28ad31e6-0a6a-4688-ab67-94991038dea7.jpg",
+      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\28ad31e6-0a6a-4688-ab67-94991038dea7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "579758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XMSZw5FnEkPoufmjQ3v55SRC0hl/1VBHJANx/O0AJcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 02:16:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XMSZw5FnEkPoufmjQ3v55SRC0hl/1VBHJANx/O0AJcU="
+        }
+      ]
+    },
+    {
       "Route": "images/462611747_408283662315443_2696017188123012746_n.jpg",
       "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\462611747_408283662315443_2696017188123012746_n.jpg",
       "Selectors": [],
@@ -19289,6 +18940,170 @@
       ]
     },
     {
+      "Route": "images/84400b30-ce91-41ee-98ce-6a592d66c7aa.jpg",
+      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\84400b30-ce91-41ee-98ce-6a592d66c7aa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6099"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+L3Sm5UyxFvsBBPRisZsWPe7kwimn9olo+Fevx/AvZs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 02:39:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+L3Sm5UyxFvsBBPRisZsWPe7kwimn9olo+Fevx/AvZs="
+        }
+      ]
+    },
+    {
+      "Route": "images/84400b30-ce91-41ee-98ce-6a592d66c7aa.srmvtgo3l7.jpg",
+      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\84400b30-ce91-41ee-98ce-6a592d66c7aa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6099"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+L3Sm5UyxFvsBBPRisZsWPe7kwimn9olo+Fevx/AvZs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 02:39:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "srmvtgo3l7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/84400b30-ce91-41ee-98ce-6a592d66c7aa.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+L3Sm5UyxFvsBBPRisZsWPe7kwimn9olo+Fevx/AvZs="
+        }
+      ]
+    },
+    {
+      "Route": "images/download.cyxz9vaang.jpg",
+      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\download.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "579758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XMSZw5FnEkPoufmjQ3v55SRC0hl/1VBHJANx/O0AJcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 08:14:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cyxz9vaang"
+        },
+        {
+          "Name": "label",
+          "Value": "images/download.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XMSZw5FnEkPoufmjQ3v55SRC0hl/1VBHJANx/O0AJcU="
+        }
+      ]
+    },
+    {
+      "Route": "images/download.jpg",
+      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\download.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "579758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XMSZw5FnEkPoufmjQ3v55SRC0hl/1VBHJANx/O0AJcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 08:14:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XMSZw5FnEkPoufmjQ3v55SRC0hl/1VBHJANx/O0AJcU="
+        }
+      ]
+    },
+    {
       "Route": "images/nezuko.0n1ovpuh9r.jpg",
       "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\nezuko.jpg",
       "Selectors": [],
@@ -19311,7 +19126,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 02:01:21 GMT"
+          "Value": "Tue, 18 Feb 2025 01:53:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19356,7 +19171,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 02:01:21 GMT"
+          "Value": "Tue, 18 Feb 2025 01:53:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19367,6 +19182,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-TMEgARnMG9QT5oey1p3DH/huwPCjSVeru4a92n355hM="
+        }
+      ]
+    },
+    {
+      "Route": "images/pxfuel.jpg",
+      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\pxfuel.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "110728"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"leUSRCuqLznQOOCM6hIWbtvIm5x2vzVsVNAPn7FXUPg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 07:56:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-leUSRCuqLznQOOCM6hIWbtvIm5x2vzVsVNAPn7FXUPg="
+        }
+      ]
+    },
+    {
+      "Route": "images/pxfuel.n5qgu9dfbn.jpg",
+      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\images\\pxfuel.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "110728"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"leUSRCuqLznQOOCM6hIWbtvIm5x2vzVsVNAPn7FXUPg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 07:56:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n5qgu9dfbn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pxfuel.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-leUSRCuqLznQOOCM6hIWbtvIm5x2vzVsVNAPn7FXUPg="
         }
       ]
     },

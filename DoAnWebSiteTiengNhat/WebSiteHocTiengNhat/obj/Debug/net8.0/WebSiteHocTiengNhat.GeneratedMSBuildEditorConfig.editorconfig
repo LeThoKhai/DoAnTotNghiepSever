@@ -92,6 +92,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ291cnNlc1xVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/DoAnWebSiteTiengNhat/WebSiteHocTiengNhat/Areas/Admin/Views/Exam/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXhhbVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAnWebSiteTiengNhat/WebSiteHocTiengNhat/Areas/Admin/Views/Exam/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXhhbVxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAnWebSiteTiengNhat/WebSiteHocTiengNhat/Areas/Admin/Views/Exam/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXhhbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/DoAnWebSiteTiengNhat/WebSiteHocTiengNhat/Areas/Admin/Views/Exercises/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXhlcmNpc2VzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -160,8 +172,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGVzc29uc1xVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/DoAnWebSiteTiengNhat/WebSiteHocTiengNhat/Areas/Admin/Views/ListeningQuestion/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGlzdGVuaW5nUXVlc3Rpb25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAnWebSiteTiengNhat/WebSiteHocTiengNhat/Areas/Admin/Views/ListeningQuestion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGlzdGVuaW5nUXVlc3Rpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/DoAnWebSiteTiengNhat/WebSiteHocTiengNhat/Areas/Admin/Views/Questions/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUXVlc3Rpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAnWebSiteTiengNhat/WebSiteHocTiengNhat/Areas/Admin/Views/ReadingQuestion/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVhZGluZ1F1ZXN0aW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAnWebSiteTiengNhat/WebSiteHocTiengNhat/Areas/Admin/Views/ReadingQuestion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVhZGluZ1F1ZXN0aW9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DoAnWebSiteTiengNhat/WebSiteHocTiengNhat/Areas/Admin/Views/Shared/Error.cshtml]
@@ -182,6 +210,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/DoAnWebSiteTiengNhat/WebSiteHocTiengNhat/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAnWebSiteTiengNhat/WebSiteHocTiengNhat/Areas/Admin/Views/SpeakingQuestion/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3BlYWtpbmdRdWVzdGlvblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAnWebSiteTiengNhat/WebSiteHocTiengNhat/Areas/Admin/Views/SpeakingQuestion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3BlYWtpbmdRdWVzdGlvblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DoAnWebSiteTiengNhat/WebSiteHocTiengNhat/Areas/Admin/Views/UserCourse/AddUserInCourse.cshtml]
@@ -210,6 +246,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/DoAnWebSiteTiengNhat/WebSiteHocTiengNhat/Areas/Admin/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAnWebSiteTiengNhat/WebSiteHocTiengNhat/Areas/Admin/Views/WritingQuestion/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcV3JpdGluZ1F1ZXN0aW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAnWebSiteTiengNhat/WebSiteHocTiengNhat/Areas/Admin/Views/WritingQuestion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcV3JpdGluZ1F1ZXN0aW9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DoAnWebSiteTiengNhat/WebSiteHocTiengNhat/Areas/Admin/Views/_ViewImports.cshtml]
