@@ -1,0 +1,88 @@
+﻿@model WebSiteHocTiengNhat.ViewModels.Course_List_Category_LessonViewModel
+
+<aside class="single_sidebar_widget post_category_widget">
+    <details>
+        <summary class="widget_title">Category</summary>
+        <ul class="category_list">
+            @foreach (var category in Model.categories)
+            {       
+                <li class="category_item">
+                    <a href="#" class="category_link">
+                        <p>@category.CategoryName</p>
+                    </a>
+                    <ul class="lesson_list">
+                        @foreach (var lesson in Model.lessons.Where(l => l.CategoryId == category.CategoryId))
+                        {
+                            <li class="lesson_item">
+                                <a style="color:black" asp-action="Index" asp-controller="UserLessons" asp-route-courseId="@lesson.CourseId" asp-route-categoryId="@category.CategoryId" asp-route-lessonId="@lesson.LessonId">@lesson.LessonName</a>
+                            </li>
+                        }
+                    </ul>
+                </li>
+            }
+        </ul>
+    </details>
+</aside>
+<style>
+    /* Style cho sidebar */
+    .single_sidebar_widget {
+        background-color: #f9f9f9; /* Màu nền nhạt cho sidebar */
+        border-radius: 8px; /* Bo góc cho sidebar */
+        padding: 15px; /* Padding xung quanh */
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Đổ bóng nhẹ */
+    }
+
+    /* Style cho tiêu đề widget */
+    .widget_title {
+        font-size: 18px; /* Kích thước chữ tiêu đề */
+        font-weight: bold; /* Đậm chữ tiêu đề */
+        color: #2d2d2d; /* Màu chữ tiêu đề */
+        margin-bottom: 10px; /* Khoảng cách dưới tiêu đề */
+    }
+
+    /* Style cho danh sách danh mục */
+    .category_list {
+        list-style: none; /* Loại bỏ dấu chấm đầu danh sách */
+        padding: 0; /* Xoá padding mặc định */
+        margin: 0; /* Xoá margin mặc định */
+    }
+
+    .category_item {
+        margin-bottom: 10px; /* Khoảng cách giữa các danh mục */
+    }
+
+    .category_link {
+        display: block; /* Hiển thị như một khối */
+        text-decoration: none; /* Bỏ gạch chân */
+        color: #333; /* Màu chữ danh mục */
+        font-weight: bold; /* Đậm chữ danh mục */
+    }
+
+        .category_link:hover {
+            color: #007bff; /* Màu chữ khi hover */
+            text-decoration: underline; /* Gạch chân khi hover */
+        }
+
+    /* Style cho danh sách bài học */
+    .lesson_list {
+        list-style: none; /* Loại bỏ dấu chấm đầu danh sách */
+        padding-left: 20px; /* Thụt lề để làm nổi bật bài học */
+        margin: 0; /* Xoá margin mặc định */
+    }
+
+    .lesson_item {
+        margin-bottom: 5px; /* Khoảng cách giữa các bài học */
+    }
+
+    .lesson_link {
+        text-decoration: none; /* Bỏ gạch chân */
+        color: #555; /* Màu chữ bài học */
+        font-size: 14px; /* Kích thước chữ bài học */
+    }
+
+        .lesson_link:hover {
+            color: #007bff; /* Màu chữ khi hover */
+            text-decoration: underline; /* Gạch chân khi hover */
+        }
+
+</style>

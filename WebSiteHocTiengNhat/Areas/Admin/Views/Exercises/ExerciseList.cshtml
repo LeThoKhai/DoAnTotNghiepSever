@@ -1,0 +1,77 @@
+﻿@using WebSiteHocTiengNhat.ViewModels
+@model ExerciseViewModel
+
+<div class="container">
+    <div class="row align-items-center mb-3">
+        <div class="col-md-6">
+            <h2>Exercise for @Model.CourseName</h2>
+        </div>
+        <div class="col-md-6 text-right">
+            <div class="dropdown show">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select Category
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#" onclick="filterLessonsByCategory('')">All Categories</a>
+                    @foreach (var category in Model.Categories)
+                    {
+                        <a class="dropdown-item" href="#" onclick="filterLessonsByCategory('@category.Value')">@category.Text</a>
+                    }
+                </div>
+            </div>
+        </div>
+        <input type="hidden" asp-for="CourseId" />
+        <a class="nav-link text-dark" asp-area="Admin" asp-controller="Exercises" asp-action="Create" asp-route-courseId="@Model.CourseId" style="margin-left:13px; padding: 8px; background-color:deepskyblue;
+                    border-radius: 5px; text-decoration:none;color:white;font-style:initial;max-width:160px">Create new Exercise</a>
+    </div>
+    <style>
+        .lesson-card {
+            transition: transform 0.3s;
+            margin: 0; /* Reset default margin */
+        }
+
+            .lesson-card:hover {
+                transform: scale(1.05);
+            }
+
+        .lesson-link {
+            text-decoration: none; /* Remove underline from link */
+        }
+
+        .card-title {
+            text-align: center;
+        }
+
+    </style>
+    <div class="row" style="gap: 10px;">
+        @foreach (var exercise in Model.Exercises)
+        {
+            <div class="col-4 col-md-3">
+                <a href="#" onclick="redirectToDetail('@exercise.ExerciseId')" class="lesson-link">
+                    <div class="alert alert-info lesson-card" role="alert">
+                        <h5 class="card-title">@exercise.ExerciseName</h5>
+                    </div>
+                </a>
+            </div>
+        }
+    </div>
+    @*     <a asp-action="Index" asp-controller="Lessons">Back to Course</a> *@
+</div>
+
+@section Scripts {
+    <script>
+        function filterLessonsByCategory(categoryId) {
+            var url = '@Url.Action("ExerciseList", new { courseId = Model.CourseId })';
+            if (categoryId) {
+                url += '&categoryId=' + categoryId;
+            }
+            window.location.href = url;
+        }
+
+        function redirectToDetail(lessonId) {
+            var url = '@Url.Action("Detail", "Exercises", new { id = "__exerciseId__" })';
+            url = url.replace('__exerciseId__', lessonId);
+            window.location.href = url;
+        }
+    </script>
+}

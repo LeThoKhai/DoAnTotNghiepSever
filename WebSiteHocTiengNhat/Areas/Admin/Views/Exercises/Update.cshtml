@@ -1,0 +1,24 @@
+﻿@model WebSiteHocTiengNhat.Models.Exercise
+@using Microsoft.AspNetCore.Mvc.Rendering
+@{
+    ViewData["Title"] = "Edit Course";
+}
+<h2>@ViewData["Title"]</h2>
+<form asp-action="Update" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="ExerciseId" />
+    <div class="form-group">
+        <label asp-for="CategoryId"></label>
+        <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="ExerciseName"></label>
+        <input asp-for="ExerciseName" class="form-control" />
+        <span asp-validation-for="ExerciseName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Content"></label>
+        <textarea asp-for="Content" class="form-control"></textarea>
+        <span asp-validation-for="Content" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>

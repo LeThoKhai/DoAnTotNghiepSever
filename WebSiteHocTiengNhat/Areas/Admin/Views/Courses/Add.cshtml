@@ -1,0 +1,58 @@
+﻿@model WebSiteHocTiengNhat.Models.Course
+@using Microsoft.AspNetCore.Mvc.Rendering
+@{
+    ViewData["Title"] = "Add Course";
+}
+
+<h2>@ViewData["Title"]</h2>
+<form asp-action="Add" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="CourseName"></label>
+        <input asp-for="CourseName" class="form-control" />
+        <span asp-validation-for="CourseName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Content"></label>
+        <textarea asp-for="Content" class="form-control"></textarea>
+        <span asp-validation-for="Content" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <div class="form-check">
+            <input asp-for="Status" class="form-check-input" type="checkbox" />
+            <label asp-for="Status" class="form-check-label">Status</label>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="Image">Course Image</label>
+        <input type="file" name="imageUrl" class="form-control" id="imageInput" onchange="previewImage()" />
+    </div>
+    <div id="imagePreview" style="max-width:200px;"></div>
+    <button type="submit" class="btn btn-primary">Add</button>
+</form>
+
+<script>
+    function previewImage() {
+        var preview = document.getElementById("imagePreview");
+        var file = document.getElementById("imageInput").files[0];
+        var reader = new FileReader();
+
+        reader.onloadend = function () {
+            var img = new Image();
+            img.src = reader.result;
+            img.style.maxWidth = "200px";
+            preview.innerHTML = "";
+            preview.appendChild(img);
+        }
+
+        if (file) {
+            reader.readAsDataURL(file);
+        } else {
+            preview.innerHTML = "";
+        }
+    }
+</script>

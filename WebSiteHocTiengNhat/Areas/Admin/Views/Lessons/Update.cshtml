@@ -1,0 +1,30 @@
+﻿@model WebSiteHocTiengNhat.Models.Lesson
+@using Microsoft.AspNetCore.Mvc.Rendering
+@{
+    ViewData["Title"] = "Edit Course";
+}
+<h2>@ViewData["Title"]</h2>
+<form asp-action="Update" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="LessonId" />
+    <input type="hidden" asp-for="CourseId" />
+    <div class="form-group">
+        <label asp-for="Category"></label>
+        <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="LessonName"></label>
+        <input asp-for="LessonName" class="form-control" />
+        <span asp-validation-for="LessonName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Link">Link video here</label>
+        <input asp-for="Link" class="form-control" />
+        <span asp-validation-for="Link" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Content"></label>
+        <textarea asp-for="Content" class="form-control"></textarea>
+        <span asp-validation-for="Content" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>

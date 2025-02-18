@@ -1,0 +1,209 @@
+﻿@model WebSiteHocTiengNhat.ViewModels.UserExerciseViewModel
+
+<!-- Slider Area Start -->
+<section class="slider-area slider-area2">
+    <div class="slider-active">
+        <div class="single-slider slider-height2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-8 col-lg-11 col-md-12">
+                        <div class="hero__caption hero__caption2">
+                            <h1 data-animation="bounceIn" data-delay="0.2s">@Model.course.CourseName</h1>
+                            @Html.Partial("_BreadcrumbPartial")
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Blog Area Start -->
+<section class="blog_area single-post-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 posts-list">
+                <div class="single-post">
+                    <div class="blog_details">
+                        @Html.Raw(Model.exercise.ExerciseName)
+                    </div>
+                    <!-- Hiển thị điểm số sau khi submit -->
+                    @if (Model.Score.HasValue)
+                    {
+                        <div class="scoreResult" style="margin-top: 20px;">
+                            <h3>Your Score: @Model.Score.Value.ToString("F2")%</h3>
+                        </div>
+                    }
+                    @if (Model.exercise != null)
+                    {
+                        <form id="Exercises" asp-action="Submit" method="post">
+                            <input type="hidden" name="courseId" value="@Model.course.CourseId" />
+                            <input type="hidden" name="exerciseId" value="@Model.exercise.ExerciseId" />
+                            <input type="hidden" name="categoryId" value="@ViewBag.categoryId" />
+
+                            @if (Model.questions != null && Model.questions.Count > 0)
+                            {
+                                @if (Model.Answer == true)
+                                {
+                                    @for (int i = 0; i < Model.questions.Count; i++)
+                                    {
+                                        <div>
+                                            <h4>@Html.Raw(Model.questions[i].QuestionText)</h4>
+                                            <input type="hidden" name="questionIds" value="@Model.questions[i].QuestionId" />
+                                            <div>
+                                                <p style="color:forestgreen;">@Model.questions[i].OptionA</p>
+                                            </div>
+                                            <div>
+                                                <p style="color:forestgreen;">@Model.questions[i].OptionB</p>
+                                            </div>
+                                            <div>
+                                                <p style="color:forestgreen;">@Model.questions[i].OptionC</p>
+                                            </div>
+                                            <div>
+                                                <p style="color:forestgreen;">@Model.questions[i].OptionD</p>
+                                            </div>
+                                            <div >
+                                                <p style="color:red;" >@Model.questions[i].CorrectAnswer</p>
+                                            </div>
+                                        </div>
+                                    }
+                                    <a class="custom1-link" asp-action="Index" asp-route-courseId="@ViewBag.courseId" asp-route-categoryId="@ViewBag.categoryId" asp-route-exerciseId="@ViewBag.excerciseId"> Again</a>
+                                }
+                                else
+                                {
+                                    @for (int i = 0; i < Model.questions.Count; i++)
+                                    {
+                                        <div>
+                                            <h4>@Html.Raw(Model.questions[i].QuestionText)</h4>
+                                            <input type="hidden" name="questionIds" value="@Model.questions[i].QuestionId" />
+                                            <div>
+                                                <input type="radio" name="selectedAnswers[@i]" value="A" required /> @Model.questions[i].OptionA
+                                            </div>
+                                            <div>
+                                                <input type="radio" name="selectedAnswers[@i]" value="B" /> @Model.questions[i].OptionB
+                                            </div>
+                                            <div>
+                                                <input type="radio" name="selectedAnswers[@i]" value="C" /> @Model.questions[i].OptionC
+                                            </div>
+                                            <div>
+                                                <input type="radio" name="selectedAnswers[@i]" value="D" /> @Model.questions[i].OptionD
+                                            </div>
+                                        </div>
+                                    }
+                                    <button type="submit">Submit</button>
+                                }
+                            }
+                            else
+                            {
+                                <h2 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">Làm bài tập ngay thôi nào</h2>
+                            }
+
+                        </form>
+                    }
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="blog_right_sidebar">
+                    @await Component.InvokeAsync("SideBarExercise")
+                    @await Component.InvokeAsync("SideBarListCourse")
+                    <aside class="single_sidebar_widget instagram_feeds">
+                        <h4 class="widget_title" style="color: #2d2d2d;">Instagram Feeds</h4>
+                        <ul class="instagram_row flex-wrap">
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="/User/assets/img/post/post_5.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="/User/assets/img/post/post_6.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="/User/assets/img/post/post_7.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="/User/assets/img/post/post_8.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="/User/assets/img/post/post_9.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="/User/assets/img/post/post_10.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </aside>
+                    <aside class="single_sidebar_widget newsletter_widget">
+                        <h4 class="widget_title" style="color: #2d2d2d;">Newsletter</h4>
+                        <form action="#">
+                            <div class="form-group">
+                                <input type="email" class="form-control" onfocus="this.placeholder = ''"
+                                       onblur="this.placeholder = 'Enter email'" placeholder='Enter email' required>
+                            </div>
+                            <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn" type="submit">Subscribe</button>
+                        </form>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Blog Area End -->
+<style>
+    .slider-area2 h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .slider-area2 .hero__caption {
+        margin-bottom: 30px;
+    }
+    .single-post input[type="radio"] {
+        margin-right: 10px;
+    }
+
+    .scoreResult h3 {
+        color: #1cc88a;
+        font-weight: bold;
+    }
+
+
+    button {
+        margin-top: 10px;
+        background-color: #4e73df;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+        button:hover {
+            background-color: #1cc88a;
+        }
+
+    .custom1-link {
+        margin-top: 10px;
+        background-color: #4e73df;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+    }
+        .custom1-link:hover {
+            background-color:forestgreen; 
+        }
+
+</style>
+

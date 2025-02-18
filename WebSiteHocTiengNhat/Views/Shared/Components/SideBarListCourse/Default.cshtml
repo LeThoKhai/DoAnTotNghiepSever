@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Course>
+
+@if (Model != null && Model.Any())
+{
+    <aside class="single_sidebar_widget popular_post_widget">
+        <h3 class="widget_title" style="color: #2d2d2d;">Another Course</h3>
+        @foreach (var course in Model)
+        {
+            <div class="media post_item">
+                <img style="max-width:80px;height:auto;" src="@course.Image" alt="post">
+                <div class="media-body">
+                    <a asp-controller="UserCourses" asp-action="CourseDetail" asp-route-courseId="@course.CourseId">
+                        <h3 style="color: #2d2d2d;">@course.CourseName</h3>
+                    </a>
+                    <p>@Math.Round(@course.Price,0) VNĐ</p>
+                </div>
+            </div>
+        }
+</aside>
+}

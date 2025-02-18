@@ -1,0 +1,111 @@
+﻿@model WebSiteHocTiengNhat.ViewModels.FlashCard_LessonViewModel
+<div style="margin:0 5px 0 50px">
+@*     <h1 class="lesson-title">@Model.LessonName</h1> *@
+
+    <a class="btn-create-flashcard nav-link text-dark" asp-controller="FlashCards" asp-action="Create" asp-route-lessonId="@Model.LessonId">
+        Tạo Flashcard
+    </a>
+    <div class="row flashcard-container" style="gap:7%;">
+        @foreach (var flashcard in Model.FlashCards)
+        {
+            <div class="col-md-2" style="padding-top:2%">
+                <div class="card-wrapper">
+                    <div class="card-body-fl">
+                        <div class="card-front">
+                            <p>@Html.Raw(flashcard.CardFront)</p>
+                        </div>
+                        <div class="card-back">
+                            <p>@Html.Raw(flashcard.CardBack)</p>
+                            <div class="col-md-2">
+                                <div class="btn-container">
+                                    <a class="btn-create-flashcard nav-link text-dark" asp-controller="FlashCards" asp-action="Delete" asp-route-id="@flashcard.CardId">
+                                        Delete
+                                    </a>
+@*                                     <a class="btn-create-flashcard nav-link text-dark" asp-controller="FlashCards" asp-action="Create" asp-route-lessonId="@flashcard.CardId">
+                                        Edit
+                                    </a> *@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+</div>
+
+
+<style>
+    .card-wrapper {
+        width: 20rem;
+        height: 300px;
+        margin: auto;
+        perspective: 1000px; /* Tạo hiệu ứng 3D */
+    }
+
+    .card-body-fl {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.6s; /* Thời gian chuyển đổi khi lật card */
+        transform-style: preserve-3d; /* Bảo quản cấu trúc 3D khi lật */
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+    }
+
+    .card-front, .card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden; /* Ẩn mặt sau khi chưa lật */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #ffffff; /* Màu nền của card */
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    .card-front {
+        /* Nội dung mặt trước của card */
+    }
+
+    .card-back {
+        /* Nội dung mặt sau của card */
+        transform: rotateY(180deg); /* Lật mặt sau 180 độ */
+    }
+
+    .card-wrapper:hover .card-body-fl {
+        transform: rotateY(180deg); /* Lật card khi hover */
+    }
+
+    .card-wrapper:hover .card-back {
+        backface-visibility: visible;
+    }
+
+    .card-wrapper:hover .card-front {
+        backface-visibility: hidden;
+    }
+
+    .card-wrapper .card-body-fl {
+        transform: rotateY(0deg); /* Hiển thị mặt trước mặc định */
+    }
+
+    /* Các nút và hiệu ứng nút */
+    .btn-container {
+        display: flex;
+        gap: 10px; /* Khoảng cách giữa các nút */
+        justify-content: center; /* Căn giữa các nút trong container */
+    }
+
+    .btn-create-flashcard {
+        padding: 10px 20px;
+        background-color: #007bff;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white
+
+
+</style>

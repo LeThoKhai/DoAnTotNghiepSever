@@ -1,0 +1,22 @@
+﻿@model WebSiteHocTiengNhat.Models.FlashCard
+
+<h2>Create New FlashCard</h2>
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="LessonId" />
+    <div class="form-group">
+        <label asp-for="CardName">CardName</label>
+        <input asp-for="CardName" class="form-control" />
+        <span asp-validation-for="CardName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CardFront"></label>
+        <textarea asp-for="CardFront" class="form-control">CardFront</textarea>
+        <span asp-validation-for="CardFront" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CardBack"></label>
+        <textarea asp-for="CardBack" class="form-control">CardBack</textarea>
+        <span asp-validation-for="CardBack" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>

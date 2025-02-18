@@ -1,0 +1,92 @@
+﻿@model WebSiteHocTiengNhat.Models.Lesson 
+ 
+<!--? slider Area Start-->
+<section class="slider-area slider-area2">
+    <div class="slider-active">
+        <!-- Single Slider -->
+        <div class="single-slider slider-height2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-8 col-lg-11 col-md-12">
+                        <div class="hero__caption hero__caption2">
+                            <h1 data-animation="bounceIn" data-delay="0.2s">@Model.LessonName</h1>
+                            <!-- breadcrumb Start-->
+                            @Html.Partial("_BreadcrumbPartial")
+                            <!-- breadcrumb End -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--? Blog Area Start -->
+<section class="blog_area single-post-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 posts-list">
+                <div class="single-post">
+                    <div class="blog_details">
+                        @Html.Raw(Model.Content)
+                    </div>
+                </div>
+                <h2>Flashcard</h2>
+                @await Component.InvokeAsync("ListFlashCard",Model.LessonId)
+            </div>
+            <div class="col-lg-3">
+                <div class="blog_right_sidebar">
+                    @await Component.InvokeAsync("SideBarListCategory")
+                    @await Component.InvokeAsync("SideBarListCourse")
+                    <aside class="single_sidebar_widget instagram_feeds">
+                        <h4 class="widget_title" style="color: #2d2d2d;">Instagram Feeds</h4>
+                        <ul class="instagram_row flex-wrap">
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="/User/assets/img/post/post_5.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="/User/assets/img/post/post_6.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="/User/assets/img/post/post_7.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="/User/assets/img/post/post_8.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="/User/assets/img/post/post_9.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="/User/assets/img/post/post_10.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </aside>
+                    <aside class="single_sidebar_widget newsletter_widget">
+                        <h4 class="widget_title" style="color: #2d2d2d;">Newsletter</h4>
+                        <form action="#">
+                            <div class="form-group">
+                                <input type="email" class="form-control" onfocus="this.placeholder = ''"
+                                       onblur="this.placeholder = 'Enter email'" placeholder='Enter email' required>
+                            </div>
+                            <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn" type="submit">Subscribe</button>
+                        </form>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Blog Area End -->

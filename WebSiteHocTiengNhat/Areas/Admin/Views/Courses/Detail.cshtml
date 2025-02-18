@@ -1,0 +1,51 @@
+﻿@using DocumentFormat.OpenXml.Bibliography
+@model WebSiteHocTiengNhat.Models.Course
+<div class="main-content-inner">
+    <div class="row">
+        <div class="col-lg-12 mt-5">
+            <div class="card">
+                <div class="card-body">
+                    <div class="invoice-area">
+                        <div class="invoice-head">
+                            <div class="row">
+                                <div class="iv-left col-6">
+                                    <span>Khóa học</span>
+                                </div>
+                                <div class="iv-right col-6 text-md-right">
+                                    <span>ID: #@Model.CourseId</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="invoice-address">
+                                    <h3>@Model.CourseName</h3>
+                                    <h5>@Math.Round(@Model.Price,0) VND</h5>
+                                    <p>Status: <p class="alert alert-success" role="alert" style="max-width:68px">@Model.Status</p> </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-md-right">
+                                <ul class="invoice-date">
+                                    @if (!string.IsNullOrEmpty(Model.Image))
+                                    {
+                                        <img src="@Model.Image" alt="Product Image" style="max-width:200px;" />
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="invoice-table table-responsive mt-5">
+                            <p>
+                                @Html.Raw(Model.Content)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="invoice-buttons text-right">
+                        <a href="#" class="invoice-btn">print invoice</a>
+                        <a href="#" class="invoice-btn">send invoice</a>
+                    </div>
+                    <a asp-action="Index" asp-controller="Courses">Back to List</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

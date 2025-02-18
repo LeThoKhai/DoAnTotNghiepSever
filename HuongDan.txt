@@ -1,0 +1,11 @@
+đổi tên liên kết database trong thư mục appsettgng.json
+
+---------------------|
+quy trình sử dụng git|
+---------------------|
+- Đẩy code lên git
+git add .
+git commit -m "Thông điệp commit"
+git push origin main
+- Lấy code từ git về máy local
+git pull origin main
