@@ -5,7 +5,7 @@
         <div class="col-lg-12 mt-5">
             <div class="card">
                 <div class="card-body">
-                    <div class="invoice-area">
+                    <div style="padding-bottom:15px" class="invoice-area">
                         <div class="invoice-head">
                             <div class="row">
                                 <div class="iv-left col-6">
@@ -68,8 +68,8 @@
                     <div class="card-body">
                         <div class="header-container" style="padding-bottom:5px">
                             <h4 class="header-title">Question</h4>
-                            <a asp-action="Create" asp-controller="Questions" asp-route-ExamId="@Model.ExamId" class="btn-create">
-                                Create new question
+                            <a asp-action="Create" asp-controller="ExamQuestion" asp-route-ExamId="@Model.ExamId" class="btn-create">
+                                Create new exam question
                             </a>
                         </div>
                         @foreach (var question in Model.Examquestions)
@@ -82,7 +82,7 @@
                                             Question @index
                                         </a>
                                         <div class="d-flex">
-                                            <form asp-action="Delete" asp-controller="Questions" asp-route-id="@question.Id" method="post" onsubmit="return confirm('Bạn có chắc chắn muốn xóa câu hỏi này?');" style="display:inline;">
+                                            <form asp-action="Delete" asp-controller="ExamQuestion" asp-route-id="@question.Id" method="post" onsubmit="return confirm('Bạn có chắc chắn muốn xóa câu hỏi này?');" style="display:inline;">
                                                 <button type="submit" class="bg-danger btn-sm">Delete</button>
                                             </form>
                                         </div>
@@ -91,6 +91,16 @@
                                         <div class="card-body">
                                             @Html.Raw(question.QuestionContent)
                                         </div>
+                                        @if (!string.IsNullOrEmpty(question.Link))
+                                        {
+                                            <div class="card-body">
+                                                <strong>Audio:</strong>
+                                                <audio controls>
+                                                    <source src="@question.Link" type="audio/mpeg">
+                                                    Your browser does not support the audio element.
+                                                </audio>
+                                            </div>
+                                        }
                                         <div class="card-body">
                                             @question.OptionA
                                         </div>

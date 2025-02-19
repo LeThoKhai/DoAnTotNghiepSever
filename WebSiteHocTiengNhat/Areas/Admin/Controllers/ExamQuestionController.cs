@@ -11,7 +11,7 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
 {
     //[Authorize(Roles = "Admin")]
     [Area("Admin")]
-    public class QuestionsController : Controller
+    public class ExamQuestionController: Controller
     {
         private readonly ICategoryRepository _categoryRepository;
         private readonly IExercisesRepository _exercisesRepository;
@@ -19,7 +19,7 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
         private readonly ICategoryQuestionRepository _categoryQuestionRepository;
         private readonly ApplicationDbContext _context;
         
-        public QuestionsController(IQuestionRepository questionRepository, ICategoryRepository categoryRepository,
+        public ExamQuestionController(IQuestionRepository questionRepository, ICategoryRepository categoryRepository,
         IExercisesRepository exercisesRepository, ICategoryQuestionRepository categoryQuestionRepository, ApplicationDbContext applicationDbContext)
         {
             _questionRepository = questionRepository;
@@ -30,11 +30,11 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
         }
 
 
-        public async Task<IActionResult> _QuestionListPartial(int exerciseId)
+        public async Task<IActionResult> _ExamQuestionListPartial(int examid)
         {
-            var questions = await _questionRepository.GetAllAsync();
-            var filterquestion=questions.Where(n=>n.ExerciseId == exerciseId);
-            return PartialView("_QuestionListPartial", filterquestion);   
+            var examquestions = _context.ExamQuestions.ToList();
+            var filterquestion=examquestions.Where(n=>n.ExamId == examid);
+            return PartialView("_ExamQuestionListPartial", filterquestion);   
         }
         private async Task<string> SaveAudio(IFormFile audio)
         {
@@ -60,59 +60,70 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
         }
        
 
-        public async Task<IActionResult> Create(int exerciseId)
+        public async Task<IActionResult> Create(int examId)
         {
-            var question = new Question { ExerciseId= exerciseId};
+            var examquestion = new ExamQuestion { ExamId= examId};
             ViewBag.CorrectAnswer = new SelectList(new List<string> {"A", "B", "C", "D" });
-            ViewBag.ExerciseId= exerciseId;
-            return View(question);
+            var categoryquestion = _context.CategoryQuestions.ToList();
+            ViewBag.CategoryQuestion = new SelectList(categoryquestion, "CategoryQuestionId", "CategoryQuestionName");
+            return View(examquestion);
         }
 
-
         [HttpPost]
-        public async Task<IActionResult> Create(Question? question, IFormFile? audioFile)
-        {      
-            if (ModelState.IsValid)
+        public async Task<IActionResult> Create(ExamQuestion? eq, IFormFile? audioFile)
+        {
+            var categoryquestion = _context.CategoryQuestions.FirstOrDefault(n => n.CategoryQuestionId == eq.CategoryQuestionId);
+            if (categoryquestion.IsListening)
             {
-                try
+                if (audioFile != null)
                 {
-                    if (audioFile != null)
+                    try
                     {
                         var audioPath = await SaveAudio(audioFile);
-                        question.Link = audioPath;
+                        eq.Link = audioPath;
+                        _context.ExamQuestions.Add(eq);
+                        _context.SaveChanges();
+                        return RedirectToAction("Detail", "Exam", new { Id = eq.ExamId });
+
                     }
-                    await _questionRepository.AddAsync(question);
-                    return RedirectToAction("Detail", "Exercises", new { Id = question.ExerciseId });
+                    catch (Exception ex)
+                    {
+                        ModelState.AddModelError("", $"Error saving exam question: {ex.Message}");
+                    }
+                }
+                ModelState.AddModelError("", $"Listening question need audio file");
+            }
+            else { 
+                try
+                {
+                    _context.ExamQuestions.Add(eq);
+                    _context.SaveChanges();
+                    return RedirectToAction("Detail", "Exam", new { Id = eq.ExamId });
                 }
                 catch (Exception ex)
                 {
-                    ModelState.AddModelError("", $"Error saving audio: {ex.Message}");
+                    ModelState.AddModelError("", $"Error saving exam question: {ex.Message}");
                 }
             }
-            // Nếu lỗi, trả về view với dữ liệu đã nhập
-            var categoryquestion = await _categoryQuestionRepository.GetAllAsync();
+            var categoryquestionlist = _context.CategoryQuestions.ToList();
+            ViewBag.CategoryQuestion = new SelectList(categoryquestionlist, "CategoryQuestionId", "CategoryQuestionName");
             ViewBag.CorrectAnswer = new SelectList(new List<string> { "A", "B", "C", "D" });
-            return View(question);
+            return View(eq);
         }
+
 
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int id)
         {
-            // Lấy câu hỏi dựa trên id
-            var question = await _questionRepository.GetByIdAsync(id);
-
-            if (question == null)
+            var eq= _context.ExamQuestions.FirstOrDefault(n=>n.Id==id);
+            if (eq == null)
             {
-                // Nếu câu hỏi không tồn tại, trả về lỗi
                 return NotFound();
             }
-
-            // Tiến hành xóa câu hỏi
-            await _questionRepository.DeleteAsync(id);
-
-            // Điều hướng về trang chi tiết bài tập
-            return RedirectToAction("Detail", "Exercises", new { Id = question.ExerciseId });
+            _context.ExamQuestions.Remove(eq);
+            _context.SaveChanges();
+            return RedirectToAction("Detail", "Exam", new { Id = eq.ExamId});
         }
     }
 }

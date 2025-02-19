@@ -19,29 +19,12 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
     public class ExamController : Controller
     {
         private readonly HttpClient _httpClient;
-        private readonly string _geminiApiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent";
-        private readonly string _apiKey = "AIzaSyDkh-E-q9D9RVA0mzxtPc35WTY9JjxyeoI";
-        private readonly ICategoryRepository _categoryRepository;
-        private readonly ICoursesRepository _coursesRepository;
-        private readonly IQuestionRepository _questionRepository;
-        private readonly ICategoryQuestionRepository _categoryQuestionRepository;
         private readonly ApplicationDbContext _dbContext;
-        public ExamController(
-            HttpClient httpClient,
-            IQuestionRepository questionRepository,
-            ICategoryRepository categoryRepository,
-            ICoursesRepository coursesRepository,
-            ICategoryQuestionRepository categoryQuestionRepository,
-            ApplicationDbContext applicationDbContext)
+        public ExamController(HttpClient httpClient,ApplicationDbContext applicationDbContext)
         {
             _dbContext = applicationDbContext;
             _httpClient = httpClient;
-            _categoryRepository = categoryRepository;
-            _coursesRepository = coursesRepository;
-            _questionRepository = questionRepository;
-            _categoryQuestionRepository = categoryQuestionRepository;
         }
-
 
 
         public async Task<IActionResult> Index()
@@ -50,11 +33,11 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
             return View(list);
         }
 
+
         public async Task<IActionResult> Create()
         {
             return View();
         }
-
         [HttpPost]
         public async Task<IActionResult> Create(Exam exam)
         {
@@ -67,6 +50,9 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
 
             return RedirectToAction(nameof(Create));
         }
+
+
+
         [HttpGet]
         public async Task<IActionResult> Detail(int Id)
         {
@@ -85,59 +71,62 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
             return View();
         }
 
-        //public async Task<IActionResult> Update(int id)
-        //{
-        //    var categories = await _categoryRepository.GetAllAsync();
-        //    ViewBag.Categories = new SelectList(categories, "CategoryId", "CategoryName");
-        //    var exercise = await _ExamRepository.GetByIdAsync(id);
-        //    if (exercise == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    return View(exercise);
-        //}
-        //[HttpPost]
-        //public async Task<IActionResult> Update(int id, Exercise exercise)
-        //{
-        //    if (id != exercise.ExerciseId)
-        //    {
-        //        return NotFound();
-        //    }
-        //    var exs = await _ExamRepository.GetByIdAsync(id);
-        //    if (ModelState.IsValid)
-        //    {
-        //        var existingProduct = await _ExamRepository.GetByIdAsync(id);
-        //        existingProduct.ExerciseName = exercise.ExerciseName;
-        //        existingProduct.CategoryId = exercise.CategoryId;
-        //        existingProduct.Content = exercise.Content;
-        //        await _ExamRepository.UpdateAsync(existingProduct);
-        //        await GenerateExam(exercise);
-        //        return RedirectToAction(nameof(ExerciseList), new { courseId = existingProduct.CourseId });
-        //    }
-        //    return RedirectToAction(nameof(ExerciseList), new { courseId = exs.CourseId });
-        //}
-        //// Hiển thị form xác nhận xóa sản phẩm
-        //public async Task<IActionResult> Delete(int id)
-        //{
-        //    var exercise = await _ExamRepository.GetByIdAsync(id);
-        //    if (exercise == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    return View(exercise);
-        //}
-        //// Xử lý xóa sản phẩm
-        //[HttpPost, ActionName("Delete")]
-        //public async Task<IActionResult> Delete(int id, Exercise exercise)
-        //{
-        //    var lesson = await _ExamRepository.GetByIdAsync(id);
-        //    if (lesson == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    int idcourse = lesson.CourseId;
-        //    await _ExamRepository.DeleteAsync(id);
-        //    return RedirectToAction(nameof(ExerciseList), new { courseId = idcourse });
-        //}
+
+
+        public async Task<IActionResult> Update(int id)
+        {
+            var item = _dbContext.Exams.FirstOrDefault(n => n.ExamId == id);
+            if (item == null)
+            {
+                return NotFound();
+            }
+            return View(item);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Update(int id, Exam exam)
+        {
+            if (id != exam.ExamId)
+            {
+                return NotFound();
+            }
+            if (ModelState.IsValid)
+            {
+                var existingProduct =  _dbContext.Exams.FirstOrDefault(n => n.ExamId == id);
+                if (existingProduct != null)
+                {
+                    existingProduct.ExamName = exam.ExamName;
+                    existingProduct.Content = exam.Content;
+                    _dbContext.Exams.Update(existingProduct);
+                    _dbContext.SaveChanges();
+                    return RedirectToAction(nameof(Detail), new { id = existingProduct.ExamId });
+                }
+            }
+            return RedirectToAction(nameof(Detail), new { id = id });
+        }
+
+
+
+        // Hiển thị form xác nhận xóa sản phẩm
+        public async Task<IActionResult> Delete(int id)
+        {
+            var item = _dbContext.Exams.FirstOrDefault(n => n.ExamId == id);
+            if (item == null)
+            {
+                return NotFound();
+            }
+            return View(item);
+        }
+        [HttpPost, ActionName("Delete")]
+        public async Task<IActionResult> Delete(int id, Exam exam)
+        {
+            var item = _dbContext.Exams.FirstOrDefault(n => n.ExamId == id);
+            if (item == null)
+            {
+                return NotFound();
+            }
+            _dbContext.Remove(item);
+            _dbContext.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
     }
 }

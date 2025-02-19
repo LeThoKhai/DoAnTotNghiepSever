@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ojlcHnkVExq4cLrAODWFxPGHYC0QO3CII5xWn5FvA8w=",
+  "Hash": "sBHY6tX65JwErGtk0CToG82YYNyD3Sz7uCOUnfH3UgU=",
   "Source": "WebSiteHocTiengNhat",
   "BasePath": "_content/WebSiteHocTiengNhat",
   "Mode": "Default",
@@ -2852,6 +2852,48 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\vendor\\modernizr-2.8.3.min.js"
     },
     {
+      "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\12184246-8b4d-4380-96ce-5dc0d45f1363.mp3",
+      "SourceId": "WebSiteHocTiengNhat",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\",
+      "BasePath": "_content/WebSiteHocTiengNhat",
+      "RelativePath": "audio/12184246-8b4d-4380-96ce-5dc0d45f1363#[.{fingerprint}]?.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wabge5i5sh",
+      "Integrity": "yADCmL4dv6fTjiJAqjGI8/kYNVpRblpwJ1Giz0qdahE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\audio\\12184246-8b4d-4380-96ce-5dc0d45f1363.mp3"
+    },
+    {
+      "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\2c34de64-e253-4967-8696-fe46a56fd498.mp3",
+      "SourceId": "WebSiteHocTiengNhat",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\",
+      "BasePath": "_content/WebSiteHocTiengNhat",
+      "RelativePath": "audio/2c34de64-e253-4967-8696-fe46a56fd498#[.{fingerprint}]?.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wabge5i5sh",
+      "Integrity": "yADCmL4dv6fTjiJAqjGI8/kYNVpRblpwJ1Giz0qdahE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\audio\\2c34de64-e253-4967-8696-fe46a56fd498.mp3"
+    },
+    {
       "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\2d30ff3f-3469-4a18-bdf1-8355f4d4ffb3.mp3",
       "SourceId": "WebSiteHocTiengNhat",
       "SourceType": "Discovered",
@@ -2873,6 +2915,27 @@
       "OriginalItemSpec": "wwwroot\\audio\\2d30ff3f-3469-4a18-bdf1-8355f4d4ffb3.mp3"
     },
     {
+      "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\45915c8f-c1a7-4f84-82e4-843ab7f10883.mp3",
+      "SourceId": "WebSiteHocTiengNhat",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\",
+      "BasePath": "_content/WebSiteHocTiengNhat",
+      "RelativePath": "audio/45915c8f-c1a7-4f84-82e4-843ab7f10883#[.{fingerprint}]?.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lwkdc48gdl",
+      "Integrity": "FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\audio\\45915c8f-c1a7-4f84-82e4-843ab7f10883.mp3"
+    },
+    {
       "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\8a6c78c7-0f53-49e4-b3d7-eed1e8602b11.mp3",
       "SourceId": "WebSiteHocTiengNhat",
       "SourceType": "Discovered",
@@ -2892,6 +2955,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\audio\\8a6c78c7-0f53-49e4-b3d7-eed1e8602b11.mp3"
+    },
+    {
+      "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\db2bd943-cc86-42cf-ae58-89af4b68230f.mp3",
+      "SourceId": "WebSiteHocTiengNhat",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\",
+      "BasePath": "_content/WebSiteHocTiengNhat",
+      "RelativePath": "audio/db2bd943-cc86-42cf-ae58-89af4b68230f#[.{fingerprint}]?.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wabge5i5sh",
+      "Integrity": "yADCmL4dv6fTjiJAqjGI8/kYNVpRblpwJ1Giz0qdahE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\audio\\db2bd943-cc86-42cf-ae58-89af4b68230f.mp3"
+    },
+    {
+      "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\fe0624e3-9bff-4a58-8b29-0f0bd03dd51f.mp3",
+      "SourceId": "WebSiteHocTiengNhat",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\",
+      "BasePath": "_content/WebSiteHocTiengNhat",
+      "RelativePath": "audio/fe0624e3-9bff-4a58-8b29-0f0bd03dd51f#[.{fingerprint}]?.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wabge5i5sh",
+      "Integrity": "yADCmL4dv6fTjiJAqjGI8/kYNVpRblpwJ1Giz0qdahE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\audio\\fe0624e3-9bff-4a58-8b29-0f0bd03dd51f.mp3"
     },
     {
       "Identity": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\courses-master.zip",
@@ -16064,6 +16169,170 @@
       ]
     },
     {
+      "Route": "audio/12184246-8b4d-4380-96ce-5dc0d45f1363.mp3",
+      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\12184246-8b4d-4380-96ce-5dc0d45f1363.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97802"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yADCmL4dv6fTjiJAqjGI8/kYNVpRblpwJ1Giz0qdahE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 02:25:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yADCmL4dv6fTjiJAqjGI8/kYNVpRblpwJ1Giz0qdahE="
+        }
+      ]
+    },
+    {
+      "Route": "audio/12184246-8b4d-4380-96ce-5dc0d45f1363.wabge5i5sh.mp3",
+      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\12184246-8b4d-4380-96ce-5dc0d45f1363.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97802"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yADCmL4dv6fTjiJAqjGI8/kYNVpRblpwJ1Giz0qdahE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 02:25:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wabge5i5sh"
+        },
+        {
+          "Name": "label",
+          "Value": "audio/12184246-8b4d-4380-96ce-5dc0d45f1363.mp3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yADCmL4dv6fTjiJAqjGI8/kYNVpRblpwJ1Giz0qdahE="
+        }
+      ]
+    },
+    {
+      "Route": "audio/2c34de64-e253-4967-8696-fe46a56fd498.mp3",
+      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\2c34de64-e253-4967-8696-fe46a56fd498.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97802"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yADCmL4dv6fTjiJAqjGI8/kYNVpRblpwJ1Giz0qdahE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 02:33:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yADCmL4dv6fTjiJAqjGI8/kYNVpRblpwJ1Giz0qdahE="
+        }
+      ]
+    },
+    {
+      "Route": "audio/2c34de64-e253-4967-8696-fe46a56fd498.wabge5i5sh.mp3",
+      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\2c34de64-e253-4967-8696-fe46a56fd498.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97802"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yADCmL4dv6fTjiJAqjGI8/kYNVpRblpwJ1Giz0qdahE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 02:33:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wabge5i5sh"
+        },
+        {
+          "Name": "label",
+          "Value": "audio/2c34de64-e253-4967-8696-fe46a56fd498.mp3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yADCmL4dv6fTjiJAqjGI8/kYNVpRblpwJ1Giz0qdahE="
+        }
+      ]
+    },
+    {
       "Route": "audio/2d30ff3f-3469-4a18-bdf1-8355f4d4ffb3.lwkdc48gdl.mp3",
       "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\2d30ff3f-3469-4a18-bdf1-8355f4d4ffb3.mp3",
       "Selectors": [],
@@ -16132,6 +16401,88 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 18 Feb 2025 01:59:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c="
+        }
+      ]
+    },
+    {
+      "Route": "audio/45915c8f-c1a7-4f84-82e4-843ab7f10883.lwkdc48gdl.mp3",
+      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\45915c8f-c1a7-4f84-82e4-843ab7f10883.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "891924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 02:19:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lwkdc48gdl"
+        },
+        {
+          "Name": "label",
+          "Value": "audio/45915c8f-c1a7-4f84-82e4-843ab7f10883.mp3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c="
+        }
+      ]
+    },
+    {
+      "Route": "audio/45915c8f-c1a7-4f84-82e4-843ab7f10883.mp3",
+      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\45915c8f-c1a7-4f84-82e4-843ab7f10883.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "891924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 02:19:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16224,6 +16575,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-FUdF1NbbtBER59yV78sFFlapoQ9CPlpY8ApwGP4ll4c="
+        }
+      ]
+    },
+    {
+      "Route": "audio/db2bd943-cc86-42cf-ae58-89af4b68230f.mp3",
+      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\db2bd943-cc86-42cf-ae58-89af4b68230f.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97802"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yADCmL4dv6fTjiJAqjGI8/kYNVpRblpwJ1Giz0qdahE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 08:23:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yADCmL4dv6fTjiJAqjGI8/kYNVpRblpwJ1Giz0qdahE="
+        }
+      ]
+    },
+    {
+      "Route": "audio/db2bd943-cc86-42cf-ae58-89af4b68230f.wabge5i5sh.mp3",
+      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\db2bd943-cc86-42cf-ae58-89af4b68230f.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97802"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yADCmL4dv6fTjiJAqjGI8/kYNVpRblpwJ1Giz0qdahE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 08:23:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wabge5i5sh"
+        },
+        {
+          "Name": "label",
+          "Value": "audio/db2bd943-cc86-42cf-ae58-89af4b68230f.mp3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yADCmL4dv6fTjiJAqjGI8/kYNVpRblpwJ1Giz0qdahE="
+        }
+      ]
+    },
+    {
+      "Route": "audio/fe0624e3-9bff-4a58-8b29-0f0bd03dd51f.mp3",
+      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\fe0624e3-9bff-4a58-8b29-0f0bd03dd51f.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97802"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yADCmL4dv6fTjiJAqjGI8/kYNVpRblpwJ1Giz0qdahE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 04:44:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yADCmL4dv6fTjiJAqjGI8/kYNVpRblpwJ1Giz0qdahE="
+        }
+      ]
+    },
+    {
+      "Route": "audio/fe0624e3-9bff-4a58-8b29-0f0bd03dd51f.wabge5i5sh.mp3",
+      "AssetFile": "D:\\DoAnWebSiteTiengNhat\\WebSiteHocTiengNhat\\wwwroot\\audio\\fe0624e3-9bff-4a58-8b29-0f0bd03dd51f.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97802"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yADCmL4dv6fTjiJAqjGI8/kYNVpRblpwJ1Giz0qdahE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 04:44:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wabge5i5sh"
+        },
+        {
+          "Name": "label",
+          "Value": "audio/fe0624e3-9bff-4a58-8b29-0f0bd03dd51f.mp3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yADCmL4dv6fTjiJAqjGI8/kYNVpRblpwJ1Giz0qdahE="
         }
       ]
     },

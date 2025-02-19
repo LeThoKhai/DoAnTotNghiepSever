@@ -8,7 +8,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using WebSiteHocTiengNhat.Data;
-using WebSiteHocTiengNhat.Models3;
+using WebSiteHocTiengNhat.Models;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -28,7 +28,15 @@ public class UsersController : ControllerBase
         _roleManager= roleManager;
         _dbcontext= dbContext;
     }
-
+    private async Task<string> SaveImage(IFormFile image)
+    {
+        var savePath = Path.Combine("wwwroot/images/userimages", image.FileName);
+        using (var fileStream = new FileStream(savePath, FileMode.Create))
+        {
+            await image.CopyToAsync(fileStream);
+        }
+        return "/images/userimages" + image.FileName;
+    }
     // Đăng ký
     [HttpPost("register")]
     public async Task<IActionResult> Register([FromBody] RegisterRequest register)
@@ -111,6 +119,7 @@ public class UsersController : ControllerBase
         return Ok(userList);
     }
 
+
     [HttpGet("userCertificateList")]
     public async Task<IActionResult> ListCertificate()
     {
@@ -128,7 +137,6 @@ public class UsersController : ControllerBase
         var list = await _dbcontext.Certificates.Where(n => n.UserId == user.Id).ToListAsync();
         return Ok(list);
     }
-
     // Lấy thông tin người dùng từ token
     [HttpGet("get-user-info")]
     [Authorize]
@@ -160,7 +168,8 @@ public class UsersController : ControllerBase
 
             // Tìm người dùng
             var user = await _userManager.FindByIdAsync(userId);
-            if (user == null)
+            var useraplication= _dbcontext.ApplicationUsers.FirstOrDefault(n=>n.Id == user.Id);
+            if (useraplication == null)
             {
                 return NotFound("Người dùng không tồn tại");
             }
@@ -171,9 +180,16 @@ public class UsersController : ControllerBase
             // Trả về thông tin người dùng
             var userInfo = new
             {
-                user.Id,
-                user.UserName,
-                user.Email,
+                useraplication.Id,
+                useraplication.Email,
+                useraplication.PhoneNumber,
+                useraplication.UserName,
+                useraplication.Score1,
+                useraplication.Score2,
+                useraplication.Score3,
+                useraplication.Address,
+                useraplication.VipActivatedDate,
+                useraplication.IsVip,
                 Roles = roles
             };
 
@@ -186,6 +202,38 @@ public class UsersController : ControllerBase
     }
 
 
+    [HttpPost("UpdateProfile")]
+    public async Task<IActionResult> UpdateProfile([FromForm] UpdateProfileRequest model)
+    {
+        var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? User.FindFirst("sub")?.Value;
+        if (userId == null)
+        {
+            return Unauthorized(new { message = "Lỗi trong quá trình xác thực người dùng!" });
+        }
+
+        var user = await _dbcontext.ApplicationUsers.FirstOrDefaultAsync(u => u.UserName == userId);
+        if (user == null)
+        {
+            return NotFound(new { message = "Không tìm thấy user." });
+        }
+
+        if (!string.IsNullOrEmpty(model.Email)) user.Email = model.Email;
+        if (!string.IsNullOrEmpty(model.UserName)) user.UserName = model.UserName;
+        if (!string.IsNullOrEmpty(model.PhoneNumber)) user.PhoneNumber = model.PhoneNumber;
+        if (!string.IsNullOrEmpty(model.Address)) user.Address = model.Address;
+
+        // Cập nhật ảnh đại diện nếu có
+        if (model.ProfilePicture != null)
+        {
+            string imagePath = await SaveImage(model.ProfilePicture);
+            user.UrlImage = imagePath;
+        }
+
+        _dbcontext.ApplicationUsers.Update(user);
+        await _dbcontext.SaveChangesAsync();
+
+        return Ok(new { message = "Thông tin người dùng đã được cập nhật!", user });
+    }
 
     // Tạo JWT token
     private string GenerateJwtToken(IdentityUser user)
@@ -236,6 +284,14 @@ public class UsersController : ControllerBase
         public string Password { get; set; }
         public string Phone {  get; set; }
         public string Address { get; set; }
+    }
+    public class UpdateProfileRequest
+    {
+        public string? Email { get; set; }
+        public string? UserName { get; set; }
+        public string? PhoneNumber { get; set; }
+        public string? Address { get; set; }
+        public IFormFile? ProfilePicture { get; set; }
     }
 
 }

@@ -1184,7 +1184,6 @@ D:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\obj\Debug\net8.0\WebSiteHocTiengNhat
 D:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\obj\Debug\net8.0\WebSiteHocTiengNhat.MvcApplicationPartsAssemblyInfo.cache
 D:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\obj\Debug\net8.0\WebSiteHocTiengNhat.RazorAssemblyInfo.cache
 D:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\obj\Debug\net8.0\WebSiteHocTiengNhat.RazorAssemblyInfo.cs
-D:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\obj\Debug\net8.0\WebSiteHocTiengNhat.sourcelink.json
 D:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\obj\Debug\net8.0\staticwebassets.build.json
 D:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\obj\Debug\net8.0\staticwebassets.development.json
 D:\DoAnWebSiteTiengNhat\WebSiteHocTiengNhat\obj\Debug\net8.0\staticwebassets\msbuild.WebSiteHocTiengNhat.Microsoft.AspNetCore.StaticWebAssets.props

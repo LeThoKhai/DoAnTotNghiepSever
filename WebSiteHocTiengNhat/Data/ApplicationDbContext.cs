@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Reflection.Emit;
 using WebSiteHocTiengNhat.Models;
-using WebSiteHocTiengNhat.Models3;
+using WebSiteHocTiengNhat.Models;
 
 namespace WebSiteHocTiengNhat.Data
 {

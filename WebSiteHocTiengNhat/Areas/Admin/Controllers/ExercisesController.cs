@@ -288,7 +288,7 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
             return RedirectToAction(nameof(ExerciseList), new { courseId = exs.CourseId });
         }
         // Hiển thị form xác nhận xóa sản phẩm
-        public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> De3lete(int id)
         {
             var exercise = await _exercisesRepository.GetByIdAsync(id);
             if (exercise == null)

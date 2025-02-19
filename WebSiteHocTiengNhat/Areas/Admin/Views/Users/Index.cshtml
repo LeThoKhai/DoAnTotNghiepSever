@@ -1,17 +1,6 @@
-﻿@using Microsoft.AspNetCore.Identity
-@model IEnumerable<IdentityUser>
+﻿@model IEnumerable<WebSiteHocTiengNhat.Models.ApplicationUser>
 
 <h2 style="padding-left:1%">User List</h2>
-
-<div class="col-md-6 col-sm-8 clearfix">
-    <div class="search-box pull-left">
-        <form asp-action="Index" method="get">
-            <div class="form-group col-lg-10 d-flex" style="margin-left:-7%">
-                <input type="text" name="searchString" class="form-control" placeholder="User Name..." />
-            </div>
-        </form>
-    </div>
-</div>
 
 <div class="card">
     <div class="card-body">
@@ -24,6 +13,7 @@
                             <th scope="col">Row</th>
                             <th scope="col">Email</th>
                             <th scope="col">UserName</th>
+                            <th scope="col">VIP Status</th>
                             <th scope="col">Action</th>
                         </tr>
                     </thead>
@@ -37,6 +27,15 @@
                                 <th scope="row">@i</th>
                                 <td>@user.Email</td>
                                 <td>@user.UserName</td>
+                                <td>
+                                    <form asp-action="ToggleVip" method="post">
+                                        <input type="hidden" name="id" value="@user.Id" />
+                                        <input type="hidden" name="isVip" value="@(user.IsVip ? "false" : "true")" />
+                                        <button type="submit" class="btn @(user.IsVip ? "btn-success" : "btn-secondary")">
+                                            @(user.IsVip ? "VIP" : "Not VIP")
+                                        </button>
+                                    </form>
+                                </td>
                                 <td>
                                     <form asp-action="Detail" asp-route-id="@user.Id" method="post" style="display:inline;">
                                         <input type="submit" value="Detail" class="btn btn-primary" />
@@ -52,13 +51,10 @@
                 </table>
             </div>
         </div>
-        <!-- Phần tử phân trang -->
-        <div id="pagination" class="pagination justify-content-center"></div>
     </div>
 </div>
 
-<!-- Thêm JavaScript cho phân trang -->
-
+<!-- Giữ nguyên JavaScript cho phân trang -->
 <script>
     $(document).ready(function () {
         var pageSize = 2; // Số lượng dòng mỗi trang
@@ -68,8 +64,8 @@
             $('#pagination').append('<a class="page-link" href="#">' + (i + 1) + '</a> ');
         }
 
-        $("tbody tr").hide(); // Ẩn tất cả các dòng
-        $("tbody tr").slice(0, pageSize).show(); // Hiển thị số dòng của trang đầu tiên
+        $("tbody tr").hide();
+        $("tbody tr").slice(0, pageSize).show();
 
         $('#pagination a:first').addClass('active');
 
@@ -82,10 +78,28 @@
             var end = start + pageSize;
             $("tbody tr").hide().slice(start, end).show();
         });
+
+        // Xử lý bật/tắt trạng thái VIP
+        $(".vip-toggle").change(function () {
+            var userId = $(this).data("id");
+            var isVip = $(this).is(":checked");
+
+            $.ajax({
+                url: "/User/ToggleVip",
+                type: "POST",
+                data: { id: userId, isVip: isVip },
+                success: function (response) {
+                    alert(response.message);
+                },
+                error: function () {
+                    alert("Có lỗi xảy ra!");
+                }
+            });
+        });
     });
 </script>
 
-<!-- CSS cho phân trang -->
+<!-- Giữ nguyên CSS cho phân trang -->
 <style>
     .pagination a {
         color: black;

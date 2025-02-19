@@ -164,7 +164,7 @@ namespace WebSiteHocTiengNhat.Controllers
         }
 
         [HttpPost("/submitquestion/{excerciseId}")]
-        public async Task<ActionResult<Certificate>> SubmitAnswerForExamQuestion(int excerciseId, [FromBody] List<AnswerSubmission> submissions)
+        public async Task<ActionResult> SubmitAnswerForExamQuestion(int excerciseId, [FromBody] List<AnswerSubmission> submissions)
         {
             var ex = await _exercisesRepository.GetByIdAsync(excerciseId);
             var question = await _questionRepository.GetByExerciseId(excerciseId);
@@ -207,7 +207,7 @@ namespace WebSiteHocTiengNhat.Controllers
                         return BadRequest(new { Message = "Không tìm thấy category phù hợp" });
                     }
                     await _dbContext.SaveChangesAsync();
-                    return Ok(user);
+                    return Ok(score);
                 }
                 else
                 {

@@ -10,7 +10,6 @@ namespace WebSiteHocTiengNhat.Models
         public int Id { get; set; }
         [Required]
         public string QuestionContent { get; set; }
-        [Required]
         public string? Link { get; set; }
         [Required]
         public string? OptionA { get; set; }
@@ -18,7 +17,6 @@ namespace WebSiteHocTiengNhat.Models
         public string? OptionB { get; set; }
         [Required]
         public string? OptionC { get; set; }
-        [Required]
         public string? OptionD { get; set; }
         [Required]
         public string CorrectAnswer { get; set; }

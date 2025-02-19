@@ -1,12 +1,23 @@
-﻿@using Microsoft.AspNetCore.Identity
-@model IdentityUser
+﻿@model WebSiteHocTiengNhat.Models.ApplicationUser
 
-<h2>Chi tiết người dùng</h2>
-<div>
-    <h4>Email: @Model.Email</h4>
-    <h4>Tên đăng nhập: @Model.UserName</h4>
-    <h4>Phone: @Model.PhoneNumber </h4>
+<h2 class="mb-4">Chi tiết người dùng</h2>
+<div class="card p-4 shadow-sm">
+    <div class="mb-3">
+        <strong>Email:</strong> @Model.Email
+    </div>
+    <div class="mb-3">
+        <strong>Tên đăng nhập:</strong> @Model.UserName
+    </div>
+    <div class="mb-3">
+        <strong>Phone:</strong> @Model.PhoneNumber
+    </div>
+    <div class="mb-3">
+        <strong>Địa chỉ:</strong> @Model.Address
+    </div>
+    <div class="mb-3">
+        <strong>Ngày đăng ký:</strong> @(Model.VipActivatedDate?.ToString("dd/MM/yyyy") ?? "Chưa kích hoạt")
+    </div>
 </div>
-<div>
-    <a href="@Url.Action("Index")">Quay lại danh sách</a>
+<div class="mt-3">
+    <a href="@Url.Action("Index")" class="btn btn-primary">Quay lại danh sách</a>
 </div>

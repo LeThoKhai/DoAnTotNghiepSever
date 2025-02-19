@@ -1,0 +1,7 @@
+﻿@model WebSiteHocTiengNhat.Models.Exam
+<h2>Delete Lesson</h2>
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="ExamId" />
+    <p>Are you sure you want to delete @Model.ExamName</p>
+    <button type="submit" class="btn btn-danger">Delete</button>
+</form>

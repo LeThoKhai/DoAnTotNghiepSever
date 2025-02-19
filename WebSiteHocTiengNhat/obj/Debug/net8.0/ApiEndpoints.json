@@ -66,6 +66,78 @@
     ]
   },
   {
+    "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExamController",
+    "Method": "GetListExam",
+    "RelativePath": "api/APIExam",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebSiteHocTiengNhat.Models.Exam, WebSiteHocTiengNhat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExamController",
+    "Method": "GetExam",
+    "RelativePath": "api/APIExam/getExamByExamId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebSiteHocTiengNhat.Models.Exam, WebSiteHocTiengNhat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExamController",
+    "Method": "GetListQuestionByExamId",
+    "RelativePath": "api/APIExam/getListQuestionByExamId/{examid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebSiteHocTiengNhat.Models.Exercise",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExercisesController",
     "Method": "GetExercises",
     "RelativePath": "api/APIExercises",
@@ -614,6 +686,42 @@
   },
   {
     "ContainingType": "UsersController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/Users/UpdateProfile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProfilePicture",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsersController",
     "Method": "ListCertificate",
     "RelativePath": "api/Users/userCertificateList",
     "HttpMethod": "GET",
@@ -826,15 +934,15 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExercisesController",
+    "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExamController",
     "Method": "SubmitAnswerForExamQuestion",
-    "RelativePath": "submitquestion/{excerciseId}",
+    "RelativePath": "submitExamQuestion/{examId}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "excerciseId",
+        "Name": "examId",
         "Type": "System.Int32",
         "IsRequired": true
       },
@@ -855,5 +963,26 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "WebSiteHocTiengNhat.Controllers.APIExercisesController",
+    "Method": "SubmitAnswerForExamQuestion",
+    "RelativePath": "submitquestion/{excerciseId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "excerciseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "submissions",
+        "Type": "System.Collections.Generic.List\u00601[[WebSiteHocTiengNhat.Controllers.AnswerSubmission, WebSiteHocTiengNhat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
