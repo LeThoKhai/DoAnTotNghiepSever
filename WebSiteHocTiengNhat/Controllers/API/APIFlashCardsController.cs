@@ -9,6 +9,9 @@ using System.Net.Http;
 using System.Text;
 using WebSiteHocTiengNhat.Data;
 using DocumentFormat.OpenXml.InkML;
+using Microsoft.AspNetCore.Identity;
+using System.Security.Claims;
+using Microsoft.EntityFrameworkCore;
 
 namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
 {
@@ -21,14 +24,17 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
         private readonly ILessonRepository _lessonRepository;
         private readonly HttpClient _httpClient;
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<IdentityUser> _userManager;
+
         public FlashCardsApiController(ILessonRepository lessonRepository, ICoursesRepository coursesRepository, ApplicationDbContext context,
-            IFlashCardRepository flashCardRepository, IHttpClientFactory httpClientFactory)
+            IFlashCardRepository flashCardRepository, IHttpClientFactory httpClientFactory, UserManager<IdentityUser> userManager)
         {
             _coursesRepository = coursesRepository;
             _lessonRepository = lessonRepository;
             _flashCardRepository = flashCardRepository;
             _httpClient = httpClientFactory.CreateClient();
             _context = context;
+            _userManager = userManager;
         }
 
 
@@ -66,11 +72,19 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
             return Ok(flashCard);
         }
 
+        [Authorize]
         [HttpPost("generate")]
         public async Task<IActionResult> Generate([FromBody] string content)
         {
             if (string.IsNullOrWhiteSpace(content))
                 return BadRequest("Nội dung không được để trống.");
+
+            // Lấy thông tin người dùng từ Claim
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? User.FindFirst("sub")?.Value;
+            if (string.IsNullOrEmpty(userId))
+                return Unauthorized("Không xác định được người dùng.");
+
+            string username = userId;
 
             string prompt = $"Tạo 5-8 flashcard từ đoạn sau:\n\"{content}\"\n " +
                             "Không cần bất kì câu trả lời từ bạn. tôi chỉ cần chuỗi json loại bỏ các ký tự đặc biệt, chỉ trả về chuỗi JSON thuần túy không chú thích hay đóng ngoặc,loại bỏ chữ '''json khi trả về vì tôi không cần.." +
@@ -101,9 +115,9 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
             {
                 var flashcards = JsonConvert.DeserializeObject<List<UserFlashCard>>(resultText);
 
-                // Nếu cần gán username mặc định (vì không truyền từ ngoài)
+                // Gán username từ người dùng đăng nhập
                 foreach (var card in flashcards)
-                    card.UserName = "anonymous";
+                    card.UserName = username;
 
                 return Ok(flashcards);
             }
@@ -112,6 +126,9 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
                 return BadRequest($"Không đọc được dữ liệu JSON: {ex.Message}\nKết quả trả về:\n{resultText}");
             }
         }
+
+
+
 
         [HttpPost("save")]
         public async Task<IActionResult> SaveFlashCards([FromBody] List<UserFlashCard> flashCards)
@@ -130,8 +147,23 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
                 return StatusCode(500, $"Lỗi khi lưu flashcards: {ex.Message}");
             }
         }
-         
 
+
+        [HttpGet("user-flashcards")]
+        public async Task<IActionResult> GetUserFlashCards()
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? User.FindFirst("sub")?.Value;
+            if (string.IsNullOrEmpty(userId))
+                return Unauthorized("Không xác định được người dùng.");
+
+            string username = userId;
+
+            var userflashcards = await _context.UserFlashCards
+                .Where(fc => fc.UserName == username)
+                .ToListAsync();
+
+            return Ok(userflashcards);
+        }
 
 
         //// POST: api/FlashCardsApi

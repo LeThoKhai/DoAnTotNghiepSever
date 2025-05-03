@@ -1357,6 +1357,18 @@
         }
       }
     },
+    "/api/FlashCardsApi/user-flashcards": {
+      "get": {
+        "tags": [
+          "FlashCardsApi"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/generate-flashcards": {
       "post": {
         "tags": [

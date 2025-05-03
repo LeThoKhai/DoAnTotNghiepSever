@@ -638,6 +638,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.FlashCardsApiController",
+    "Method": "GetUserFlashCards",
+    "RelativePath": "api/FlashCardsApi/user-flashcards",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.LessonsApiController",
     "Method": "GetLessonById",
     "RelativePath": "api/LessonsApi/{id}",
