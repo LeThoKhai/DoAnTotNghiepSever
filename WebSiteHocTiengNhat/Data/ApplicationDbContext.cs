@@ -20,6 +20,7 @@ namespace WebSiteHocTiengNhat.Data
         public DbSet<Question> Questions { get; set; }
         public DbSet<UserCourse> UserCourses { get; set; }
         public DbSet<FlashCard> FlashCards { get; set; }
+        public DbSet<UserFlashCard> UserFlashCards { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Post> Posts { get; set; }
         public DbSet<CategoryQuestion> CategoryQuestions { get; set; }

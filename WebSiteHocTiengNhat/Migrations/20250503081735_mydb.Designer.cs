@@ -12,7 +12,7 @@ using WebSiteHocTiengNhat.Data;
 namespace WebSiteHocTiengNhat.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250219094223_mydb")]
+    [Migration("20250503081735_mydb")]
     partial class mydb
     {
         /// <inheritdoc />
@@ -884,6 +884,31 @@ namespace WebSiteHocTiengNhat.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("UserCourses");
+                });
+
+            modelBuilder.Entity("WebSiteHocTiengNhat.Models.UserFlashCard", b =>
+                {
+                    b.Property<int?>("CardId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int?>("CardId"));
+
+                    b.Property<string>("CardBack")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CardFront")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("CardId");
+
+                    b.ToTable("UserFlashCards");
                 });
 
             modelBuilder.Entity("WebSiteHocTiengNhat.Models.WritingQuestion", b =>

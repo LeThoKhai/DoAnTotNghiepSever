@@ -6,8 +6,8 @@ wwwroot\Admin\assets\css\owl.carousel.min.css
 wwwroot\Admin\assets\css\responsive.css
 wwwroot\Admin\assets\css\slicknav.min.css
 wwwroot\Admin\assets\css\styles.css
-wwwroot\Admin\assets\css\themify-icons.css
 wwwroot\Admin\assets\css\typography.css
+wwwroot\Admin\assets\css\themify-icons.css
 wwwroot\Admin\assets\fonts\FontAwesome.otf
 wwwroot\Admin\assets\fonts\fontawesome-webfont.eot
 wwwroot\Admin\assets\fonts\fontawesome-webfont.svg
@@ -85,9 +85,12 @@ wwwroot\images\28ad31e6-0a6a-4688-ab67-94991038dea7.jpg
 wwwroot\images\462611747_408283662315443_2696017188123012746_n.jpg
 wwwroot\images\462857309_408283825648760_8374185704753488900_n.jpg
 wwwroot\images\84400b30-ce91-41ee-98ce-6a592d66c7aa.jpg
+wwwroot\images\banner-JLPT-N5.png
 wwwroot\images\download.jpg
+wwwroot\images\images.png
 wwwroot\images\nezuko.jpg
 wwwroot\images\pxfuel.jpg
+wwwroot\images\userimages\480366629_122146608458531965_7156916215901758235_n.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
@@ -386,10 +389,10 @@ wwwroot\User\Doc\syntax-highlighter\scripts\shBrushJava.js
 wwwroot\User\Doc\syntax-highlighter\scripts\shBrushJavaFX.js
 wwwroot\User\Doc\syntax-highlighter\scripts\shBrushJScript.js
 wwwroot\User\Doc\syntax-highlighter\scripts\shBrushPerl.js
-wwwroot\User\Doc\syntax-highlighter\scripts\shBrushPhp.js
 wwwroot\User\Doc\syntax-highlighter\scripts\shBrushPlain.js
 wwwroot\User\Doc\syntax-highlighter\scripts\shBrushPowerShell.js
 wwwroot\User\Doc\syntax-highlighter\scripts\shBrushPython.js
+wwwroot\User\Doc\syntax-highlighter\scripts\shBrushPhp.js
 wwwroot\User\Doc\syntax-highlighter\scripts\shBrushRuby.js
 wwwroot\User\Doc\syntax-highlighter\scripts\shBrushSass.js
 wwwroot\User\Doc\syntax-highlighter\scripts\shBrushScala.js

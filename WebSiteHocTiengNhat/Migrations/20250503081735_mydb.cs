@@ -39,6 +39,7 @@ namespace WebSiteHocTiengNhat.Migrations
                     Score1 = table.Column<float>(type: "real", nullable: true),
                     Score2 = table.Column<float>(type: "real", nullable: true),
                     Score3 = table.Column<float>(type: "real", nullable: true),
+                    UrlImage = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
@@ -187,6 +188,21 @@ namespace WebSiteHocTiengNhat.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_SpeakingQuestions", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "UserFlashCards",
+                columns: table => new
+                {
+                    CardId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    CardFront = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CardBack = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    UserName = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_UserFlashCards", x => x.CardId);
                 });
 
             migrationBuilder.CreateTable(
@@ -487,11 +503,11 @@ namespace WebSiteHocTiengNhat.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     QuestionContent = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Link = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Link = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     OptionA = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     OptionB = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     OptionC = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    OptionD = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    OptionD = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CorrectAnswer = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CategoryQuestionId = table.Column<int>(type: "int", nullable: false),
                     ExamId = table.Column<int>(type: "int", nullable: false)
@@ -759,6 +775,9 @@ namespace WebSiteHocTiengNhat.Migrations
 
             migrationBuilder.DropTable(
                 name: "UserCourses");
+
+            migrationBuilder.DropTable(
+                name: "UserFlashCards");
 
             migrationBuilder.DropTable(
                 name: "WritingQuestions");

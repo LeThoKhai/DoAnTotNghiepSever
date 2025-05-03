@@ -14,7 +14,17 @@ public class ChatController : ControllerBase
     {
         _httpClient = httpClient;
     }
+    [HttpPost("sendMessageRAG")]
+    public async Task<IActionResult> AskQuestion([FromBody] string question)
+    {
+        var requestData = new { question };
+        var content = new StringContent(JsonConvert.SerializeObject(requestData), Encoding.UTF8, "application/json");
 
+        var response = await _httpClient.PostAsync("http://localhost:8000/query", content);
+        var result = await response.Content.ReadAsStringAsync();
+
+        return Ok(result);
+    }
     [HttpPost("sendMessage")]
     public async Task<IActionResult> SendMessage([FromBody] string userQuestion)
     {

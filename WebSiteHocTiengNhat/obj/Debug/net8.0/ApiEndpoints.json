@@ -438,6 +438,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ChatController",
+    "Method": "AskQuestion",
+    "RelativePath": "api/Chat/sendMessageRAG",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "question",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CommentsController",
     "Method": "PostComment",
     "RelativePath": "api/Comments",
@@ -559,6 +575,22 @@
   },
   {
     "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.FlashCardsApiController",
+    "Method": "Generate",
+    "RelativePath": "api/FlashCardsApi/generate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "content",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.FlashCardsApiController",
     "Method": "GetFlashCardsByLessonId",
     "RelativePath": "api/FlashCardsApi/getFlashCardByLessonId/{lessonId}",
     "HttpMethod": "GET",
@@ -585,6 +617,22 @@
         "Name": "search",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebSiteHocTiengNhat.Areas.Admin.Controllers.FlashCardsApiController",
+    "Method": "SaveFlashCards",
+    "RelativePath": "api/FlashCardsApi/save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "flashCards",
+        "Type": "System.Collections.Generic.List\u00601[[WebSiteHocTiengNhat.Models.UserFlashCard, WebSiteHocTiengNhat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

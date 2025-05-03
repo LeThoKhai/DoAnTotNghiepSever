@@ -883,6 +883,31 @@ namespace WebSiteHocTiengNhat.Migrations
                     b.ToTable("UserCourses");
                 });
 
+            modelBuilder.Entity("WebSiteHocTiengNhat.Models.UserFlashCard", b =>
+                {
+                    b.Property<int?>("CardId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int?>("CardId"));
+
+                    b.Property<string>("CardBack")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CardFront")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("CardId");
+
+                    b.ToTable("UserFlashCards");
+                });
+
             modelBuilder.Entity("WebSiteHocTiengNhat.Models.WritingQuestion", b =>
                 {
                     b.Property<int>("Id")

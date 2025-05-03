@@ -4,6 +4,11 @@ using WebSiteHocTiengNhat.Models;
 using WebSiteHocTiengNhat.Repository;
 using System.Linq;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using System.Net.Http;
+using System.Text;
+using WebSiteHocTiengNhat.Data;
+using DocumentFormat.OpenXml.InkML;
 
 namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
 {
@@ -14,12 +19,16 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
         private readonly ICoursesRepository _coursesRepository;
         private readonly IFlashCardRepository _flashCardRepository;
         private readonly ILessonRepository _lessonRepository;
-
-        public FlashCardsApiController(ILessonRepository lessonRepository, ICoursesRepository coursesRepository, IFlashCardRepository flashCardRepository)
+        private readonly HttpClient _httpClient;
+        private readonly ApplicationDbContext _context;
+        public FlashCardsApiController(ILessonRepository lessonRepository, ICoursesRepository coursesRepository, ApplicationDbContext context,
+            IFlashCardRepository flashCardRepository, IHttpClientFactory httpClientFactory)
         {
             _coursesRepository = coursesRepository;
             _lessonRepository = lessonRepository;
             _flashCardRepository = flashCardRepository;
+            _httpClient = httpClientFactory.CreateClient();
+            _context = context;
         }
 
 
@@ -56,6 +65,74 @@ namespace WebSiteHocTiengNhat.Areas.Admin.Controllers
             }
             return Ok(flashCard);
         }
+
+        [HttpPost("generate")]
+        public async Task<IActionResult> Generate([FromBody] string content)
+        {
+            if (string.IsNullOrWhiteSpace(content))
+                return BadRequest("Nội dung không được để trống.");
+
+            string prompt = $"Tạo 5-8 flashcard từ đoạn sau:\n\"{content}\"\n " +
+                            "Không cần bất kì câu trả lời từ bạn. tôi chỉ cần chuỗi json loại bỏ các ký tự đặc biệt, chỉ trả về chuỗi JSON thuần túy không chú thích hay đóng ngoặc,loại bỏ chữ '''json khi trả về vì tôi không cần.." +
+                            "Trả về mảng JSON với thuộc tính: CardFront, CardBack.";
+
+            var requestBody = new
+            {
+                model = "llama3.2:3b",
+                prompt = prompt,
+                stream = false
+            };
+
+            var jsonContent = JsonConvert.SerializeObject(requestBody);
+            var response = await _httpClient.PostAsync("http://localhost:11434/api/generate",
+                new StringContent(jsonContent, Encoding.UTF8, "application/json"));
+
+            if (!response.IsSuccessStatusCode)
+                return StatusCode((int)response.StatusCode, "Lỗi khi gọi mô hình Ollama.");
+
+            var responseData = await response.Content.ReadAsStringAsync();
+            var jsonObj = JsonConvert.DeserializeObject<dynamic>(responseData);
+            string? resultText = jsonObj?["response"]?.ToString();
+
+            if (string.IsNullOrWhiteSpace(resultText))
+                return BadRequest("Không có kết quả từ mô hình.");
+
+            try
+            {
+                var flashcards = JsonConvert.DeserializeObject<List<UserFlashCard>>(resultText);
+
+                // Nếu cần gán username mặc định (vì không truyền từ ngoài)
+                foreach (var card in flashcards)
+                    card.UserName = "anonymous";
+
+                return Ok(flashcards);
+            }
+            catch (JsonException ex)
+            {
+                return BadRequest($"Không đọc được dữ liệu JSON: {ex.Message}\nKết quả trả về:\n{resultText}");
+            }
+        }
+
+        [HttpPost("save")]
+        public async Task<IActionResult> SaveFlashCards([FromBody] List<UserFlashCard> flashCards)
+        {
+            if (flashCards == null || !flashCards.Any())
+                return BadRequest("Danh sách flashcard trống.");
+
+            try
+            {
+                await _context.UserFlashCards.AddRangeAsync(flashCards); 
+                await _context.SaveChangesAsync();
+                return Ok("Đã lưu flashcards thành công.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Lỗi khi lưu flashcards: {ex.Message}");
+            }
+        }
+         
+
+
 
         //// POST: api/FlashCardsApi
         //[HttpPost]
