@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\DoAnTotNghiepSever\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doantotnghiepsever\\websitehoctiengnhat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doantotnghiepsever\\websitehoctiengnhat\\controllers\\api\\apiflashcardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\apiflashcardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doantotnghiepsever\\websitehoctiengnhat\\controllers\\api\\apiexamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\controllers\\api\\apiexamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doantotnghiepsever\\websitehoctiengnhat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|solutionrelative:websitehoctiengnhat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42F8581C-179E-4068-8839-29353856BBDF}|WebSiteHocTiengNhat\\WebSiteHocTiengNhat.csproj|d:\\doantotnghiepsever\\websitehoctiengnhat\\controllers\\api\\apiuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -423,11 +423,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1256,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "APIExamController.cs",
               "DocumentMoniker": "D:\\DoAnTotNghiepSever\\WebSiteHocTiengNhat\\Controllers\\API\\APIExamController.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\APIExamController.cs",
@@ -436,22 +436,20 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T02:44:36.498Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "APIFlashCardsController.cs",
               "DocumentMoniker": "D:\\DoAnTotNghiepSever\\WebSiteHocTiengNhat\\Controllers\\API\\APIFlashCardsController.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\APIFlashCardsController.cs",
               "ToolTip": "D:\\DoAnTotNghiepSever\\WebSiteHocTiengNhat\\Controllers\\API\\APIFlashCardsController.cs",
               "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\APIFlashCardsController.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAQwJ4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAQwJUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T02:49:37.175Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -499,8 +497,7 @@
               "RelativeToolTip": "WebSiteHocTiengNhat\\Models\\Question.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T06:31:16.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T06:31:16.948Z"
             },
             {
               "$type": "Document",
@@ -512,8 +509,7 @@
               "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\APIChatAIController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwBkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T02:52:12.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T02:52:12.672Z"
             },
             {
               "$type": "Document",
@@ -525,25 +521,24 @@
               "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\APIUsersController.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwHoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T07:12:04.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T07:12:04.787Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\DoAnTotNghiepSever\\WebSiteHocTiengNhat\\Program.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Program.cs",
               "ToolTip": "D:\\DoAnTotNghiepSever\\WebSiteHocTiengNhat\\Program.cs",
               "RelativeToolTip": "WebSiteHocTiengNhat\\Program.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAG4AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T07:02:25.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "APIExercisesController.cs",
               "DocumentMoniker": "D:\\DoAnTotNghiepSever\\WebSiteHocTiengNhat\\Controllers\\API\\APIExercisesController.cs",
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Controllers\\API\\APIExercisesController.cs",
@@ -551,8 +546,7 @@
               "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\APIExercisesController.cs",
               "ViewState": "AgIAAKEAAAAAAAAAAAAAAKUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T07:01:29.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T07:01:29.131Z"
             },
             {
               "$type": "Document",
@@ -564,8 +558,7 @@
               "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\UserLessonsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T08:37:56.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T08:37:56.793Z"
             },
             {
               "$type": "Document",
@@ -577,8 +570,7 @@
               "RelativeToolTip": "WebSiteHocTiengNhat\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAxwBkAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T07:00:34.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T07:00:34.436Z"
             },
             {
               "$type": "Document",
@@ -602,8 +594,7 @@
               "RelativeToolTip": "WebSiteHocTiengNhat\\Models\\UserFlashCard.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T07:22:30.909Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T07:22:30.909Z"
             },
             {
               "$type": "Document",
@@ -951,8 +942,7 @@
               "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\APIPraticeSkillController.cs",
               "ViewState": "AgIAAGUAAAAAAAAAAAAowGgAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T02:42:15.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T02:42:15.745Z"
             },
             {
               "$type": "Document",
@@ -1012,8 +1002,7 @@
               "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Shared\\_ExamQuestionListPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-19T01:44:11.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-19T01:44:11.038Z"
             },
             {
               "$type": "Document",
@@ -1347,8 +1336,7 @@
               "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\ListeningQuestionController.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAqwGUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T10:59:19.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T10:59:19.323Z"
             },
             {
               "$type": "Document",
@@ -1384,8 +1372,7 @@
               "RelativeToolTip": "WebSiteHocTiengNhat\\Repository\\EFQuestionRepository.cs",
               "ViewState": "AgIAALgAAAAAAAAAAADwv1sBAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T07:35:32.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T07:35:32.449Z"
             },
             {
               "$type": "Document",
