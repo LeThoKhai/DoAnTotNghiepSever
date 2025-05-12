@@ -436,7 +436,8 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T02:44:36.498Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -449,7 +450,8 @@
               "ViewState": "AgIAAIYAAAAAAAAAAAAQwJUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T02:49:37.175Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -531,7 +533,7 @@
               "RelativeDocumentMoniker": "WebSiteHocTiengNhat\\Program.cs",
               "ToolTip": "D:\\DoAnTotNghiepSever\\WebSiteHocTiengNhat\\Program.cs",
               "RelativeToolTip": "WebSiteHocTiengNhat\\Program.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAAAG4AAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAHMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T07:02:25.731Z",
               "EditorCaption": ""
@@ -942,7 +944,8 @@
               "RelativeToolTip": "WebSiteHocTiengNhat\\Controllers\\API\\APIPraticeSkillController.cs",
               "ViewState": "AgIAAGUAAAAAAAAAAAAowGgAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T02:42:15.745Z"
+              "WhenOpened": "2025-02-18T02:42:15.745Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1002,7 +1005,8 @@
               "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Views\\Shared\\_ExamQuestionListPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-19T01:44:11.038Z"
+              "WhenOpened": "2025-02-19T01:44:11.038Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1336,7 +1340,8 @@
               "RelativeToolTip": "WebSiteHocTiengNhat\\Areas\\Admin\\Controllers\\ListeningQuestionController.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAqwGUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T10:59:19.323Z"
+              "WhenOpened": "2025-02-17T10:59:19.323Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1372,7 +1377,8 @@
               "RelativeToolTip": "WebSiteHocTiengNhat\\Repository\\EFQuestionRepository.cs",
               "ViewState": "AgIAALgAAAAAAAAAAADwv1sBAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T07:35:32.449Z"
+              "WhenOpened": "2025-02-17T07:35:32.449Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

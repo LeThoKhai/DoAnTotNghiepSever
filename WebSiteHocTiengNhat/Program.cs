@@ -106,11 +106,13 @@ builder.Services.AddCors(options =>
                    .AllowAnyHeader();
         });
 });
-builder.WebHost.ConfigureKestrel(options =>
-{
-    //options.ListenAnyIP(5122);
-    options.ListenAnyIP(7076);
-});
+//builder.WebHost.ConfigureKestrel(options =>
+//{
+//    //options.ListenAnyIP(5122);
+//    options.ListenAnyIP(7076);
+//});
+
+//thay đổi tại dòng này
 var app = builder.Build();
 
 // Sử dụng CORS trong ứng dụng
